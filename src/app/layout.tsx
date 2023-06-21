@@ -1,9 +1,14 @@
 import HeaderNav from "@/components/HeaderNav";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Link from "next/link";
-import Footer from "@/components/Footer";
 
+import Footer from "@/components/Footer";
+import { Lato } from "next/font/google";
+const lato = Lato({
+  variable: "--font-lato",
+  weight: "300",
+  subsets: ["latin"],
+});
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -18,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={lato.className}>
         <HeaderNav />
         {children}
         <Footer />

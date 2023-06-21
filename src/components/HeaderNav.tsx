@@ -30,15 +30,12 @@ const linkData = [
 ];
 
 function HeaderNav() {
-  // const router = useRouter();
   const pathname = usePathname();
-  // const activeStyle = {
-  //   background-size: "100% 100%";
-  // }
+
   return (
     <>
-      <header className='align-middle p-12 h-[580px] bg-[url("../../public/4.png")] bg-cover bg-no-repeat bg-transparent bg-center '></header>
-      <nav className="h-[72px] bg-[hsl(289,49%,28%)] flex justify-end items-center pr-48">
+      <header className='align-middle p-12 h-[290px] md:h-[435px] lg:h-[580px] bg-[url("../../public/4.png")] bg-cover bg-no-repeat bg-transparent bg-center '></header>
+      <nav className="hidden md:h-[72px] bg-[hsl(289,49%,28%)] md:flex md:justify-center items-center">
         {linkData.map((item) => {
           return (
             <div
