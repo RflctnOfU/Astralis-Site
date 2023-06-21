@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.links {
+  @apply p-6 bg-gradient-to-br from-[hsl(288,49%,25%)] to-[hsl(288,49%,25%)] ease-in duration-300 bg-[length:100%_0.2rem] bg-bottom bg-no-repeat transition-all no-underline hover:bg-[length:100%_100%];
+}
+
+.active {
+  @apply bg-[length:100%_100%];
+}
