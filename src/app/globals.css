@@ -27,7 +27,7 @@ body {
 }
 
 .links {
-  @apply p-6 bg-gradient-to-br from-[hsl(288,49%,25%)] to-[hsl(288,49%,25%)] ease-in duration-300 bg-[length:100%_0.2rem] bg-bottom bg-no-repeat transition-all no-underline hover:bg-[length:100%_100%];
+  @apply p-6 bg-gradient-to-b from-[hsl(286,49%,20%)] via-[hsl(288,49%,25%)] to-[hsl(290,49%,29%)] ease-in duration-[250ms] bg-[length:100%_0.2rem] bg-bottom bg-no-repeat transition-all no-underline hover:bg-[length:100%_100%];
 }
 
 .active {

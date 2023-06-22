@@ -109,6 +109,65 @@ export default function Home() {
     //     </a>
     //   </div>
     // </main>
-    <div>Home</div>
+    <main className="bg-neutral-100 text-[hsl(286,49%,20%)]">
+      <div className="mx-[15%] py-[5%]">
+        <div className="pb-[5%]">
+          <Image
+            src={"/images/homepage/newlogo.jpeg"}
+            alt="Astralis Logo"
+            width={184}
+            height={184}
+            className="bg-neutral-200 float-left mr-4 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
+          />
+          <p>
+            The Astralis Chamber Ensemble is an innovative and dynamic ensemble
+            performing with much acclaim across the globe. Through creative
+            programming and presentations on the works performed, Astralis aims
+            to make classical music more accessible and for audiences to make a
+            lasting connection to the music. Concert tours are arranged to
+            include rural communities and those without access to classical
+            music. Astralis includes an assortment of musicians to cover a broad
+            range of repertoire and ensemble combinations to fit each
+            performance. These award-winning musicians represent decades of
+            experience across many of the world’s major venues and notable
+            concert series. With instrument pairings that are unique worldwide,
+            the ensemble expands the repertoire available through yearly
+            commissions and arrangements. ACE aims to support the development of
+            the arts through new compositions and reach communities of all
+            backgrounds through music.
+          </p>
+        </div>
+        <div className="w-full flex gap-4">
+          <Image
+            src={"/images/homepage/img-7312_orig.jpeg"}
+            alt="Baroque Quartet"
+            width={220}
+            height={200}
+            className="bg-neutral-200 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
+          />
+          <Image
+            src={"/images/homepage/img-2404-3_orig.jpeg"}
+            alt=""
+            width={220}
+            height={200}
+            className="bg-neutral-200 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
+          />
+          <Image
+            src={"/images/homepage/triosmall3_orig.jpeg"}
+            alt=""
+            width={220}
+            height={200}
+            className="bg-neutral-200 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
+          />
+          <Image
+            src={"/images/homepage/church.jpeg"}
+            alt=""
+            width={220}
+            height={200}
+            className="bg-neutral-200 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
+          />
+        </div>
+      </div>
+    </main>
   );
 }
