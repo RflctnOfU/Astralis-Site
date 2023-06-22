@@ -109,7 +109,13 @@ export default function Home() {
     //     </a>
     //   </div>
     // </main>
-    <main className="bg-neutral-100 text-[hsl(286,49%,20%)]">
+    <main className="pt-[72px]">
+      <Image
+        src={"/images/experiment/image-transparent-background.png"}
+        alt="image"
+        width={1440}
+        height={548}
+      />
       <div className="mx-[15%] py-[5%]">
         <div className="pb-[5%]">
           <Image
@@ -117,7 +123,7 @@ export default function Home() {
             alt="Astralis Logo"
             width={184}
             height={184}
-            className="bg-neutral-200 float-left mr-4 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
+            className="bg-neutral-200 float-left mr-4 shadow-md  p-1 border border-[hsl(289,49%,28%)] rounded"
           />
           <p>
             The Astralis Chamber Ensemble is an innovative and dynamic ensemble

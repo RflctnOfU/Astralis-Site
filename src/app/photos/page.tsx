@@ -3,7 +3,7 @@ import Image from "next/image";
 function Photos() {
   return (
     <>
-      <div className="max-h-screen overflow-scroll w-full bg-[url('../../public/images/experiment/background.png')]">
+      <div className="pt-[72px] w-full">
         <Image
           src={"/images/experiment/image-transparent-background.png"}
           alt="image"

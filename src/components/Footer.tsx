@@ -2,7 +2,7 @@ import { Mail, Facebook, Instagram, Youtube } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="bg-neutral-100 w-full">
+    <footer className="bg-transparent w-full border-t-[1px]">
       <div className="">
         <div className="">
           <div className="flex flex-col items-center py-10 text-">
@@ -10,33 +10,33 @@ function Footer() {
               <a
                 href="mailto:astralisensemble@gmail.com"
                 target="_blank"
-                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(288,49%,25%)] text-[hsl(290,48%,39%)]"
+                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
               >
                 <Mail size={35} />
               </a>
               <a
                 href="https://www.facebook.com/astralisensemble/"
                 target="_blank"
-                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(288,49%,25%)] text-[hsl(290,48%,39%)]"
+                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
               >
                 <Facebook size={35} />
               </a>
               <a
                 href="https://www.youtube.com/channel/UCKcTXindgAiNh-uyAncfQEw"
                 target="_blank"
-                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(288,49%,25%)] text-[hsl(290,48%,39%)]"
+                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
               >
                 <Youtube size={35} />
               </a>
               <a
                 href="https://www.instagram.com/astralisensemble/"
                 target="_blank"
-                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(288,49%,25%)] text-[hsl(290,48%,39%)]"
+                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
               >
                 <Instagram size={35} />
               </a>
             </div>
-            <div className="flex flex-col md:flex-row items-center justify-around text-[hsl(290,48%,28%)] w-full">
+            <div className="flex flex-col md:flex-row items-center justify-around text-white w-full">
               <div>
                 <a
                   href="mailto:astralisensemble@gmail.com"
