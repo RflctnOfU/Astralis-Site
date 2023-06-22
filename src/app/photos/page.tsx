@@ -1,7 +1,15 @@
+import Image from "next/image";
+
 function Photos() {
   return (
     <>
       <div className="max-h-screen overflow-scroll w-full bg-[url('../../public/images/experiment/background.png')]">
+        <Image
+          src={"/images/experiment/image-transparent-background.png"}
+          alt="image"
+          width={1440}
+          height={548}
+        />
         <p className="w-2/3 m-auto">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
           sed. Eveniet delectus, quo quia molestiae deleniti minima. Iure
