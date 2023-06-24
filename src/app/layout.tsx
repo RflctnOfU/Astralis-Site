@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lato.className} bg-[url("/images/experiment/background.png")] min-h-screen bg-fixed`}
+        className={`${lato.className} bg-[url("/images/experiment/background.png")] min-h-screen bg-fixed overflow-x-hidden`}
       >
         <Nav />
         {children}

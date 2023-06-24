@@ -31,8 +31,8 @@ function Contact() {
         width={1440}
         height={548}
       />
-      <div className=" w-1/2">
-        <div className="p-4 rounded-lg bg-transparent w-1/2 border-[1px] m-auto border-neutral-300 shadow shadow-black">
+      <div className=" w-[320px]">
+        <div className="p-4 rounded-lg bg-transparent w-[320px] border-[1px] m-auto border-neutral-300 shadow shadow-black">
           <form
             action="submit"
             className="w-full flex flex-col gap-3 items-center text-[hsl(290,25%,43%)]"

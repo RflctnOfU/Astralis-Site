@@ -4,14 +4,14 @@ import "./styles.css";
 
 function About() {
   return (
-    <div className="pt-[72px] flex flex-col">
+    <div className=" flex flex-col">
       <Image
         src={"/images/experiment/image-transparent-background.png"}
         alt="image"
         width={1440}
         height={548}
       />
-      <div className="grid grid-cols-2 gap-4 mx-16 bg-[#d5d5d5] bg-opacity-20 rounded-xl my-8">
+      <div className="grid grid-cols-2 gap-4 mx-8 bg-[#d5d5d5] bg-opacity-20 rounded-xl my-8">
         <div className="fade-in-left m-8 bg-[url('/images/members/angela4.webp')] bg-no-repeat bg-cover bg-center rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] delay-2"></div>
         <div className=" p-4">
           <h2 className="text-4xl text-center fade-in-right delay-1">
@@ -82,7 +82,7 @@ function About() {
           </p>
         </div>
         <div className="fade-in-right m-8 bg-[url('/images/members/kris.webp')] bg-no-repeat bg-cover rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] delay-2"></div>
-        <div className="fade-in-left m-8 bg-[url('/images/members/megan.webp')] bg-no-repeat bg-cover rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] delay-2"></div>
+        <div className="fade-in-left m-8 bg-[url('/images/members/megan.webp')] bg-no-repeat bg-cover bg-center rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] delay-2"></div>
         <div className=" p-4">
           <h2 className="text-4xl text-center fade-in-right delay-1">
             Megan Chartier
