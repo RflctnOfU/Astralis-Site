@@ -1,6 +1,23 @@
 import Image from "next/image";
 import Link from "next/link";
 import "./styles.css";
+import { Ysabeau } from "next/font/google";
+const ysabeau = Ysabeau({
+  variable: "--font-ysabeau",
+  weight: [
+    "100",
+    "200",
+    "300",
+    "400",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "1000",
+  ],
+  subsets: ["latin", "latin-ext"],
+});
 
 function About() {
   return (
@@ -14,7 +31,9 @@ function About() {
       <div className="grid grid-cols-2 gap-4 mx-8 bg-[#d5d5d5] bg-opacity-20 rounded-xl my-8">
         <div className="fade-in-left m-8 bg-[url('/images/members/angela4.webp')] bg-no-repeat bg-cover bg-center rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] delay-2"></div>
         <div className=" p-4">
-          <h2 className="text-4xl text-center fade-in-right delay-1">
+          <h2
+            className={`text-4xl text-center fade-in-right delay-1 ${ysabeau.className} font-[200]`}
+          >
             Angela Massey
           </h2>
           <h4 className="text-2xl font-light text-center fade-in-right delay-2">

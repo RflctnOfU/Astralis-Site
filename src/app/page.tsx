@@ -1,7 +1,34 @@
-import { Carousel } from "@/components/Carousel";
+// import { Carousel } from "@/components/Carousel";
+// import images from "../modules/home-images";
 import Image from "next/image";
 
 export default function Home() {
+  const images = [
+    {
+      src: "/images/carousel/BaroquePhoto4.JPG",
+      alt: "Baroque Quartet",
+    },
+    {
+      src: "/images/carousel/AstralisPhoto1Crop.jpg",
+      alt: "Astralis Photo",
+    },
+    {
+      src: "/images/carousel/ConcertPhoto.JPG",
+      alt: "Concert Photo",
+    },
+    {
+      src: "/images/carousel/DuoPhoto1crop.jpg",
+      alt: "Duo Photo",
+    },
+    {
+      src: "/images/carousel/KrisAngela2edit.JPG",
+      alt: "Kris and Angela",
+    },
+    {
+      src: "/images/carousel/3238E114-24C8-420A-A71D-B787FE8859D7.JPG",
+      alt: "Perfomance Photo",
+    },
+  ];
   return (
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //   <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -117,15 +144,8 @@ export default function Home() {
         width={1440}
         height={548}
       />
-      <div className="mx-[15%] py-[5%]">
+      <div className="lg:mx-[5%] md:mx-[10%] mx-[16%] py-[5%]">
         <div className="pb-[5%] font-light md:text-xl text-center">
-          {/* <Image
-            src={"/images/homepage/newlogo.jpeg"}
-            alt="Astralis Logo"
-            width={184}
-            height={184}
-            className="bg-neutral-200 float-left mr-4 shadow-md  p-1 border border-[hsl(289,49%,28%)] rounded"
-          /> */}
           <p>
             The Astralis Chamber Ensemble is an innovative and dynamic ensemble
             performing with much acclaim across the globe. Through creative
@@ -144,88 +164,21 @@ export default function Home() {
             backgrounds through music.
           </p>
         </div>
-        {/* setup carousel */}
         <div className="m-8 p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl">
-          <Image
-            src={"/images/carousel/BaroquePhoto4.JPG"}
-            alt="Baroque Quartet"
-            width={400}
-            height={100}
-            quality={100}
-            className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] h-64 object-cover overflow-hidden"
-          />
-          <Image
-            src={"/images/carousel/AstralisPhoto1Crop.jpg"}
-            alt="Astralis Photo"
-            width={600}
-            height={600}
-            quality={100}
-            className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] h-64 object-cover overflow-hidden"
-          />
-          <Image
-            src={"/images/carousel/ConcertPhoto.JPG"}
-            alt=""
-            width={600}
-            height={600}
-            quality={100}
-            className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] object-cover object- overflow-hidden h-64"
-          />
-          <Image
-            src={"/images/carousel/DuoPhoto1crop.jpg"}
-            alt=""
-            width={400}
-            height={100}
-            quality={100}
-            className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] object-cover object- overflow-hidden h-64"
-          />
-          <Image
-            src={"/images/carousel/KrisAngela2edit.JPG"}
-            alt=""
-            width={400}
-            height={100}
-            quality={100}
-            className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] object-cover object- overflow-hidden h-64"
-          />
-          <Image
-            src={"/images/carousel/3238E114-24C8-420A-A71D-B787FE8859D7.JPG"}
-            alt=""
-            width={600}
-            height={400}
-            quality={100}
-            className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] object-cover object- overflow-hidden h-64"
-          />
+          {images.map((image) => {
+            return (
+              <Image
+                key={image.alt}
+                src={image.src}
+                alt={image.alt}
+                height={400}
+                width={400}
+                quality={100}
+                className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] h-64 object-cover overflow-hidden"
+              />
+            );
+          })}
         </div>
-        {/* <Image
-            src={"/images/homepage/img-7312_orig.jpeg"}
-            alt="Baroque Quartet"
-            width={220}
-            height={200}
-            className="bg-neutral-200 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
-          />
-          <Image
-            src={"/images/homepage/img-2404-3_orig.jpeg"}
-            alt=""
-            width={220}
-            height={200}
-            className="bg-neutral-200 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
-          />
-          <Image
-            src={"/images/homepage/triosmall3_orig.jpeg"}
-            alt=""
-            width={220}
-            height={200}
-            className="bg-neutral-200 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
-          />
-          <Image
-            src={"/images/homepage/church.jpeg"}
-            alt=""
-            width={220}
-            height={200}
-            className="bg-neutral-200 shadow-md shadow-slate-500 p-1 border border-[hsl(289,49%,28%)] rounded"
-          /> */}
-        {/* <div className="flex justify-center">
-          <Carousel />
-        </div> */}
       </div>
     </main>
   );

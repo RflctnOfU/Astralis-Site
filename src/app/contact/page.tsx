@@ -24,7 +24,7 @@ function Contact() {
     setFormData({ ...formData, message: message });
   };
   return (
-    <div className="py-[72px] flex flex-col items-center">
+    <div className="pb-[72px] flex flex-col items-center">
       <Image
         src={"/images/experiment/image-transparent-background.png"}
         alt="image"

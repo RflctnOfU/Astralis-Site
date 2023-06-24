@@ -64,3 +64,7 @@ body {
   flex: 0 0 600px;
   min-width: 0;
 }
+
+.home-photos {
+  @apply rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] m-8;
+}
