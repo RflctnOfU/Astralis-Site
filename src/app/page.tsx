@@ -5,27 +5,27 @@ import Image from "next/image";
 export default function Home() {
   const images = [
     {
-      src: "/images/carousel/BaroquePhoto4.JPG",
+      src: "/images/carousel/BaroquePhoto4.webp",
       alt: "Baroque Quartet",
     },
     {
-      src: "/images/carousel/AstralisPhoto1Crop.jpg",
+      src: "/images/carousel/AstralisPhoto1Crop.webp",
       alt: "Astralis Photo",
     },
     {
-      src: "/images/carousel/ConcertPhoto.JPG",
+      src: "/images/carousel/ConcertPhoto.webp",
       alt: "Concert Photo",
     },
     {
-      src: "/images/carousel/DuoPhoto1crop.jpg",
+      src: "/images/carousel/DuoPhoto1crop.webp",
       alt: "Duo Photo",
     },
     {
-      src: "/images/carousel/KrisAngela2edit.JPG",
+      src: "/images/carousel/KrisAngela2edit.webp",
       alt: "Kris and Angela",
     },
     {
-      src: "/images/carousel/3238E114-24C8-420A-A71D-B787FE8859D7.JPG",
+      src: "/images/carousel/Performance.webp",
       alt: "Perfomance Photo",
     },
   ];

@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+// todo: update when itinerary is figured
+
 function Calendar() {
   return (
     <div className="pt-[72px]">

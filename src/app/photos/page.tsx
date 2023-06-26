@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+// setup different sections - pairings, headshots
+
 function Photos() {
   return (
     <>

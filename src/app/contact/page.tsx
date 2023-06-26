@@ -3,6 +3,8 @@ import Image from "next/image";
 import { ChangeEvent, FormEvent, useState } from "react";
 import { Mail, MapPin, MessageCircle } from "lucide-react";
 
+// todo: get email functionality
+
 function Contact() {
   const [formData, setFormData] = useState({
     email: "",
@@ -19,9 +21,9 @@ function Contact() {
     setFormData({ ...formData, [name]: value });
   };
   const handleMessageChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
-    const value = e.target;
-    setMessage(value.value);
-    setFormData({ ...formData, message: message });
+    const value = e.target.value;
+    setMessage(value);
+    setFormData({ ...formData, message: value });
   };
   return (
     <div className="pb-[72px] flex flex-col items-center">
@@ -81,9 +83,9 @@ function Contact() {
                 <MessageCircle /> Leave a message:
               </label>
               <textarea
-                className="rounded-md"
+                className="rounded-md px-2"
                 name="message"
-                cols={20}
+                cols={10}
                 rows={5}
                 value={formData.message}
                 onChange={handleMessageChange}
