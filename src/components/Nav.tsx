@@ -79,7 +79,7 @@ function Nav() {
                 <Link
                   className={`${
                     pathname === item.path ? "active links" : "links"
-                  } ${scrolled ? "scrolled" : ""}`}
+                  } `}
                   href={item.path}
                 >
                   {item.name}
@@ -96,7 +96,7 @@ function Nav() {
         id="menu"
         className={`${
           mobile ? "open" : "closed"
-        }  bg-[hsl(289,49%,28%)] pt-10 z-10 transition duration-500 ease-in-out`}
+        }  bg-[hsl(289,49%,28%)] pt-16 z-10 transition duration-500 ease-in-out`}
       >
         {linkData.map((item) => {
           return (

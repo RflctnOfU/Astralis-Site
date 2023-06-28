@@ -27,15 +27,15 @@ body {
 }
 
 .links {
-  @apply px-3 py-6 bg-gradient-to-t from-[hsl(286,49%,20%)] via-[hsl(288,49%,25%)] to-[hsl(290,49%,29%)] ease-in duration-[250ms] bg-[length:100%_0rem] bg-opacity-30 bg-bottom bg-no-repeat transition-all no-underline hover:bg-[length:100%_100%];
+  @apply px-3 py-6 bg-gradient-to-t from-[hsl(286,49%,20%)]/75 via-[hsl(288,49%,25%)]/50 to-[hsl(290,49%,29%)]/50 ease-in duration-[250ms] bg-[length:100%_0rem] bg-bottom bg-no-repeat transition-all no-underline hover:bg-[length:100%_100%];
 }
 
 .menu-links {
-  @apply px-3 py-6 bg-gradient-to-r from-[hsl(286,49%,20%)] via-[hsl(288,49%,25%)] to-[hsl(290,49%,29%)] ease-in duration-[250ms] bg-[length:0%_100%] bg-left bg-no-repeat transition-all no-underline hover:bg-[length:100%_100%];
+  @apply px-3 py-6 bg-gradient-to-r from-[hsl(286,49%,20%)]/75 via-[hsl(288,49%,25%)]/75 to-[hsl(290,49%,29%)]/75 ease-in duration-[250ms] bg-[length:0%_100%] bg-left bg-no-repeat transition-all no-underline hover:bg-[length:100%_100%];
 }
 
 .active {
-  @apply bg-[length:100%_100%] opacity-60;
+  @apply bg-[length:100%_100%];
 }
 
 .unscrolled {
