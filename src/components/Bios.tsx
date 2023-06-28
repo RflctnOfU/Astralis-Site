@@ -2,6 +2,23 @@
 import { useRef } from "react";
 import Link from "next/link";
 import { useInView } from "framer-motion";
+import { Ysabeau } from "next/font/google";
+const ysabeau = Ysabeau({
+  variable: "--font-ysabeau",
+  weight: [
+    "100",
+    "200",
+    "300",
+    "400",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "1000",
+  ],
+  subsets: ["latin", "latin-ext"],
+});
 
 function Bios() {
   const targetRef = useRef<HTMLDivElement>(null);
@@ -36,7 +53,7 @@ function Bios() {
             transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s",
           }}
         ></div>
-        <div className="p-4">
+        <div className={`p-4 `}>
           <h2
             className={`text-4xl text-center ${
               isInView ? "transform-none" : "translate-x-[150%]"

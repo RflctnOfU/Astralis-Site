@@ -27,7 +27,7 @@ body {
 }
 
 .links {
-  @apply px-3 py-6 bg-gradient-to-t from-[hsl(286,49%,20%)] via-[hsl(288,49%,25%)] to-[hsl(290,49%,29%)] ease-in duration-[250ms] bg-[length:100%_0rem] bg-bottom bg-no-repeat transition-all no-underline hover:bg-[length:100%_100%];
+  @apply px-3 py-6 bg-gradient-to-t from-[hsl(286,49%,20%)] via-[hsl(288,49%,25%)] to-[hsl(290,49%,29%)] ease-in duration-[250ms] bg-[length:100%_0rem] bg-opacity-30 bg-bottom bg-no-repeat transition-all no-underline hover:bg-[length:100%_100%];
 }
 
 .menu-links {
@@ -35,7 +35,7 @@ body {
 }
 
 .active {
-  @apply bg-[length:100%_100%];
+  @apply bg-[length:100%_100%] opacity-60;
 }
 
 .unscrolled {

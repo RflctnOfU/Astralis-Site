@@ -64,7 +64,7 @@ function Audio() {
     },
   ];
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center w-full">
       <Image
         src={"/images/experiment/image-transparent-background.png"}
         alt="image"
@@ -72,21 +72,21 @@ function Audio() {
         height={548}
       />
       <hr className="text-neutral-200 w-[90%] self-center" />
-      <div className="lg:mx-[5%] md:mx-[10%] mx-[16%] py-[5%]">
-        <div className="py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-0 bg-[#d5d5d5] bg-opacity-20 rounded-xl">
+      <div className="w-[90%] py-[5%] flex justify-center items-center">
+        <div className=" grid grid-cols-12 gap-4 p-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl w-full">
           {videos.map((video) => {
             return (
               <div
                 key={video.name}
-                className="flex justify-center items-center w-full p-1"
+                className="col-span-12 md:col-span-6 lg:col-span-4 flex flex-grow"
+                style={{ aspectRatio: 4 / 3 }}
               >
                 <iframe
                   allowFullScreen
                   src={video.src}
                   title={video.name}
-                  height={220}
-                  width={300}
-                  className="rounded-md shadow-xl shadow-[hsl(290,25%,23%)] aspect-video self-center hover:scale-105 hover:opacity-80 opacity-100 duration-300 transition ease-in-out"
+                  style={{ aspectRatio: 4 / 3 }}
+                  className="rounded-md shadow-xl shadow-[hsl(290,25%,23%)] hover:scale-105 hover:opacity-80 opacity-100 duration-300 transition ease-in-out"
                 ></iframe>
               </div>
             );
