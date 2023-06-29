@@ -1,4 +1,5 @@
 import { Mail, Facebook, Instagram, Youtube } from "lucide-react";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -7,57 +8,60 @@ function Footer() {
         <div className="">
           <div className="flex flex-col items-center py-10 text-">
             <div className="flex space-x-16 pb-[10px] mb-4">
-              <a
+              <Link
                 href="mailto:astralisensemble@gmail.com"
                 target="_blank"
                 className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
               >
                 <Mail size={35} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.facebook.com/astralisensemble/"
                 target="_blank"
                 className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
               >
                 <Facebook size={35} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.youtube.com/channel/UCKcTXindgAiNh-uyAncfQEw"
                 target="_blank"
                 className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
               >
                 <Youtube size={35} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.instagram.com/astralisensemble/"
                 target="_blank"
                 className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
               >
                 <Instagram size={35} />
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-around text-white w-full">
               <div>
-                <a
+                <Link
                   href="mailto:astralisensemble@gmail.com"
                   className="no-underline font-normal"
                 >
                   astralisensemble@gmail.com
-                </a>
+                </Link>
               </div>
               <div>
-                <a href="tel:7067262667" className="no-underline font-normal">
+                <Link
+                  href="tel:7067262667"
+                  className="no-underline font-normal"
+                >
                   706.726.2667
-                </a>
+                </Link>
               </div>
               <div>
-                <a
+                <Link
                   href="https://astralisensemble.com"
                   target="_blank"
                   className="no-underline font-normal"
                 >
                   astralisensemble.com
-                </a>
+                </Link>
               </div>
             </div>
           </div>

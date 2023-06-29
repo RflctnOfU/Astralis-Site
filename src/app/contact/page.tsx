@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
 import { ChangeEvent, FormEvent, useState } from "react";
 import { Mail, MapPin, MessageCircle } from "lucide-react";
+import HeroImage from "@/components/HeroImage";
 
 // todo: get email functionality
 
@@ -27,12 +27,7 @@ function Contact() {
   };
   return (
     <div className="pb-[72px] flex flex-col items-center">
-      <Image
-        src={"/images/experiment/image-transparent-background.png"}
-        alt="image"
-        width={1440}
-        height={548}
-      />
+      <HeroImage />
       <div className=" w-[320px]">
         <div className="p-4 rounded-lg bg-transparent w-[320px] border-[1px] m-auto border-neutral-300 shadow shadow-black">
           <form

@@ -44,17 +44,7 @@ function Nav() {
   const toggleMobile = () => {
     setMobile((prev) => !prev);
   };
-  // const menuOpen = () => {
-  //   const menu = document.getElementById("menu");
 
-  //   menu?.classList.remove("translate-x-[100]");
-  //   menu?.classList.add("translate-x-[0]");
-  // };
-  // const menuClose = () => {
-  //   const menu = document.getElementById("menu");
-  //   menu?.classList.remove("translate-x-[0]");
-  //   menu?.classList.add("translate-x-[100]");
-  // };
   return (
     <>
       <nav
