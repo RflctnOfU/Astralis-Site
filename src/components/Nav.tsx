@@ -33,12 +33,14 @@ function Nav() {
     },
   ];
   const [scrolled, setScrolled] = useState(false);
-  const handleScroll = () => {
-    if (window.scrollY >= 72) {
-      setScrolled(true);
-    } else setScrolled(false);
-  };
-  window.addEventListener("scroll", handleScroll);
+  if (typeof window !== "undefined") {
+    const handleScroll = () => {
+      if (window.scrollY >= 72) {
+        setScrolled(true);
+      } else setScrolled(false);
+    };
+    window.addEventListener("scroll", handleScroll);
+  }
 
   const [mobile, setMobile] = useState(false);
   const toggleMobile = () => {
@@ -57,7 +59,7 @@ function Nav() {
           height={64}
           width={200}
           alt="Astralis Logo"
-          src={"/images/homepage/AstralisLogo.webp"}
+          src={"/images/experiment/AstralisLogo.webp"}
         />
         <div className="hidden md:pr-4 md:flex">
           {linkData.map((item) => {

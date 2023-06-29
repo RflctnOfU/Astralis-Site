@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
-// import { useState } from "react";
 import "./globals.css";
 import { Lato, Ysabeau } from "next/font/google";
 const lato = Lato({
