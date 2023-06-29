@@ -1,6 +1,12 @@
 import HeroImage from "@/components/HeroImage";
 import Image from "next/image";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Astralis Chamber Ensemble",
+  description:
+    "Website of the Astralis Chamber Ensemble, featuring information about the ensemble including it's members, the calendar of upcoming events, publicity photos, and audio samples of past performances",
+};
 export default function Home() {
   const images = [
     {
