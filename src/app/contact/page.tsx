@@ -2,43 +2,70 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { Mail, MapPin, MessageCircle } from "lucide-react";
 import HeroImage from "@/components/HeroImage";
+import { useForm } from "react-hook-form";
+import useWeb3forms from "@web3forms/react";
+import toast, { Toaster } from "react-hot-toast";
 
-// todo: get email functionality
+// todo: add toast notification contact form successfully sent
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    email: "",
-    city: "",
-    message: "",
-  });
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isSubmitSuccessful, isSubmitting },
+  } = useForm({ mode: "onTouched" });
+  const [isSuccess, setIsSuccess] = useState(false);
   const [message, setMessage] = useState("");
-  const handleFormSubmit = (e: FormEvent) => {
-    e.preventDefault;
-  };
-  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    console.log(value);
-    setFormData({ ...formData, [name]: value });
-  };
-  const handleMessageChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
-    const value = e.target.value;
-    setMessage(value);
-    setFormData({ ...formData, message: value });
-  };
+  const apiKey =
+    process.env.EMAIL_KEY || "198343aa-5d56-4e15-8cc2-0e86125bf175";
+
+  const { submit: onSubmit } = useWeb3forms({
+    access_key: apiKey,
+    settings: {
+      from_name: "Astralis Contact Form",
+      subject: "New Contact Message",
+    },
+    onSuccess: (msg, data) => {
+      setIsSuccess(true);
+      setMessage(msg);
+      reset();
+    },
+    onError: (msg, data) => {
+      setIsSuccess(false);
+      setMessage(msg);
+    },
+  });
+  const notify = () =>
+    toast("Message Sent!!", {
+      style: {
+        background: "transparent",
+        border: "1px solid rgb(212, 212, 212)",
+        color: "rgb(212,212,212)",
+      },
+      icon: "✉️",
+    });
+
   return (
     <div className="pb-[72px] flex flex-col items-center">
       <HeroImage />
       <div className=" w-[320px]">
         <div className="p-4 rounded-lg bg-transparent w-[320px] border-[1px] m-auto border-neutral-300 shadow shadow-black">
           <form
-            action="submit"
             className="w-full flex flex-col gap-3 items-center text-[hsl(290,25%,43%)]"
-            onSubmit={handleFormSubmit}
+            onSubmit={handleSubmit(onSubmit)}
           >
             <h2 className="text-lg text-neutral-300 text-center">
               Join our email list to stay updated on future performances!
             </h2>
             <div className="flex flex-col">
+              <input
+                type="checkbox"
+                id=""
+                className="hidden"
+                style={{ display: "none" }}
+                {...register("botcheck")}
+              ></input>
               <label
                 htmlFor="email"
                 className="flex gap-2 text-neutral-300 pb-[2px]"
@@ -48,10 +75,18 @@ function Contact() {
               <input
                 type="text"
                 placeholder="Email"
-                name="email"
-                className="rounded-md px-2 py-1"
-                value={formData.email}
-                onChange={handleInputChange}
+                className={`rounded-md px-2 py-1 ${
+                  errors.email
+                    ? "border-red-600 focus:border-red-600 ring-red-100 dark:ring-0"
+                    : "border-gray-300 focus:border-gray-600 ring-gray-100 dark:border-gray-600 dark:focus:border-white dark:ring-0"
+                }`}
+                {...register("email", {
+                  required: "Email is required",
+                  pattern: {
+                    value: /^\S+@\S+$/i,
+                    message: "Please enter a valid email",
+                  },
+                })}
               />
             </div>
             <div className="flex flex-col">
@@ -63,11 +98,11 @@ function Contact() {
               </label>
               <input
                 type="text"
-                placeholder="City"
-                name="city"
+                placeholder="City - optional"
                 className="rounded-md px-2 py-1"
-                value={formData.city}
-                onChange={handleInputChange}
+                {...register("city", {
+                  required: false,
+                })}
               />
             </div>
             <div className="flex flex-col">
@@ -79,20 +114,24 @@ function Contact() {
               </label>
               <textarea
                 className="rounded-md px-2"
-                name="message"
+                // name="message"
+                placeholder="Your Message"
                 cols={10}
                 rows={5}
-                value={formData.message}
-                onChange={handleMessageChange}
-              ></textarea>
+                {...register("message", {
+                  required: false,
+                })}
+              />
             </div>
             <button
               type="submit"
               className="w-1/2 duration-300 transition ease-in-out hover:scale-105 border-[1px] rounded-md p-[4px] mt-2 text-neutral-300"
+              onClick={notify}
             >
               Submit
             </button>
           </form>
+          <Toaster />
         </div>
       </div>
     </div>

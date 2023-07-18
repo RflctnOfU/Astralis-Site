@@ -2,22 +2,17 @@
 import { useRef } from "react";
 import Link from "next/link";
 import { useInView } from "framer-motion";
-import { Ysabeau } from "next/font/google";
-const ysabeau = Ysabeau({
-  variable: "--font-ysabeau",
-  weight: [
-    "100",
-    "200",
-    "300",
-    "400",
-    "500",
-    "600",
-    "700",
-    "800",
-    "900",
-    "1000",
-  ],
-  subsets: ["latin", "latin-ext"],
+import { Josefin_Sans, Montserrat } from "next/font/google";
+const josefin = Josefin_Sans({
+  // variable: "--font-josefin",
+  weight: ["200"],
+  display: "swap",
+  subsets: ["latin"],
+});
+const montserrat = Montserrat({
+  weight: ["200", "400"],
+  display: "swap",
+  subsets: ["latin"],
 });
 
 function Bios() {
@@ -55,7 +50,7 @@ function Bios() {
         ></div>
         <div className={`p-4 `}>
           <h2
-            className={`text-4xl text-center ${
+            className={`text-5xl pt-4 text-center ${josefin.className} ${
               isInView ? "transform-none" : "translate-x-[150%]"
             } ${isInView ? "opacity-100" : "opacity-0"} `}
             ref={targetRef}
@@ -63,21 +58,25 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            Angela Massey
+            ANGELA MASSEY
           </h2>
           <h4
-            className={`text-2xl font-light text-center ${
-              isInView ? "transform-none" : "translate-x-[150%]"
-            } ${isInView ? "opacity-100" : "opacity-0"}`}
+            className={`text-lg font-light text-center ${
+              montserrat.className
+            } ${isInView ? "transform-none" : "translate-x-[150%]"} ${
+              isInView ? "opacity-100" : "opacity-0"
+            }`}
             ref={targetRef}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
             }}
           >
-            Flute
+            FLUTE
           </h4>
           <p
-            className={`leading-8 font-extralight text-center ${
+            className={`${
+              montserrat.className
+            } leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
               isInView ? "transform-none" : "translate-x-[150%]"
             } ${isInView ? "opacity-100" : "opacity-0"} `}
             ref={targetRef}
@@ -124,7 +123,7 @@ function Bios() {
       >
         <div className=" p-4">
           <h2
-            className="text-4xl text-center"
+            className={`${josefin.className} pt-4 text-5xl text-center`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
@@ -132,10 +131,10 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            Kris Marshall
+            KRIS MARSHALL
           </h2>
           <h4
-            className="text-2xl font-light text-center "
+            className={`text-2xl font-light text-center ${montserrat.className}`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
@@ -143,10 +142,10 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
             }}
           >
-            Trumpet
+            TRUMPET
           </h4>
           <p
-            className="leading-8 font-extralight"
+            className={`${montserrat.className} p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
@@ -202,7 +201,7 @@ function Bios() {
         ></div>
         <div className="p-4">
           <h2
-            className={`text-4xl text-center ${
+            className={`text-5xl pt-4 text-center ${josefin.className} ${
               isInView2 ? "transform-none" : "translate-x-[150%]"
             } ${isInView2 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef2}
@@ -210,23 +209,27 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            Megan Chartier
+            MEGAN CHARTIER
           </h2>
           <h4
             className={`text-2xl font-light text-center ${
-              isInView2 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView2 ? "opacity-100" : "opacity-0"}`}
+              montserrat.className
+            } ${isInView2 ? "transform-none" : "translate-x-[150%]"} ${
+              isInView2 ? "opacity-100" : "opacity-0"
+            }`}
             ref={targetRef2}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
             }}
           >
-            Cello
+            CELLO
           </h4>
           <p
-            className={`leading-8 font-extralight text-center ${
-              isInView2 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView2 ? "opacity-100" : "opacity-0"} `}
+            className={`leading-8 p-2 font-extralight text-center lg:text-right pr-4 ${
+              montserrat.className
+            } ${isInView2 ? "transform-none" : "translate-x-[150%]"} ${
+              isInView2 ? "opacity-100" : "opacity-0"
+            } `}
             ref={targetRef2}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
@@ -270,7 +273,7 @@ function Bios() {
       >
         <div className=" p-4">
           <h2
-            className="text-4xl text-center"
+            className={`text-5xl pt-4 text-center ${josefin.className}`}
             ref={targetRef3}
             style={{
               transform: isInView3 ? "none" : "translateX(-150%)",
@@ -278,10 +281,10 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            Paul Aguilar
+            PAUL AGUILAR
           </h2>
           <h4
-            className="text-2xl font-light text-center "
+            className={`text-2xl font-light text-center ${montserrat.className}`}
             ref={targetRef3}
             style={{
               transform: isInView3 ? "none" : "translateX(-150%)",
@@ -289,10 +292,10 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
             }}
           >
-            Violin
+            VIOLIN
           </h4>
           <p
-            className="leading-8 font-extralight"
+            className={`${montserrat.className} p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
             ref={targetRef3}
             style={{
               transform: isInView3 ? "none" : "translateX(-150%)",
@@ -350,7 +353,7 @@ function Bios() {
         ></div>
         <div className="p-4">
           <h2
-            className={`text-4xl text-center ${
+            className={`text-5xl pt-4 text-center ${josefin.className} ${
               isInView4 ? "transform-none" : "translate-x-[150%]"
             } ${isInView4 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef4}
@@ -358,21 +361,25 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            Rachel O&apos;Brien
+            RACHEL O&apos;BRIEN
           </h2>
           <h4
             className={`text-2xl font-light text-center ${
-              isInView4 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView4 ? "opacity-100" : "opacity-0"}`}
+              montserrat.className
+            } ${isInView4 ? "transform-none" : "translate-x-[150%]"} ${
+              isInView4 ? "opacity-100" : "opacity-0"
+            }`}
             ref={targetRef4}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
             }}
           >
-            Harp
+            HARP
           </h4>
           <p
-            className={`leading-8 font-extralight text-center ${
+            className={`${
+              montserrat.className
+            } leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
               isInView4 ? "transform-none" : "translate-x-[150%]"
             } ${isInView4 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef4}
@@ -420,7 +427,7 @@ function Bios() {
       >
         <div className=" p-4">
           <h2
-            className="text-4xl text-center"
+            className={`text-5xl pt-4 text-center ${josefin.className}`}
             ref={targetRef5}
             style={{
               transform: isInView5 ? "none" : "translateX(-150%)",
@@ -428,10 +435,10 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            Chee-Hang See
+            CHEE-HANG SEE
           </h2>
           <h4
-            className="text-2xl font-light text-center "
+            className={`text-2xl font-light text-center ${montserrat.className}`}
             ref={targetRef5}
             style={{
               transform: isInView5 ? "none" : "translateX(-150%)",
@@ -439,10 +446,10 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
             }}
           >
-            Piano
+            PIANO
           </h4>
           <p
-            className="leading-8 font-extralight"
+            className={`${montserrat.className} p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
             ref={targetRef5}
             style={{
               transform: isInView5 ? "none" : "translateX(-150%)",
@@ -507,7 +514,7 @@ function Bios() {
         ></div>
         <div className="p-4">
           <h2
-            className={`text-4xl text-center ${
+            className={`text-5xl pt-4 text-center ${josefin.className} ${
               isInView6 ? "transform-none" : "translate-x-[150%]"
             } ${isInView6 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef6}
@@ -515,21 +522,25 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            Caroline Owen
+            CAROLINE OWEN
           </h2>
           <h4
             className={`text-2xl font-light text-center ${
-              isInView6 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView6 ? "opacity-100" : "opacity-0"}`}
+              montserrat.className
+            } ${isInView6 ? "transform-none" : "translate-x-[150%]"} ${
+              isInView6 ? "opacity-100" : "opacity-0"
+            }`}
             ref={targetRef6}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
             }}
           >
-            Piano
+            PIANO
           </h4>
           <p
-            className={`leading-8 font-extralight text-center ${
+            className={`${
+              montserrat.className
+            } leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
               isInView6 ? "transform-none" : "translate-x-[150%]"
             } ${isInView6 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef6}
@@ -575,7 +586,7 @@ function Bios() {
       >
         <div className=" p-4">
           <h2
-            className="text-4xl text-center"
+            className={`pt-4 ${josefin.className} text-5xl text-center`}
             ref={targetRef7}
             style={{
               transform: isInView7 ? "none" : "translateX(-150%)",
@@ -583,10 +594,10 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            Alexandra Snyder Dunbar
+            ALEXANDRA SNYDER DUNBAR
           </h2>
           <h4
-            className="text-2xl font-light text-center "
+            className={`${montserrat.className} text-2xl font-light text-center `}
             ref={targetRef7}
             style={{
               transform: isInView7 ? "none" : "translateX(-150%)",
@@ -594,10 +605,10 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
             }}
           >
-            Harpsichord
+            HARPSICHORD
           </h4>
           <p
-            className="leading-8 font-extralight"
+            className={`${montserrat.className} p-2 text-center lg:text-left pl-4 leading-8 font-extralight`}
             ref={targetRef7}
             style={{
               transform: isInView7 ? "none" : "translateX(-150%)",

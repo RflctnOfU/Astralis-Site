@@ -4,34 +4,35 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { X, Menu } from "lucide-react";
+import { linkData } from "@/app/lib/data";
 function Nav() {
   const pathname = usePathname();
-  const linkData = [
-    {
-      name: "Home",
-      path: "/",
-    },
-    {
-      name: "About",
-      path: "/about",
-    },
-    {
-      name: "Calendar",
-      path: "/calendar",
-    },
-    {
-      name: "Photos",
-      path: "/photos",
-    },
-    {
-      name: "Audio",
-      path: "/audio",
-    },
-    {
-      name: "Contact",
-      path: "/contact",
-    },
-  ];
+  // const linkData = [
+  //   {
+  //     name: "Home",
+  //     path: "/",
+  //   },
+  //   {
+  //     name: "About",
+  //     path: "/about",
+  //   },
+  //   {
+  //     name: "Calendar",
+  //     path: "/calendar",
+  //   },
+  //   {
+  //     name: "Photos",
+  //     path: "/photos",
+  //   },
+  //   {
+  //     name: "Audio",
+  //     path: "/audio",
+  //   },
+  //   {
+  //     name: "Contact",
+  //     path: "/contact",
+  //   },
+  // ];
   const [scrolled, setScrolled] = useState(false);
   if (typeof window !== "undefined") {
     const handleScroll = () => {
