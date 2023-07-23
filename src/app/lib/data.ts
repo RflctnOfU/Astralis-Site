@@ -70,7 +70,7 @@ export const tourInfo = [
     name: "PRACTICE3",
     instruments: "FLUTE, CELLO, HARP",
     description: "Lorem ipsum blah blah blah, Twentieth Century Works2",
-    image: "/images/tour-images/light-lg.jpg",
+    image: "/images/tour-images/light-md.jpg",
     dates: [
       {
         id: 1,
@@ -86,7 +86,7 @@ export const tourInfo = [
     name: "PRACTICE4",
     instruments: "FLUTE, CELLO, HARP",
     description: "Lorem ipsum blah blah blah, Twentieth Century Works2",
-    image: "/images/tour-images/flute-lg.jpg",
+    image: "/images/tour-images/flute-md.jpg",
     dates: [
       {
         id: 1,
@@ -102,7 +102,7 @@ export const tourInfo = [
     name: "PRACTICE5",
     instruments: "FLUTE, CELLO, HARP",
     description: "Lorem ipsum blah blah blah, Twentieth Century Works2",
-    image: "/images/tour-images/church-lg.jpg",
+    image: "/images/tour-images/church-md.jpg",
     dates: [
       {
         id: 1,
