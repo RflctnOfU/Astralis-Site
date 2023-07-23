@@ -2,6 +2,7 @@ import Image from "next/image";
 import { tourInfo } from "../app/lib/data";
 import DateCard from "./DateCard";
 interface Tour {
+  id: string;
   name: string;
   instruments: string;
   description: string;
@@ -16,29 +17,38 @@ interface Tour {
   }[];
 }
 
-function TourCard({ name, instruments, description, dates, image }: Tour) {
-  const img = image;
+function TourCard({ id, name, instruments, description, dates, image }: Tour) {
+  const img = "url(" + image + ")";
   console.log(name);
-  console.log(image);
+  console.log(img);
   // todo: fix background opacity
   const imageStyle = {
     backgroundImage: "url(" + image + ")",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    backgroundOpacity: ".1",
+    backgroundOpacity: ".5",
+    postition: "absolute",
     // width: "100%",
     // height: "100%",
   };
 
   return (
     <div
-      className={`w-full my-4 mx-10 h-auto rounded-2xl flex flex-col justify-center items-center border border-white bg-opacity-25 bg-gray-300`}
-      style={imageStyle}
+      id={id}
+      className={`tour `}
+      // style={imageStyle}
     >
-      <h1 className="text-5xl">&quot;{name}&quot;</h1>
-      <h2 className="text-2xl">{instruments}</h2>
-      <p>{description}</p>
-      <div className="flex gap-4 justify-center">
+      <Image
+        alt={name}
+        src={image}
+        width={1440}
+        height={768}
+        className="w-full h-full absolute -z-10 object-cover mix-blend-overlay rounded-xl"
+      />
+      <h1 className="text-5xl font-dream">&quot;{name}&quot;</h1>
+      <h2 className="text-2xl font-mont">{instruments}</h2>
+      <p className="font-mont text-center">{description}</p>
+      <div className="lg:w-full flex md:flex-row md:flex-wrap flex-col justify-center">
         {dates.map((date) => {
           return (
             <DateCard

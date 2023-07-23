@@ -1,39 +1,13 @@
 import HeroImage from "@/components/HeroImage";
 import Image from "next/image";
 import type { Metadata } from "next";
-
+import { images } from "./lib/data";
 export const metadata: Metadata = {
   title: "Astralis Chamber Ensemble",
   description:
     "Website of the Astralis Chamber Ensemble, featuring information about the ensemble including it's members, the calendar of upcoming events, publicity photos, and audio samples of past performances",
 };
 export default function Home() {
-  const images = [
-    {
-      src: "/images/carousel/BaroquePhoto4.webp",
-      alt: "Baroque Quartet",
-    },
-    {
-      src: "/images/carousel/AstralisPhoto1Crop.webp",
-      alt: "Astralis Photo",
-    },
-    {
-      src: "/images/carousel/ConcertPhoto.webp",
-      alt: "Concert Photo",
-    },
-    {
-      src: "/images/carousel/DuoPhoto1crop.webp",
-      alt: "Duo Photo",
-    },
-    {
-      src: "/images/carousel/KrisAngela2edit.webp",
-      alt: "Kris and Angela",
-    },
-    {
-      src: "/images/carousel/Performance.webp",
-      alt: "Perfomance Photo",
-    },
-  ];
   return (
     <main className="">
       <HeroImage />

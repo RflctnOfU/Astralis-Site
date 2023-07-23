@@ -34,13 +34,13 @@ function Bios() {
   const isInView7 = useInView(targetRef7, { once: true });
 
   return (
-    <div className="w-[90%] mb-8 bg-[#d5d5d5] bg-opacity-20 rounded-xl">
+    <div className="w-[90%] mb-8 bg-[#d5d5d5] bg-opacity-20 rounded-2xl">
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
         ref={targetRef}
       >
         <div
-          className={`m-8 bg-[url('/images/members/angela4.webp')] bg-no-repeat bg-cover bg-center rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/angela4.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView ? "transform-none" : "translate-x-[-150%]"
           } ${isInView ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef}
@@ -50,7 +50,7 @@ function Bios() {
         ></div>
         <div className={`p-4 `}>
           <h2
-            className={`text-5xl pt-4 text-center ${josefin.className} ${
+            className={`text-5xl pt-4 text-center font-dream ${
               isInView ? "transform-none" : "translate-x-[150%]"
             } ${isInView ? "opacity-100" : "opacity-0"} `}
             ref={targetRef}
@@ -123,7 +123,7 @@ function Bios() {
       >
         <div className=" p-4">
           <h2
-            className={`${josefin.className} pt-4 text-5xl text-center`}
+            className={`font-dream pt-4 text-5xl text-center`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
@@ -176,7 +176,7 @@ function Bios() {
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/kris.webp')] bg-no-repeat bg-cover rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/kris.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
           ref={targetRef1}
           style={{
             transform: isInView1 ? "none" : "translateX(150%)",
@@ -191,7 +191,7 @@ function Bios() {
         ref={targetRef2}
       >
         <div
-          className={`m-8 bg-[url('/images/members/megan.webp')] bg-no-repeat bg-cover bg-center rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/megan.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView2 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView2 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef2}
@@ -201,7 +201,7 @@ function Bios() {
         ></div>
         <div className="p-4">
           <h2
-            className={`text-5xl pt-4 text-center ${josefin.className} ${
+            className={`text-5xl pt-4 text-center font-dream ${
               isInView2 ? "transform-none" : "translate-x-[150%]"
             } ${isInView2 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef2}
@@ -273,7 +273,7 @@ function Bios() {
       >
         <div className=" p-4">
           <h2
-            className={`text-5xl pt-4 text-center ${josefin.className}`}
+            className={`text-5xl pt-4 text-center font-dream`}
             ref={targetRef3}
             style={{
               transform: isInView3 ? "none" : "translateX(-150%)",
@@ -328,7 +328,7 @@ function Bios() {
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/Paul.jpeg')] bg-no-repeat bg-cover rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/Paul.jpeg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
           ref={targetRef3}
           style={{
             transform: isInView3 ? "none" : "translateX(150%)",
@@ -343,7 +343,7 @@ function Bios() {
         ref={targetRef4}
       >
         <div
-          className={`m-8 bg-[url('/images/members/rachel.webp')] bg-no-repeat bg-cover bg-center rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/rachel.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView4 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView4 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef4}
@@ -353,7 +353,7 @@ function Bios() {
         ></div>
         <div className="p-4">
           <h2
-            className={`text-5xl pt-4 text-center ${josefin.className} ${
+            className={`text-5xl pt-4 text-center font-dream ${
               isInView4 ? "transform-none" : "translate-x-[150%]"
             } ${isInView4 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef4}
@@ -427,7 +427,7 @@ function Bios() {
       >
         <div className=" p-4">
           <h2
-            className={`text-5xl pt-4 text-center ${josefin.className}`}
+            className={`text-5xl pt-4 text-center font-dream`}
             ref={targetRef5}
             style={{
               transform: isInView5 ? "none" : "translateX(-150%)",
@@ -489,7 +489,7 @@ function Bios() {
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/see.webp')] bg-no-repeat bg-cover rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/see.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
           ref={targetRef5}
           style={{
             transform: isInView5 ? "none" : "translateX(150%)",
@@ -504,7 +504,7 @@ function Bios() {
         ref={targetRef6}
       >
         <div
-          className={`m-8 bg-[url('/images/members/owenphoto1.webp')] bg-no-repeat bg-cover bg-center rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/owenphoto1.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView6 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView6 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef6}
@@ -514,7 +514,7 @@ function Bios() {
         ></div>
         <div className="p-4">
           <h2
-            className={`text-5xl pt-4 text-center ${josefin.className} ${
+            className={`text-5xl pt-4 text-center font-dream ${
               isInView6 ? "transform-none" : "translate-x-[150%]"
             } ${isInView6 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef6}
@@ -586,7 +586,7 @@ function Bios() {
       >
         <div className=" p-4">
           <h2
-            className={`pt-4 ${josefin.className} text-5xl text-center`}
+            className={`pt-4 font-dream text-5xl text-center`}
             ref={targetRef7}
             style={{
               transform: isInView7 ? "none" : "translateX(-150%)",
@@ -639,7 +639,7 @@ function Bios() {
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/dunbar6ed2.webp')] bg-no-repeat bg-cover rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/dunbar6ed2.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
           ref={targetRef7}
           style={{
             transform: isInView7 ? "none" : "translateX(150%)",

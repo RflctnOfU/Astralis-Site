@@ -7,32 +7,7 @@ import { X, Menu } from "lucide-react";
 import { linkData } from "@/app/lib/data";
 function Nav() {
   const pathname = usePathname();
-  // const linkData = [
-  //   {
-  //     name: "Home",
-  //     path: "/",
-  //   },
-  //   {
-  //     name: "About",
-  //     path: "/about",
-  //   },
-  //   {
-  //     name: "Calendar",
-  //     path: "/calendar",
-  //   },
-  //   {
-  //     name: "Photos",
-  //     path: "/photos",
-  //   },
-  //   {
-  //     name: "Audio",
-  //     path: "/audio",
-  //   },
-  //   {
-  //     name: "Contact",
-  //     path: "/contact",
-  //   },
-  // ];
+
   const [scrolled, setScrolled] = useState(false);
   if (typeof window !== "undefined") {
     const handleScroll = () => {
@@ -53,7 +28,7 @@ function Nav() {
       <nav
         className={`${
           scrolled ? "scrolled" : "unscrolled"
-        } md:h-[72px] flex justify-between  p-4 items-center w-full fixed z-[2]`}
+        } md:h-[72px] flex justify-between  p-4 items-center w-full fixed z-[20]`}
       >
         <Image
           className="pl-4"
@@ -67,7 +42,7 @@ function Nav() {
             return (
               <div
                 key={item.name}
-                className="h-full flex items-center justify-end"
+                className="h-full flex items-center justify-end font-mont"
               >
                 <Link
                   className={`${
@@ -75,7 +50,7 @@ function Nav() {
                   } `}
                   href={item.path}
                 >
-                  {item.name}
+                  {item.name.toUpperCase()}
                 </Link>
               </div>
             );
@@ -93,13 +68,16 @@ function Nav() {
       >
         {linkData.map((item) => {
           return (
-            <div key={item.name} className="flex items-center justify-start">
+            <div
+              key={item.name}
+              className="flex items-center justify-start font-mont"
+            >
               <Link
                 className="menu-links"
                 href={item.path}
                 onClick={toggleMobile}
               >
-                {item.name}
+                {item.name.toUpperCase()}
               </Link>
             </div>
           );

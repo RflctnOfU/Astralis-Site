@@ -47,7 +47,7 @@ function Contact() {
     });
 
   return (
-    <div className="pb-[72px] flex flex-col items-center">
+    <div className="pb-[72px] flex flex-col items-center font-mont">
       <HeroImage />
       <div className=" w-[320px]">
         <div className="p-4 rounded-lg bg-transparent w-[320px] border-[1px] m-auto border-neutral-300 shadow shadow-black">
@@ -55,10 +55,10 @@ function Contact() {
             className="w-full flex flex-col gap-3 items-center text-[hsl(290,25%,43%)]"
             onSubmit={handleSubmit(onSubmit)}
           >
-            <h2 className="text-lg text-neutral-300 text-center">
+            <h2 className="text-2xl text-neutral-300 text-center">
               Join our email list to stay updated on future performances!
             </h2>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-4/5">
               <input
                 type="checkbox"
                 id=""
@@ -89,7 +89,7 @@ function Contact() {
                 })}
               />
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-4/5">
               <label
                 htmlFor="city"
                 className="flex gap-2 text-neutral-300 pb-[2px]"
@@ -105,7 +105,7 @@ function Contact() {
                 })}
               />
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-4/5">
               <label
                 htmlFor="message"
                 className="flex gap-2 text-neutral-300 pb-[2px]"
@@ -117,7 +117,7 @@ function Contact() {
                 // name="message"
                 placeholder="Your Message"
                 cols={10}
-                rows={5}
+                rows={3}
                 {...register("message", {
                   required: false,
                 })}

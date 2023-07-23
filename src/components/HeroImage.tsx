@@ -8,6 +8,7 @@ function HeroImage() {
         alt="image"
         width={1440}
         height={548}
+        // className="w-full"
       />
     </>
   );
