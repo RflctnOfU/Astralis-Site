@@ -22,7 +22,7 @@ function Calendar() {
     <div className="w-full m-auto pb-[5%] flex flex-col items-center">
       <HeroImage />
       <div className="text-center text-5xl font-light pb-16 mx-4 font-mont">
-        Coming Soon!
+        Tour Schedule:
       </div>
       {tourInfo.map((tour) => {
         return (

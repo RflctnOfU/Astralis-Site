@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <main className="">
       <HeroImage />
-      <div className="w-[90%] m-auto py-[5%] flex flex-col items-center">
-        <div className="pb-[5%]  font-light md:text-xl text-center">
-          <p>
+      <div className="lg:w-full md:w-[95%] w-[90%] m-auto py-[5%] flex flex-col items-center">
+        <div className="pb-[5%] font-mont font-light md:text-xl text-center">
+          <p className="mx-16">
             The Astralis Chamber Ensemble is an innovative and dynamic ensemble
             performing with much acclaim across the globe. Through creative
             programming and presentations on the works performed, Astralis aims
@@ -31,18 +31,18 @@ export default function Home() {
             backgrounds through music.
           </p>
         </div>
-        <div className="m-8 p-4 grid grid-cols-12  gap-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl">
+        <div className="m-8 p-4 grid grid-cols-12 gap-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl">
           {images.map((image) => {
             return (
               <Image
                 key={image.alt}
                 src={image.src}
                 alt={image.alt}
-                height={400}
+                height={500}
                 width={400}
                 quality={100}
-                className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] col-span-12 md:col-span-6 lg:col-span-4 object-cover overflow-hidden"
-                style={{ aspectRatio: 4 / 3 }}
+                className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] col-span-12 md:col-span-6 lg:col-span-3 object-cover overflow-hidden"
+                style={{ aspectRatio: 5 / 6 }}
               />
             );
           })}

@@ -61,11 +61,9 @@ function Bios() {
             ANGELA MASSEY
           </h2>
           <h4
-            className={`text-lg font-light text-center ${
-              montserrat.className
-            } ${isInView ? "transform-none" : "translate-x-[150%]"} ${
-              isInView ? "opacity-100" : "opacity-0"
-            }`}
+            className={`text-2xl font-light text-center font-mont ${
+              isInView ? "transform-none" : "translate-x-[150%]"
+            } ${isInView ? "opacity-100" : "opacity-0"}`}
             ref={targetRef}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
@@ -74,9 +72,7 @@ function Bios() {
             FLUTE
           </h4>
           <p
-            className={`${
-              montserrat.className
-            } leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
+            className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
               isInView ? "transform-none" : "translate-x-[150%]"
             } ${isInView ? "opacity-100" : "opacity-0"} `}
             ref={targetRef}
@@ -212,11 +208,9 @@ function Bios() {
             MEGAN CHARTIER
           </h2>
           <h4
-            className={`text-2xl font-light text-center ${
-              montserrat.className
-            } ${isInView2 ? "transform-none" : "translate-x-[150%]"} ${
-              isInView2 ? "opacity-100" : "opacity-0"
-            }`}
+            className={`text-2xl font-light text-center font-mont ${
+              isInView2 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView2 ? "opacity-100" : "opacity-0"}`}
             ref={targetRef2}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
@@ -225,11 +219,9 @@ function Bios() {
             CELLO
           </h4>
           <p
-            className={`leading-8 p-2 font-extralight text-center lg:text-right pr-4 ${
-              montserrat.className
-            } ${isInView2 ? "transform-none" : "translate-x-[150%]"} ${
-              isInView2 ? "opacity-100" : "opacity-0"
-            } `}
+            className={`leading-8 p-2 font-extralight text-center lg:text-right pr-4 font-mont ${
+              isInView2 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView2 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef2}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
@@ -328,7 +320,7 @@ function Bios() {
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/Paul.jpeg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/Paul.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
           ref={targetRef3}
           style={{
             transform: isInView3 ? "none" : "translateX(150%)",
@@ -364,11 +356,9 @@ function Bios() {
             RACHEL O&apos;BRIEN
           </h2>
           <h4
-            className={`text-2xl font-light text-center ${
-              montserrat.className
-            } ${isInView4 ? "transform-none" : "translate-x-[150%]"} ${
-              isInView4 ? "opacity-100" : "opacity-0"
-            }`}
+            className={`text-2xl font-light text-center font-mont ${
+              isInView4 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView4 ? "opacity-100" : "opacity-0"}`}
             ref={targetRef4}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
@@ -377,9 +367,7 @@ function Bios() {
             HARP
           </h4>
           <p
-            className={`${
-              montserrat.className
-            } leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
+            className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
               isInView4 ? "transform-none" : "translate-x-[150%]"
             } ${isInView4 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef4}
@@ -525,11 +513,9 @@ function Bios() {
             CAROLINE OWEN
           </h2>
           <h4
-            className={`text-2xl font-light text-center ${
-              montserrat.className
-            } ${isInView6 ? "transform-none" : "translate-x-[150%]"} ${
-              isInView6 ? "opacity-100" : "opacity-0"
-            }`}
+            className={`text-2xl font-light text-center font-mont ${
+              isInView6 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView6 ? "opacity-100" : "opacity-0"}`}
             ref={targetRef6}
             style={{
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
@@ -538,9 +524,7 @@ function Bios() {
             PIANO
           </h4>
           <p
-            className={`${
-              montserrat.className
-            } leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
+            className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
               isInView6 ? "transform-none" : "translate-x-[150%]"
             } ${isInView6 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef6}

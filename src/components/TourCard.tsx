@@ -47,7 +47,9 @@ function TourCard({ id, name, instruments, description, dates, image }: Tour) {
       />
       <h1 className="text-5xl font-dream">&quot;{name}&quot;</h1>
       <h2 className="text-2xl font-mont">{instruments}</h2>
-      <p className="font-mont text-center">{description}</p>
+      <p className="font-mont text-center px-4 lg:w-1/2 md:w-2/3 w-full">
+        {description}
+      </p>
       <div className="lg:w-full flex md:flex-row md:flex-wrap flex-col justify-center">
         {dates.map((date) => {
           return (
