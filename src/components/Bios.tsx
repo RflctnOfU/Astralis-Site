@@ -187,7 +187,7 @@ function Bios() {
         ref={targetRef2}
       >
         <div
-          className={`m-8 bg-[url('/images/members/megan.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/Laura.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView2 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView2 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef2}
@@ -205,7 +205,7 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            MEGAN CHARTIER
+            LAURA USISKIN
           </h2>
           <h4
             className={`text-2xl font-light text-center font-mont ${
@@ -227,32 +227,31 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
             }}
           >
-            ​Cellist Megan Chartier, hailing from Detroit, has performed as a
-            chamber and orchestral cellist throughout North America and Europe.
-            In recent years, she has served as Principal Cellist of the Miami
-            Symphony Orchestra, Principal Cellist of the Pacific Region
-            International Summer Music Academy in Canada, Assistant Principal of
-            South Florida Symphony, and Guest Principal Cellist of both Opera
-            San Luis Obispo and State Street Ballet in Santa Barbara,
-            California. In recent seasons, she has also performed with
-            orchestras including San Antonio Symphony, Moscow Symphony
-            Orchestra, Palm Beach Symphony Orchestra, Nu Deco Ensemble, and
-            Southwest Florida Symphony Orchestra. Megan is an active chamber
-            musician and founding member of Miami-based string trio, the Wynwood
-            Trio. As a soloist, she was named a semi-finalist in the 2017 PRISMA
-            Concerto competition, 1st prize winner of the Ann Arbor Society of
-            Musical Arts’ 2015 Young Artist Competition and a winner of the 2015
-            Miami Music Festival Concerto Competition, conducted by Grzegorz
-            Nowak of the Royal Philharmonic Orchestra. Ms. Chartier holds a
-            Bachelor of Music in Performance from Eastern Michigan University
-            and a Master of Music in Performance from University of Michigan in
-            Ann Arbor, MI. For more information, visit{" "}
+            Laura Usiskin enjoys a versatile career as a cellist and educator.
+            Her playing has taken her to concert halls throughout the United
+            States and Europe, including the Kennedy Center, Palazzo Chigi
+            Saracini, Symphony Hall (Boston), Alice Tully Hall, Weill Hall,
+            Zankel Hall, Merkin Hall, Miller Theatre, Barge Music, Steinway
+            Hall, and Klavierhaus. While completing an Artist-In-Residency with
+            the Montgomery Symphony Orchestra, Usiskin founded and served as the
+            inaugural Executive Director of the Montgomery Music Project, an El
+            Sistema strings program in Montgomery, Alabama. The program, now
+            more than 10 years old, has given intensive string instruction to
+            hundreds of low-income children across three counties. Usiskin is a
+            member of the Bayberry String Quartet as well as the Atlanta-based
+            new music group ensemble vim. She has served on the faculty of the
+            University of Alabama at Birmingham, through which she founded the
+            chamber series Chamber Music @ AEIVA, as well as Birmingham-Southern
+            College. Usiskin graduated from Columbia University cum laude with a
+            Bachelor of Arts in Neuroscience and Behavior, The Juilliard School
+            with a Master of Music, and Yale University with a Doctor of Musical
+            Arts. For more information, visit{" "}
             <Link
-              href={"https://www.meganchartier.com"}
+              href={"https://www.laurausiskin.com"}
               target="_blank"
               className="text-[hsl(290,25%,73%)]"
             >
-              www.meganchartier.com
+              www.laurausiskin.com
             </Link>
             .
           </p>
@@ -423,7 +422,7 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
             }}
           >
-            CHEE-HANG SEE
+            RACHEL AGUILAR
           </h2>
           <h4
             className={`text-2xl font-light text-center ${montserrat.className}`}
@@ -434,7 +433,7 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
             }}
           >
-            PIANO
+            VIOLIN
           </h4>
           <p
             className={`${montserrat.className} p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
@@ -445,39 +444,30 @@ function Bios() {
               transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
             }}
           >
-            Chee-Hang See is a prize-winning pianist who has been called &quot;a
-            cool and confident performer&quot; by the Charleston City Paper. He
-            has performed in concert series and festivals such as the Festival
-            Internacional de Colonia, Hilton Head Symphony Orchestra Musicale,
-            South Carolina Chamber Music Festival, Chicago Duo Piano Festival,
-            Hawaii International Cultural Arts Festival, and Piccolo Spoleto
-            Festival. He has soloed with the Toa Payoh West Chinese Orchestra in
-            Singapore; Bela Bartok Orchestra in Perugia, Italy; Montevideo
-            Philharmonic in Uruguay; Charleston Symphony Orchestra; and the
-            Cleveland Institute of Music Chamber Orchestra. He plays regularly
-            with Charleston Symphony, Chamber Music Charleston, and his duo, Tan
-            and See Piano Duo. Chee-Hang is currently on faculty at the
-            Charleston Academy of Music and music director of the Midtown
-            Theater in North Charleston, where he founded “Midweek at Midtown,”
-            a chamber music series. His debut album “Violin Transcriptions,”
-            featuring works by Rachmaninoff and Muczynski, was released in 2014.
-            He received degrees from the Cleveland Institute of Music, College
-            of Charleston, and diplomas from the Royal Schools of Music and
-            Trinity College London under the tutelage of Sandra Shapiro, Enrique
-            Graf, and Wong Joon Hwang. For more information, visit{" "}
-            <Link
-              href={"www.cheehang.weebly.com"}
-              target="_blank"
-              className="text-[hsl(290,25%,73%)]"
-            >
-              www.cheehang.weebly.com
-            </Link>
-            .
+            Originally from Holiday Hills, IL, Rachel Aguilar (Stenzel) grew up
+            in a very musical family, beginning her formal training on the piano
+            at age five and the violin at age nine. Currently residing in
+            Houston, TX, she completed both her bachelor’s and master’s degrees
+            in violin performance at the Cleveland Institute of Music (CIM), in
+            addition to participating in residencies at Rice University’s
+            Shepherd School of Music, Escuela Superior de Musica Reina Sofia
+            (Madrid), and the University of Music and Performing Arts in Vienna.
+            Although she loves both solo and orchestral playing, Rachel’s true
+            passion is for chamber music. As a founding member of the Callisto
+            Quartet, Rachel has won top prizes in nearly every major chamber
+            music competition, including the Banff International String Quartet
+            Competition, Bordeaux International String Quartet Competition,
+            Melbourne International Chamber Music Competition, and Fischoff
+            National Chamber Music Competition. In addition to chamber music,
+            Rachel is committed to performing regularly at her church and in the
+            community, and is also passionate of about teaching music. In her
+            spare time she enjoys running, cooking, all kinds of craft projects,
+            and spending time with her husband, Paul.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/see.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/RachelA.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
           ref={targetRef5}
           style={{
             transform: isInView5 ? "none" : "translateX(150%)",
