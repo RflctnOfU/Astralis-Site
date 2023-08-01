@@ -35,8 +35,8 @@ function TourCard({ id, name, instruments, description, dates, image }: Tour) {
         height={768}
         className="w-full h-full absolute -z-10 object-cover mix-blend-overlay rounded-xl"
       />
-      <h1 className="text-5xl font-dream">&quot;{name}&quot;</h1>
-      <h2 className="text-2xl font-mont">{instruments}</h2>
+      <h1 className="text-5xl font-dream text-center">&quot;{name}&quot;</h1>
+      <h2 className="text-2xl font-mont text-center">{instruments}</h2>
       <p className="font-mont text-center px-4 lg:w-1/2 md:w-2/3 w-full">
         {description}
       </p>
