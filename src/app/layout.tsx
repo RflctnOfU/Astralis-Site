@@ -16,8 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` bg-[url("/images/experiment/background.png")] min-h-screen bg-fixed overflow-x-hidden scroll-smooth text-white`}
+        className={` min-h-screen bg-fixed w-screen overflow-x-hidden scroll-smooth text-white`}
       >
+        <div
+          className={`bg-[url("/images/experiment/background.png")] bg-no-repeat bg-center h-screen w-screen fixed -z-10`}
+        ></div>
         <Nav />
         {children}
         <Footer />
