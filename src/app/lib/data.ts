@@ -523,10 +523,6 @@ export const images = [
     src: "/images/carousel/cover1.webp",
     alt: "Baroque Quartet",
   },
-  // {
-  //   src: "/images/carousel/AstralisPhoto1Crop.webp",
-  //   alt: "Astralis Photo",
-  // },
   {
     src: "/images/carousel/cover2.webp",
     alt: "Concert Photo",
@@ -535,10 +531,6 @@ export const images = [
     src: "/images/carousel/cover3.webp",
     alt: "Duo Photo",
   },
-  // {
-  //   src: "/images/carousel/KrisAngela2edit.webp",
-  //   alt: "Kris and Angela",
-  // },
   {
     src: "/images/carousel/Performance.webp",
     alt: "Perfomance Photo",
@@ -550,10 +542,6 @@ export const publicity = [
     src: "/images/carousel/cover1.webp",
     alt: "Baroque Quartet 1",
   },
-  // {
-  //   src: "/images/publicity/BaroquePhoto2.jpg",
-  //   alt: "Baroque Quartet 2",
-  // },
   {
     src: "/images/publicity/BaroquePhoto3.jpg",
     alt: "Baroque Quartet 3",
@@ -764,20 +752,4 @@ export const pastPerformances = [
     src: "/images/past/20.jpg",
     alt: "Flute Cello Piano 2",
   },
-  // {
-  //   src: "/images/past/21.jpg",
-  //   alt: "Flute Cello Piano Chee Hang",
-  // },
-  // {
-  //   src: "/images/past/22.jpg",
-  //   alt: "Flute Piano Chee Hang 1",
-  // },
-  // {
-  //   src: "/images/past/23.jpg",
-  //   alt: "Flute Piano Chee Hang 2",
-  // },
-  // {
-  //   src: "/images/past/24.jpg",
-  //   alt: "Flute Piano Chee Hang 3",
-  // },
 ];
