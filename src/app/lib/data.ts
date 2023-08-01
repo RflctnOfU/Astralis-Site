@@ -681,7 +681,7 @@ export const pastPerformances = [
     alt: "Baroque Quartet 2",
   },
   {
-    src: "/images/past/3.jpg",
+    src: "/images/past/3.JPG",
     alt: "Baroque Quartet 3",
   },
   {
