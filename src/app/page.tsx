@@ -12,9 +12,9 @@ export default function Home() {
     <main className="flex flex-col justify-center items-center">
       <HeroImage />
       <hr className="text-neutral-200 w-[90%] self-center" />
-      <div className="lg:w-full md:w-[95%] w-[90%] m-auto py-[5%] flex flex-col items-center">
+      <div className="lg:w-full md:w-[95%] w-[90%] m-auto py-[5%] flex flex-col items-center justify-center">
         <div className="pb-[5%] font-mont font-light md:text-xl text-center">
-          <p className="mx-16">
+          <p className="lg:mx-16 m-4">
             The Astralis Chamber Ensemble is an innovative and dynamic ensemble
             performing with much acclaim across the globe. Through creative
             programming and presentations on the works performed, Astralis aims

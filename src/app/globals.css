@@ -56,7 +56,7 @@ body {
 }
 
 .closed {
-  @apply translate-x-[100%] max-h-0;
+  @apply translate-x-[100%] max-h-0 overflow-hidden;
 }
 
 .open {
