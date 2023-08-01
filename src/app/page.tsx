@@ -42,7 +42,7 @@ export default function Home() {
                 width={400}
                 quality={100}
                 className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] col-span-12 md:col-span-6 lg:col-span-3 object-cover overflow-hidden"
-                style={{ aspectRatio: 5 / 6 }}
+                style={{ aspectRatio: 5 / 5 }}
               />
             );
           })}

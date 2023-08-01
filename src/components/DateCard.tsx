@@ -8,7 +8,7 @@ interface DateCard {
 
 function DateCard({ month, date, year, city, time }: DateCard) {
   return (
-    <div className="bg-gray-300 bg-opacity-40 py-4 px-8 m-4 w-48 h-auto flex flex-col justify-center items-center rounded-xl">
+    <div className="bg-gray-300 bg-opacity-40 py-4 px-8 m-2 w-56 h-auto flex flex-col justify-center items-center rounded-xl">
       <h2 className="text-2xl font-mont">{month}</h2>
       <h1 className="text-8xl font-dream">{date}</h1>
       <h2 className="text-xl font-mont">{year}</h2>

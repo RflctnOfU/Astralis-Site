@@ -2,22 +2,11 @@
 import { useRef } from "react";
 import Link from "next/link";
 import { useInView } from "framer-motion";
-import { Josefin_Sans, Montserrat } from "next/font/google";
-const josefin = Josefin_Sans({
-  // variable: "--font-josefin",
-  weight: ["200"],
-  display: "swap",
-  subsets: ["latin"],
-});
-const montserrat = Montserrat({
-  weight: ["200", "400"],
-  display: "swap",
-  subsets: ["latin"],
-});
+// import { bios } from "@/app/lib/data";
 
 function Bios() {
-  const targetRef = useRef<HTMLDivElement>(null);
-  const isInView = useInView(targetRef, { once: true });
+  const targetRef0 = useRef<HTMLDivElement>(null);
+  const isInView0 = useInView(targetRef0, { once: true });
   const targetRef1 = useRef<HTMLDivElement>(null);
   const isInView1 = useInView(targetRef1, { once: true });
   const targetRef2 = useRef<HTMLDivElement>(null);
@@ -32,52 +21,56 @@ function Bios() {
   const isInView6 = useInView(targetRef6, { once: true });
   const targetRef7 = useRef<HTMLDivElement>(null);
   const isInView7 = useInView(targetRef7, { once: true });
+  const targetRef8 = useRef<HTMLDivElement>(null);
+  const isInView8 = useInView(targetRef8, { once: true });
+  const targetRef9 = useRef<HTMLDivElement>(null);
+  const isInView9 = useInView(targetRef9, { once: true });
 
   return (
-    <div className="w-[90%] mb-8 bg-[#d5d5d5] bg-opacity-20 rounded-2xl">
+    <div className="w-[90%] my-8 bg-[#d5d5d5] bg-opacity-20 rounded-2xl">
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
-        ref={targetRef}
+        ref={targetRef0}
       >
         <div
           className={`m-8 bg-[url('/images/members/angela4.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
-            isInView ? "transform-none" : "translate-x-[-150%]"
-          } ${isInView ? "opacity-100" : "opacity-0"} transition`}
-          ref={targetRef}
+            isInView0 ? "transform-none" : "translate-x-[-150%]"
+          } ${isInView0 ? "opacity-100" : "opacity-0"} transition`}
+          ref={targetRef0}
           style={{
-            transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s",
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
           }}
         ></div>
         <div className={`p-4 `}>
           <h2
             className={`text-5xl pt-4 text-center font-dream ${
-              isInView ? "transform-none" : "translate-x-[150%]"
-            } ${isInView ? "opacity-100" : "opacity-0"} `}
-            ref={targetRef}
+              isInView0 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView0 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef0}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
             ANGELA MASSEY
           </h2>
           <h4
             className={`text-2xl font-light text-center font-mont ${
-              isInView ? "transform-none" : "translate-x-[150%]"
-            } ${isInView ? "opacity-100" : "opacity-0"}`}
-            ref={targetRef}
+              isInView0 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView0 ? "opacity-100" : "opacity-0"}`}
+            ref={targetRef0}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
             FLUTE
           </h4>
           <p
             className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
-              isInView ? "transform-none" : "translate-x-[150%]"
-            } ${isInView ? "opacity-100" : "opacity-0"} `}
-            ref={targetRef}
+              isInView0 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView0 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef0}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
             Angela Massey’s debut album has been described as “beautiful and
@@ -124,29 +117,29 @@ function Bios() {
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
               opacity: isInView1 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
             KRIS MARSHALL
           </h2>
           <h4
-            className={`text-2xl font-light text-center ${montserrat.className}`}
+            className={`text-2xl font-light text-center font-mont`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
               opacity: isInView1 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
             TRUMPET
           </h4>
           <p
-            className={`${montserrat.className} p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
+            className={`font-mont p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
               opacity: isInView1 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
             Kris Marshall is principal trumpet with the Southwest Florida
@@ -172,12 +165,12 @@ function Bios() {
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/kris.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/4.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
           ref={targetRef1}
           style={{
             transform: isInView1 ? "none" : "translateX(150%)",
             opacity: isInView1 ? 1 : 0,
-            transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
           }}
         ></div>
       </div>
@@ -187,12 +180,12 @@ function Bios() {
         ref={targetRef2}
       >
         <div
-          className={`m-8 bg-[url('/images/members/Laura.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/Paul.webp')] bg-no-repeat bg-cover md:bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto h-[350px]  ${
             isInView2 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView2 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef2}
           style={{
-            transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s",
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
           }}
         ></div>
         <div className="p-4">
@@ -202,10 +195,10 @@ function Bios() {
             } ${isInView2 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef2}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            LAURA USISKIN
+            PAUL AGUILAR
           </h2>
           <h4
             className={`text-2xl font-light text-center font-mont ${
@@ -213,10 +206,10 @@ function Bios() {
             } ${isInView2 ? "opacity-100" : "opacity-0"}`}
             ref={targetRef2}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            CELLO
+            VIOLIN
           </h4>
           <p
             className={`leading-8 p-2 font-extralight text-center lg:text-right pr-4 font-mont ${
@@ -224,7 +217,205 @@ function Bios() {
             } ${isInView2 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef2}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
+            }}
+          >
+            As founding 1st violinist of the Callisto Quartet, Paul Aguilar won
+            top prizes at Banff, Bordeaux, Fischoff, Melbourne, Wigmore Hall,
+            and Manhattan International Competitions. Recent performances
+            include appearances on Schneider Concert Series, Dame Myra Hess
+            Concerts, Music Institute of Chicago Artist Series, Ravinia
+            Festival, ChamberFest Cleveland, La Jolla Summerfest, Heidelberg
+            String Quartet Festival, and the Emilia-Romagna Festival. He is also
+            performing with Orpheus Chamber Orchestra for the 2022-2023 season.
+            Formerly, he was a member of Rice University’s Graduate String
+            Quartet in Residence and also studied at the Escuela Superior de
+            Música Reina Sofia School in Madrid, Spain with Gunter Pichler. He
+            previously earned his Bachelor’s Degree in Violin Performance from
+            the Cleveland Institute of Music where he was a full-scholarship
+            student of Jaime Laredo and Jan Sloman. Hailing from a
+            Venezuelan-American family in South Carolina, he began studying
+            violin at age five with his older sister as his primary teacher. In
+            addition to traveling around the world performing, Paul enjoys
+            sharing music alongside his wife Rachel, at their church and
+            throughout their community in schools and numerous other community
+            centers. Paul is a 2019 MPower Grant recipient from the Sphinx
+            Organization.
+          </p>
+        </div>
+      </div>
+      <hr className="lg:hidden mx-4 self-center" />
+      <div
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
+        ref={targetRef3}
+      >
+        <div className=" p-4">
+          <h2
+            className={`text-5xl pt-4 text-center font-dream`}
+            ref={targetRef3}
+            style={{
+              transform: isInView3 ? "none" : "translateX(-150%)",
+              opacity: isInView3 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+            }}
+          >
+            RACHEL AGUILAR
+          </h2>
+          <h4
+            className={`text-2xl font-light text-center font-mont`}
+            ref={targetRef3}
+            style={{
+              transform: isInView3 ? "none" : "translateX(-150%)",
+              opacity: isInView3 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
+            }}
+          >
+            VIOLIN
+          </h4>
+          <p
+            className={`font-mont p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
+            ref={targetRef3}
+            style={{
+              transform: isInView3 ? "none" : "translateX(-150%)",
+              opacity: isInView3 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
+            }}
+          >
+            Originally from Holiday Hills, IL, Rachel Aguilar (Stenzel) grew up
+            in a very musical family, beginning her formal training on the piano
+            at age five and the violin at age nine. Currently residing in
+            Houston, TX, she completed both her bachelor’s and master’s degrees
+            in violin performance at the Cleveland Institute of Music (CIM), in
+            addition to participating in residencies at Rice University’s
+            Shepherd School of Music, Escuela Superior de Musica Reina Sofia
+            (Madrid), and the University of Music and Performing Arts in Vienna.
+            Although she loves both solo and orchestral playing, Rachel’s true
+            passion is for chamber music. As a founding member of the Callisto
+            Quartet, Rachel has won top prizes in nearly every major chamber
+            music competition, including the Banff International String Quartet
+            Competition, Bordeaux International String Quartet Competition,
+            Melbourne International Chamber Music Competition, and Fischoff
+            National Chamber Music Competition. In addition to chamber music,
+            Rachel is committed to performing regularly at her church and in the
+            community, and is also passionate of about teaching music. In her
+            spare time she enjoys running, cooking, all kinds of craft projects,
+            and spending time with her husband, Paul.
+          </p>
+        </div>
+
+        <div
+          className="fade-in-right m-8 bg-[url('/images/members/RachelA.webp')] bg-no-repeat bg-center bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
+          ref={targetRef3}
+          style={{
+            transform: isInView3 ? "none" : "translateX(150%)",
+            opacity: isInView3 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+          }}
+        ></div>
+      </div>
+      <hr className="lg:hidden mx-4 self-center" />
+      <div
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
+        ref={targetRef4}
+      >
+        <div
+          className={`m-8 bg-[url('/images/members/9.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+            isInView4 ? "transform-none" : "translate-x-[-150%]"
+          } ${isInView4 ? "opacity-100" : "opacity-0"} transition`}
+          ref={targetRef4}
+          style={{
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
+          }}
+        ></div>
+        <div className="p-4">
+          <h2
+            className={`text-5xl pt-4 text-center font-dream ${
+              isInView4 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView4 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef4}
+            style={{
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+            }}
+          >
+            PAOLO DARA
+          </h2>
+          <h4
+            className={`text-2xl font-light text-center font-mont ${
+              isInView4 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView4 ? "opacity-100" : "opacity-0"}`}
+            ref={targetRef4}
+            style={{
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
+            }}
+          >
+            VIOLIN
+          </h4>
+          <p
+            className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
+              isInView4 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView4 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef4}
+            style={{
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
+            }}
+          >
+            Violinist, Paolo Dara, is from Grand Rapids, Michigan and began
+            playing the violin at age 5. At 15, he gave his first concerto
+            appearance with the Lansing Symphony orchestra. He has also been
+            featured as soloist with the Grand Rapids Symphony and other local
+            orchestras in Michigan including the Grand Rapids Youth Symphony,
+            Detroit Civic Symphony, and Kent Philharmonic. In addition to
+            concerto performances, he has performed in the sections of the
+            Detroit and Atlanta Symphonies. Paolo has been heard at several
+            music festivals including the New York String Orchestra Seminar, IMS
+            Prussia Cove, PMP Chamber Music Workshop, and the Gstaad Menuhin
+            Academy. In addition, he is the co-director of a concert series in
+            Grand Rapids, Michigan called the Plymouth Chamber Players. He
+            completed his undergraduate studies at CIM where he was awarded the
+            Anna Y. Tringas Award for excellence in violin performance studying
+            with Jaime Laredo and Jan Sloman, and completed his Masters from the
+            Shepherd School of Music at Rice University studying with Kathleen
+            Winkler. Paolo is currently pursuing a Professional Studies
+            Certificate at the Cleveland Institute of Music as a student of
+            Stephen Rose.
+          </p>
+        </div>
+      </div>
+      <hr className="lg:hidden mx-4 self-center" />
+      <div
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
+        ref={targetRef5}
+      >
+        <div className=" p-4">
+          <h2
+            className={`text-5xl pt-4 text-center font-dream`}
+            ref={targetRef5}
+            style={{
+              transform: isInView5 ? "none" : "translateX(-150%)",
+              opacity: isInView5 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+            }}
+          >
+            LAURA USISKIN
+          </h2>
+          <h4
+            className={`text-2xl font-light text-center font-mont`}
+            ref={targetRef5}
+            style={{
+              transform: isInView5 ? "none" : "translateX(-150%)",
+              opacity: isInView5 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
+            }}
+          >
+            CELLO
+          </h4>
+          <p
+            className={`font-mont p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
+            ref={targetRef5}
+            style={{
+              transform: isInView5 ? "none" : "translateX(-150%)",
+              opacity: isInView5 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
             Laura Usiskin enjoys a versatile career as a cellist and educator.
@@ -256,122 +447,61 @@ function Bios() {
             .
           </p>
         </div>
-      </div>
-      <hr className="lg:hidden mx-4 self-center" />
-      <div
-        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
-        ref={targetRef3}
-      >
-        <div className=" p-4">
-          <h2
-            className={`text-5xl pt-4 text-center font-dream`}
-            ref={targetRef3}
-            style={{
-              transform: isInView3 ? "none" : "translateX(-150%)",
-              opacity: isInView3 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
-            }}
-          >
-            PAUL AGUILAR
-          </h2>
-          <h4
-            className={`text-2xl font-light text-center ${montserrat.className}`}
-            ref={targetRef3}
-            style={{
-              transform: isInView3 ? "none" : "translateX(-150%)",
-              opacity: isInView3 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
-            }}
-          >
-            VIOLIN
-          </h4>
-          <p
-            className={`${montserrat.className} p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
-            ref={targetRef3}
-            style={{
-              transform: isInView3 ? "none" : "translateX(-150%)",
-              opacity: isInView3 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
-            }}
-          >
-            As founding 1st violinist of the Callisto Quartet, Paul Aguilar won
-            top prizes at Banff, Bordeaux, Fischoff, Melbourne, Wigmore Hall,
-            and Manhattan International Competitions. Recent performances
-            include appearances on Schneider Concert Series, Dame Myra Hess
-            Concerts, Music Institute of Chicago Artist Series, Ravinia
-            Festival, ChamberFest Cleveland, La Jolla Summerfest, Heidelberg
-            String Quartet Festival, and the Emilia-Romagna Festival. He is also
-            performing with Orpheus Chamber Orchestra for the 2022-2023 season.
-            Formerly, he was a member of Rice University’s Graduate String
-            Quartet in Residence and also studied at the Escuela Superior de
-            Música Reina Sofia School in Madrid, Spain with Gunter Pichler. He
-            previously earned his Bachelor’s Degree in Violin Performance from
-            the Cleveland Institute of Music where he was a full-scholarship
-            student of Jaime Laredo and Jan Sloman. Hailing from a
-            Venezuelan-American family in South Carolina, he began studying
-            violin at age five with his older sister as his primary teacher. In
-            addition to traveling around the world performing, Paul enjoys
-            sharing music alongside his wife Rachel, at their church and
-            throughout their community in schools and numerous other community
-            centers. Paul is a 2019 MPower Grant recipient from the Sphinx
-            Organization.
-          </p>
-        </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/Paul.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
-          ref={targetRef3}
+          className="fade-in-right m-8 bg-[url('/images/members/10.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          ref={targetRef5}
           style={{
-            transform: isInView3 ? "none" : "translateX(150%)",
-            opacity: isInView3 ? 1 : 0,
-            transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+            transform: isInView5 ? "none" : "translateX(150%)",
+            opacity: isInView5 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
           }}
         ></div>
       </div>
       <hr className="lg:hidden mx-4 self-center" />
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
-        ref={targetRef4}
+        ref={targetRef6}
       >
         <div
           className={`m-8 bg-[url('/images/members/rachel.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
-            isInView4 ? "transform-none" : "translate-x-[-150%]"
-          } ${isInView4 ? "opacity-100" : "opacity-0"} transition`}
-          ref={targetRef4}
+            isInView6 ? "transform-none" : "translate-x-[-150%]"
+          } ${isInView6 ? "opacity-100" : "opacity-0"} transition`}
+          ref={targetRef6}
           style={{
-            transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s",
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
           }}
         ></div>
         <div className="p-4">
           <h2
             className={`text-5xl pt-4 text-center font-dream ${
-              isInView4 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView4 ? "opacity-100" : "opacity-0"} `}
-            ref={targetRef4}
+              isInView6 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView6 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef6}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
             RACHEL O&apos;BRIEN
           </h2>
           <h4
             className={`text-2xl font-light text-center font-mont ${
-              isInView4 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView4 ? "opacity-100" : "opacity-0"}`}
-            ref={targetRef4}
+              isInView6 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView6 ? "opacity-100" : "opacity-0"}`}
+            ref={targetRef6}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
             HARP
           </h4>
           <p
             className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
-              isInView4 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView4 ? "opacity-100" : "opacity-0"} `}
-            ref={targetRef4}
+              isInView6 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView6 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef6}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
             The 2019 Gold Medal winner of the Houston Symphony’s Ima Hogg
@@ -410,116 +540,116 @@ function Bios() {
       <hr className="lg:hidden mx-4 self-center" />
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
-        ref={targetRef5}
+        ref={targetRef7}
       >
         <div className=" p-4">
           <h2
-            className={`text-5xl pt-4 text-center font-dream`}
-            ref={targetRef5}
+            className={`pt-4 font-dream text-5xl text-center`}
+            ref={targetRef7}
             style={{
-              transform: isInView5 ? "none" : "translateX(-150%)",
-              opacity: isInView5 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            RACHEL AGUILAR
+            ALEXANDRA DUNBAR
           </h2>
           <h4
-            className={`text-2xl font-light text-center ${montserrat.className}`}
-            ref={targetRef5}
+            className={`font-mont text-2xl font-light text-center `}
+            ref={targetRef7}
             style={{
-              transform: isInView5 ? "none" : "translateX(-150%)",
-              opacity: isInView5 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            VIOLIN
+            HARPSICHORD
           </h4>
           <p
-            className={`${montserrat.className} p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
-            ref={targetRef5}
+            className={`font-mont p-2 text-center lg:text-left pl-4 leading-8 font-extralight`}
+            ref={targetRef7}
             style={{
-              transform: isInView5 ? "none" : "translateX(-150%)",
-              opacity: isInView5 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Originally from Holiday Hills, IL, Rachel Aguilar (Stenzel) grew up
-            in a very musical family, beginning her formal training on the piano
-            at age five and the violin at age nine. Currently residing in
-            Houston, TX, she completed both her bachelor’s and master’s degrees
-            in violin performance at the Cleveland Institute of Music (CIM), in
-            addition to participating in residencies at Rice University’s
-            Shepherd School of Music, Escuela Superior de Musica Reina Sofia
-            (Madrid), and the University of Music and Performing Arts in Vienna.
-            Although she loves both solo and orchestral playing, Rachel’s true
-            passion is for chamber music. As a founding member of the Callisto
-            Quartet, Rachel has won top prizes in nearly every major chamber
-            music competition, including the Banff International String Quartet
-            Competition, Bordeaux International String Quartet Competition,
-            Melbourne International Chamber Music Competition, and Fischoff
-            National Chamber Music Competition. In addition to chamber music,
-            Rachel is committed to performing regularly at her church and in the
-            community, and is also passionate of about teaching music. In her
-            spare time she enjoys running, cooking, all kinds of craft projects,
-            and spending time with her husband, Paul.
+            Dr. Alexandra Snyder Dunbar is an award-winning harpsichordist,
+            pianist, and pedagogue. She holds degrees from the Juilliard School,
+            Manhattan School of Music, and Interlochen Arts Academy. She
+            received a full scholarship as a resident in the C.V. Starr Fellows
+            Program as a Doctoral Candidate at Juilliard in the harpsichord
+            studio of Lionel Party. Solo performances with orchestra have
+            included Orchestra 54, Dorian Baroque Orchestra, The Memphis Chamber
+            Music Society, The Symphony of Westchester, and The Chamber
+            Orchestra of New York. Dr. Dunbar has collaborated on performance
+            projects with the Atlanta Baroque Orchestra, The Dryden Ensemble,
+            the Foundlings Ensemble, and The New York Philharmonic. Dr. Dunbar
+            is on the music faculty at the University of North Georgia and
+            Athens Technical College, and she regularly concertizes and
+            maintains a private teaching studio on piano, harpsichord, and
+            organ. She is an instructor of Music Theory and Harpsichord at the
+            world-renowned Interlochen Arts Camp in Interlochen, Michigan.
+            Currently she serves as Organist at Emmanuel Episcopal Church in
+            Athens, Georgia, and is harpsichordist and co-artistic director for
+            Amethyst Baroque Ensemble.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/RachelA.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
-          ref={targetRef5}
+          className="fade-in-right m-8 bg-[url('/images/members/15.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          ref={targetRef7}
           style={{
-            transform: isInView5 ? "none" : "translateX(150%)",
-            opacity: isInView5 ? 1 : 0,
-            transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+            transform: isInView7 ? "none" : "translateX(150%)",
+            opacity: isInView7 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
           }}
         ></div>
       </div>
       <hr className="lg:hidden mx-4 self-center" />
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
-        ref={targetRef6}
+        ref={targetRef8}
       >
         <div
-          className={`m-8 bg-[url('/images/members/owenphoto1.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
-            isInView6 ? "transform-none" : "translate-x-[-150%]"
-          } ${isInView6 ? "opacity-100" : "opacity-0"} transition`}
-          ref={targetRef6}
+          className={`m-8 bg-[url('/images/members/16.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+            isInView8 ? "transform-none" : "translate-x-[-150%]"
+          } ${isInView8 ? "opacity-100" : "opacity-0"} transition`}
+          ref={targetRef8}
           style={{
-            transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s",
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
           }}
         ></div>
         <div className="p-4">
           <h2
             className={`text-5xl pt-4 text-center font-dream ${
-              isInView6 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView6 ? "opacity-100" : "opacity-0"} `}
-            ref={targetRef6}
+              isInView8 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView8 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef8}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
             CAROLINE OWEN
           </h2>
           <h4
             className={`text-2xl font-light text-center font-mont ${
-              isInView6 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView6 ? "opacity-100" : "opacity-0"}`}
-            ref={targetRef6}
+              isInView8 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView8 ? "opacity-100" : "opacity-0"}`}
+            ref={targetRef8}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
             PIANO
           </h4>
           <p
             className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
-              isInView6 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView6 ? "opacity-100" : "opacity-0"} `}
-            ref={targetRef6}
+              isInView8 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView8 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef8}
             style={{
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
             A native of Atlanta, GA, pianist Caroline Owen has performed in
@@ -556,69 +686,70 @@ function Bios() {
       <hr className="lg:hidden mx-4 self-center" />
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
-        ref={targetRef7}
+        ref={targetRef9}
       >
         <div className=" p-4">
           <h2
             className={`pt-4 font-dream text-5xl text-center`}
-            ref={targetRef7}
+            ref={targetRef9}
             style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+              transform: isInView9 ? "none" : "translateX(-150%)",
+              opacity: isInView9 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            ALEXANDRA SNYDER DUNBAR
+            KERU ZHANG
           </h2>
           <h4
-            className={`${montserrat.className} text-2xl font-light text-center `}
-            ref={targetRef7}
+            className={`font-mont text-2xl font-light text-center `}
+            ref={targetRef9}
             style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.85s",
+              transform: isInView9 ? "none" : "translateX(-150%)",
+              opacity: isInView9 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            HARPSICHORD
+            PIANO
           </h4>
           <p
-            className={`${montserrat.className} p-2 text-center lg:text-left pl-4 leading-8 font-extralight`}
-            ref={targetRef7}
+            className={`font-mont p-2 text-center lg:text-left pl-4 leading-8 font-extralight`}
+            ref={targetRef9}
             style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
-              transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+              transform: isInView9 ? "none" : "translateX(-150%)",
+              opacity: isInView9 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Dr. Alexandra Snyder Dunbar is an award-winning harpsichordist,
-            pianist, and pedagogue. She holds degrees from the Juilliard School,
-            Manhattan School of Music, and Interlochen Arts Academy. She
-            received a full scholarship as a resident in the C.V. Starr Fellows
-            Program as a Doctoral Candidate at Juilliard in the harpsichord
-            studio of Lionel Party. Solo performances with orchestra have
-            included Orchestra 54, Dorian Baroque Orchestra, The Memphis Chamber
-            Music Society, The Symphony of Westchester, and The Chamber
-            Orchestra of New York. Dr. Dunbar has collaborated on performance
-            projects with the Atlanta Baroque Orchestra, The Dryden Ensemble,
-            the Foundlings Ensemble, and The New York Philharmonic. Dr. Dunbar
-            is on the music faculty at the University of North Georgia and
-            Athens Technical College, and she regularly concertizes and
-            maintains a private teaching studio on piano, harpsichord, and
-            organ. She is an instructor of Music Theory and Harpsichord at the
-            world-renowned Interlochen Arts Camp in Interlochen, Michigan.
-            Currently she serves as Organist at Emmanuel Episcopal Church in
-            Athens, Georgia, and is harpsichordist and co-artistic director for
-            Amethyst Baroque Ensemble.
+            Keru Zhang holds a bachelor&apos;s degree from the Cleveland
+            Institute of Music and a master&apos;s degree in piano performance
+            from The Juilliard School. Keru began her professional training at
+            age 4 in China and later moved to the United States after being
+            enrolled into the Pre-College of The Juilliard School at fifteen.
+            Keru has performed at prestigious venues, including Alice Tully Hall
+            at Lincoln Center, and is winner of the Bauchauer Scholarship
+            Competition at Juilliard. She participated in international music
+            festivals, including the Beethoven Music Festival in Germany,
+            Pianofest in the Hamptons, Orford Musique, and The Gilmore Piano
+            Festival. As a passionate chamber musician, Keru worked with members
+            of the Kalichstein-Laredo-Robinson Trio, Cavani Quartet, Juilliard
+            String Quartet, and she collaborated with the legendary cellist,
+            Lynn Harrell. Keru was on piano faculty at the Brooklyn Conservatory
+            of Music, as well as the Start-Up Program and staff pianist at the
+            School For Strings in NYC. She currently serves as piano faculty at
+            the Charleston Academy of Music and maintains her piano studio at
+            the Kawai Piano Gallery in Bluffton, SC. Outside of music, Keru
+            enjoys practicing yoga, cooking, playing badminton, skateboarding,
+            photography, and traveling.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/dunbar6ed2.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
-          ref={targetRef7}
+          className="fade-in-right m-8 bg-[url('/images/members/ZhangPhoto.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
+          ref={targetRef9}
           style={{
-            transform: isInView7 ? "none" : "translateX(150%)",
-            opacity: isInView7 ? 1 : 0,
-            transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+            transform: isInView9 ? "none" : "translateX(150%)",
+            opacity: isInView9 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
           }}
         ></div>
       </div>
