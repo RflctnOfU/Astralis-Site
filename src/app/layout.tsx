@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="relative">
+    <html lang="en" className="relative w-screen">
       <body
         className={` min-h-screen bg-fixed w-screen overflow-x-hidden scroll-smooth text-white relative`}
       >
