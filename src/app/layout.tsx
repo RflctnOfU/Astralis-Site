@@ -14,9 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="relative w-screen">
+    <html lang="en" className="relative w-screen overflow-hidden">
       <body
-        className={` min-h-screen bg-fixed w-screen overflow-x-hidden scroll-smooth text-white relative`}
+        className={` min-h-screen bg-fixed w-screen overflow-hidden scroll-smooth text-white relative`}
       >
         <div
           className={`bg-[url("/images/experiment/background.png")] bg-no-repeat bg-center h-screen w-screen fixed -z-10`}
