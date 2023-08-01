@@ -5,6 +5,7 @@ function About() {
   return (
     <div className="flex flex-col items-center">
       <HeroImage />
+      <hr className="text-neutral-200 w-[90%] self-center mb-8" />
       <Bios />
     </div>
   );

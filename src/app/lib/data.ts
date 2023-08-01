@@ -205,7 +205,7 @@ export const tourInfo = [
         time: "7:30 PM",
       },
       {
-        id: 1,
+        id: 2,
         month: "DECEMBER",
         date: "4",
         year: "2023",
@@ -213,7 +213,7 @@ export const tourInfo = [
         time: "TBD",
       },
       {
-        id: 2,
+        id: 3,
         month: "DECEMBER",
         date: "5",
         year: "2023",
@@ -221,7 +221,7 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
-        id: 3,
+        id: 4,
         month: "DECEMBER",
         date: "6",
         year: "2023",
@@ -229,7 +229,7 @@ export const tourInfo = [
         time: "TBD",
       },
       {
-        id: 4,
+        id: 5,
         month: "DECEMBER",
         date: "7",
         year: "2023",
@@ -237,7 +237,7 @@ export const tourInfo = [
         time: "6:30 PM",
       },
       {
-        id: 5,
+        id: 6,
         month: "DECEMBER",
         date: "10",
         year: "2023",
@@ -257,7 +257,7 @@ export const tourInfo = [
         id: 1,
         month: "JANUARY",
         date: "21",
-        year: "2023",
+        year: "2024",
         city: "Largo, FL",
         time: "3:00 PM",
       },
@@ -265,7 +265,7 @@ export const tourInfo = [
         id: 2,
         month: "JANUARY",
         date: "23",
-        year: "2023",
+        year: "2024",
         city: "Cape Coral, FL",
         time: "6:00 PM",
       },
@@ -273,7 +273,7 @@ export const tourInfo = [
         id: 3,
         month: "JANUARY",
         date: "28",
-        year: "2023",
+        year: "2024",
         city: "Vero Beach, FL",
         time: "4:00 PM",
       },
@@ -290,7 +290,7 @@ export const tourInfo = [
         id: 1,
         month: "FEBRUARY",
         date: "9",
-        year: "2023",
+        year: "2024",
         city: "Tallahassee, FL",
         time: "7:00 PM",
       },
@@ -298,7 +298,7 @@ export const tourInfo = [
         id: 2,
         month: "FEBRUARY",
         date: "10",
-        year: "2023",
+        year: "2024",
         city: "Tallahassee, FL",
         time: "TBD",
       },
@@ -306,7 +306,7 @@ export const tourInfo = [
         id: 3,
         month: "FEBRUARY",
         date: "12",
-        year: "2023",
+        year: "2024",
         city: "Jacksonville, FL",
         time: "12:00 PM",
       },
@@ -314,7 +314,7 @@ export const tourInfo = [
         id: 4,
         month: "FEBRUARY",
         date: "14",
-        year: "2023",
+        year: "2024",
         city: "Venice, FL",
         time: "4:00 PM",
       },
@@ -322,7 +322,7 @@ export const tourInfo = [
         id: 5,
         month: "FEBRUARY",
         date: "15",
-        year: "2023",
+        year: "2024",
         city: "DeLand, FL",
         time: "TBD",
       },
@@ -330,7 +330,7 @@ export const tourInfo = [
         id: 5,
         month: "FEBRUARY",
         date: "18",
-        year: "2023",
+        year: "2024",
         city: "Sun City Center, FL",
         time: "3:00 PM",
       },
@@ -347,7 +347,7 @@ export const tourInfo = [
         id: 1,
         month: "MARCH",
         date: "3",
-        year: "2023",
+        year: "2024",
         city: "Warner Robins, GA",
         time: "3:00 PM",
       },
@@ -355,7 +355,7 @@ export const tourInfo = [
         id: 2,
         month: "MARCH",
         date: "5",
-        year: "2023",
+        year: "2024",
         city: "Augusta, GA",
         time: "12:00 PM",
       },
@@ -363,7 +363,7 @@ export const tourInfo = [
         id: 3,
         month: "MARCH",
         date: "7",
-        year: "2023",
+        year: "2024",
         city: "Columbia, SC",
         time: "7:00 PM",
       },
@@ -371,7 +371,7 @@ export const tourInfo = [
         id: 4,
         month: "MARCH",
         date: "8",
-        year: "2023",
+        year: "2024",
         city: "Savannah, GA",
         time: "7:30 PM",
       },
@@ -379,7 +379,7 @@ export const tourInfo = [
         id: 5,
         month: "MARCH",
         date: "9",
-        year: "2023",
+        year: "2024",
         city: "Savannah, GA",
         time: "11:00 AM",
       },
@@ -387,7 +387,7 @@ export const tourInfo = [
         id: 6,
         month: "MARCH",
         date: "10",
-        year: "2023",
+        year: "2024",
         city: "St. Simons Island, GA",
         time: "5:00 PM",
       },
@@ -404,7 +404,7 @@ export const tourInfo = [
         id: 1,
         month: "APRIL",
         date: "14",
-        year: "2023",
+        year: "2024",
         city: "Sylvania, OH",
         time: "3:00 PM",
       },
@@ -412,7 +412,7 @@ export const tourInfo = [
         id: 2,
         month: "APRIL",
         date: "TBD",
-        year: "2023",
+        year: "2024",
         city: "Springfield, OH",
         time: "TBD",
       },
@@ -420,7 +420,7 @@ export const tourInfo = [
         id: 3,
         month: "APRIL",
         date: "19",
-        year: "2023",
+        year: "2024",
         city: "Willoughby Hills, OH",
         time: "7:30 PM",
       },
@@ -428,7 +428,7 @@ export const tourInfo = [
         id: 4,
         month: "APRIL",
         date: "20",
-        year: "2023",
+        year: "2024",
         city: "Solon, OH",
         time: "7:00 PM",
       },
@@ -436,7 +436,7 @@ export const tourInfo = [
         id: 5,
         month: "APRIL",
         date: "21",
-        year: "2023",
+        year: "2024",
         city: "Ashland, OH",
         time: "3:00 PM",
       },
@@ -457,6 +457,30 @@ export const videos = [
     src: "https://www.youtube.com/embed/wTgnQCcYqBw",
   },
   {
+    name: "Andriessen - Intermezzo",
+    src: "https://www.youtube.com/embed/U-E4MuFzM-s",
+  },
+  {
+    name: "Liebermann - Soliloquy",
+    src: "https://www.youtube.com/embed/zjwc6aRV0E8",
+  },
+  {
+    name: "Dorff - Ballade",
+    src: "https://www.youtube.com/embed/mKXSUwx4t9s",
+  },
+  {
+    name: "Ibert - Deux Interludes: Mvt. 1",
+    src: "https://www.youtube.com/embed/8iaRWpIWD-Q",
+  },
+  {
+    name: "Saint-Saens - Odelette",
+    src: "https://www.youtube.com/embed/Xmu9AQtysv4",
+  },
+  {
+    name: "Dorff - Atomic Turquoise",
+    src: "https://www.youtube.com/embed/AeviP7fQSIw",
+  },
+  {
     name: "Kurt Bestor - First Noel",
     src: "https://www.youtube.com/embed/rFgHZLOk24M",
   },
@@ -464,22 +488,12 @@ export const videos = [
     name: "Vaughn-Williams - Greensleeves",
     src: "https://www.youtube.com/embed/bCJHttMaOzk",
   },
-  {
-    name: "Andriessen - Intermezzo",
-    src: "https://www.youtube.com/embed/U-E4MuFzM-s",
-  },
-  {
-    name: "Ibert - Deux Interludes: Mvt. 1",
-    src: "https://www.youtube.com/embed/8iaRWpIWD-Q",
-  },
-  {
-    name: "Farrenc - Trio: Mvt. 1",
-    src: "https://www.youtube.com/embed/yLgEylUgaFI",
-  },
-  {
-    name: "Dorff - Ballade",
-    src: "https://www.youtube.com/embed/mKXSUwx4t9s",
-  },
+
+  // {
+  //   name: "Farrenc - Trio: Mvt. 1",
+  //   src: "https://www.youtube.com/embed/yLgEylUgaFI",
+  // },
+
   {
     name: "Harty - In Ireland",
     src: "https://www.youtube.com/embed/d9ZN20MBTrg",
@@ -488,26 +502,16 @@ export const videos = [
     name: "Beethoven - Romance in F",
     src: "https://www.youtube.com/embed/mVlliRERmzw",
   },
-  {
-    name: "Liebermann - Soliloquy",
-    src: "https://www.youtube.com/embed/zjwc6aRV0E8",
-  },
-  {
-    name: "Saint-Saens - Odelette",
-    src: "https://www.youtube.com/embed/Xmu9AQtysv4",
-  },
-  {
-    name: "Kersten - Song of the Woods",
-    src: "https://www.youtube.com/embed/XwBOhjWNSHM",
-  },
-  {
-    name: "Dorff - Atomic Turquoise",
-    src: "https://www.youtube.com/embed/AeviP7fQSIw",
-  },
-  {
-    name: "Farrenc - Trio: Mvt. 2",
-    src: "https://www.youtube.com/embed/8eOWtNqH0nM",
-  },
+
+  // {
+  //   name: "Kersten - Song of the Woods",
+  //   src: "https://www.youtube.com/embed/XwBOhjWNSHM",
+  // },
+
+  // {
+  //   name: "Farrenc - Trio: Mvt. 2",
+  //   src: "https://www.youtube.com/embed/8eOWtNqH0nM",
+  // },
   {
     name: "Mauldin - Mountain Winds: Mvt. 4",
     src: "https://www.youtube.com/embed/6IKIQcAoz40",
@@ -543,7 +547,7 @@ export const images = [
 
 export const publicity = [
   {
-    src: "/images/publicity/BaroquePhoto1.jpg",
+    src: "/images/carousel/cover1.webp",
     alt: "Baroque Quartet 1",
   },
   // {
@@ -571,6 +575,10 @@ export const publicity = [
     alt: "Flute Trumpet",
   },
   {
+    src: "/images/publicity/DuoPhoto4.jpg",
+    alt: "Flute Piano Duo",
+  },
+  {
     src: "/images/publicity/DuoPhoto1crop.jpg",
     alt: "Flute Piano Duo",
   },
@@ -578,14 +586,10 @@ export const publicity = [
     src: "/images/publicity/DuoPhoto2.jpg",
     alt: "Flute Piano Duo",
   },
-  {
-    src: "/images/publicity/DuoPhoto3.jpg",
-    alt: "Flute Piano Duo",
-  },
-  {
-    src: "/images/publicity/DuoPhoto4.jpg",
-    alt: "Flute Piano Duo",
-  },
+  // {
+  //   src: "/images/publicity/DuoPhoto3.jpg",
+  //   alt: "Flute Piano Duo",
+  // },
   {
     src: "/images/publicity/PhotoTrio.jpg",
     alt: "Flute Harp Trumpet",
@@ -677,4 +681,103 @@ export const headshots = [
     src: "/images/members/ZhangPhoto.webp",
     alt: "Keru standing next to piano smiling",
   },
+];
+
+export const pastPerformances = [
+  {
+    src: "/images/past/1.jpg",
+    alt: "Baroque Quartet 1",
+  },
+  {
+    src: "/images/past/2.jpg",
+    alt: "Baroque Quartet 2",
+  },
+  {
+    src: "/images/past/3.jpg",
+    alt: "Baroque Quartet 3",
+  },
+  {
+    src: "/images/past/4.jpg",
+    alt: "Flute Harp Duo 1",
+  },
+  {
+    src: "/images/past/5.JPEG",
+    alt: "Flute Harp Duo 2",
+  },
+  {
+    src: "/images/past/6.jpeg",
+    alt: "Flute Harp Duo 3",
+  },
+  {
+    src: "/images/past/7.jpg",
+    alt: "Flute Piano Duo 1",
+  },
+  {
+    src: "/images/past/8.jpg",
+    alt: "Flute Piano Duo 2",
+  },
+  {
+    src: "/images/past/9.jpg",
+    alt: "Flute Piano Duo 3",
+  },
+  {
+    src: "/images/past/10.jpg",
+    alt: "Flute Piano Duo 4",
+  },
+  {
+    src: "/images/past/11.JPG",
+    alt: "Flute Piano Duo 5",
+  },
+  {
+    src: "/images/past/12.jpg",
+    alt: "Flute Trumpet Harp 1",
+  },
+  {
+    src: "/images/past/13.jpg",
+    alt: "Flute Trumpet Harp 2",
+  },
+  {
+    src: "/images/past/14.JPG",
+    alt: "Flute and Harp Performance",
+  },
+  {
+    src: "/images/past/15.JPG",
+    alt: "Flute Harp",
+  },
+  {
+    src: "/images/past/16.JPG",
+    alt: "Flute Harp",
+  },
+  {
+    src: "/images/past/17.JPG",
+    alt: "Flute Harp Phoebe",
+  },
+  {
+    src: "/images/past/18.JPG",
+    alt: "Flute Trumpet",
+  },
+  {
+    src: "/images/past/19.JPG",
+    alt: "Flute Cello Piano 1",
+  },
+  {
+    src: "/images/past/20.jpg",
+    alt: "Flute Cello Piano 2",
+  },
+  // {
+  //   src: "/images/past/21.jpg",
+  //   alt: "Flute Cello Piano Chee Hang",
+  // },
+  // {
+  //   src: "/images/past/22.jpg",
+  //   alt: "Flute Piano Chee Hang 1",
+  // },
+  // {
+  //   src: "/images/past/23.jpg",
+  //   alt: "Flute Piano Chee Hang 2",
+  // },
+  // {
+  //   src: "/images/past/24.jpg",
+  //   alt: "Flute Piano Chee Hang 3",
+  // },
 ];

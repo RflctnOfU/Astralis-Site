@@ -21,16 +21,6 @@ function TourCard({ id, name, instruments, description, dates, image }: Tour) {
   const img = "url(" + image + ")";
   console.log(name);
   console.log(img);
-  // todo: fix background opacity
-  const imageStyle = {
-    backgroundImage: "url(" + image + ")",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundOpacity: ".5",
-    postition: "absolute",
-    // width: "100%",
-    // height: "100%",
-  };
 
   return (
     <div

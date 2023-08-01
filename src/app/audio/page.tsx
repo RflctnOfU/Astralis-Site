@@ -2,7 +2,7 @@ import HeroImage from "@/components/HeroImage";
 import { videos } from "../lib/data";
 function Audio() {
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="flex flex-col justify-center items-center w-full">
       <HeroImage />
       <hr className="text-neutral-200 w-[90%] self-center" />
       <div className="w-[90%] py-[5%] flex justify-center items-center">

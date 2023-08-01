@@ -46,7 +46,7 @@ function Footer() {
                   astralisensemble@gmail.com
                 </Link>
               </div>
-              <div>
+              <div className="lg:pr-14">
                 <Link
                   href="tel:7067262667"
                   className="no-underline font-normal"

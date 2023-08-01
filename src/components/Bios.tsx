@@ -83,9 +83,9 @@ function Bios() {
             Outside of the United States, she has performed in England, France,
             Germany, Italy, Romania, and Switzerland. In regard to chamber
             music, she serves as Artistic Director and founder of the Astralis
-            Chamber Ensemble arranging and performing numerous recitals each
-            year. She holds a flute/piccolo position with the Southwest Florida
-            Symphony and performs regularly with the Sarasota Orchestra. She was
+            Chamber Ensemble arranging and performing over 60 recitals each
+            year. She holds flute positions with the Southwest Florida Symphony,
+            Venice Symphony, and performs with the Sarasota Orchestra. She was
             awarded prizes in the Alexander and Buono Competition, Frank Bowen
             Competition, Myrna Brown Competition, and certificate in the
             Gheorghe Dima International Competition in Romania. Her instructors
@@ -95,7 +95,7 @@ function Bios() {
             College-Conservatory of Music, and the University of North Carolina
             at Chapel Hill. For more information, visit{" "}
             <Link
-              href={"www.angelamasseyflute.com"}
+              href={"https://www.angelamasseyflute.com"}
               target="_blank"
               className="text-[hsl(290,25%,73%)]"
             >
@@ -156,11 +156,10 @@ function Bios() {
             Orchestra Young Artist Competition and was later selected to attend
             the Chautauqua Institution Summer Music Festival where he studied
             with Chuck Berginc, principal trumpet with the Phoenix Symphony
-            Orchestra. Other significant instructors include Robert Smith,
-            principal trumpet with The Florida Orchestra, and Ed Cord, former
-            principal trumpet with the Israel Philharmonic and Utah Symphony.
-            Marshall pursued degrees in trumpet performance at Florida State
-            University, Indiana University, and the University of South Florida.
+            Orchestra. Other significant instructors include Robert Smith and Ed
+            Cord. Marshall pursued degrees in trumpet performance at Florida
+            State University, Indiana University, and the University of South
+            Florida.
           </p>
         </div>
 
@@ -230,17 +229,12 @@ function Bios() {
             performing with Orpheus Chamber Orchestra for the 2022-2023 season.
             Formerly, he was a member of Rice University’s Graduate String
             Quartet in Residence and also studied at the Escuela Superior de
-            Música Reina Sofia School in Madrid, Spain with Gunter Pichler. He
-            previously earned his Bachelor’s Degree in Violin Performance from
-            the Cleveland Institute of Music where he was a full-scholarship
-            student of Jaime Laredo and Jan Sloman. Hailing from a
-            Venezuelan-American family in South Carolina, he began studying
-            violin at age five with his older sister as his primary teacher. In
-            addition to traveling around the world performing, Paul enjoys
-            sharing music alongside his wife Rachel, at their church and
-            throughout their community in schools and numerous other community
-            centers. Paul is a 2019 MPower Grant recipient from the Sphinx
-            Organization.
+            Música Reina Sofia School in Madrid, Spain with Gunter Pichler.
+            Hailing from a Venezuelan-American family in South Carolina, he
+            began studying violin at age five. He earned his bachelor’s degree
+            in violin performance from the Cleveland Institute of Music where he
+            was a full-scholarship student of Jaime Laredo and Jan Sloman. Paul
+            is a 2019 MPower Grant recipient from the Sphinx Organization.
           </p>
         </div>
       </div>
@@ -295,11 +289,7 @@ function Bios() {
             music competition, including the Banff International String Quartet
             Competition, Bordeaux International String Quartet Competition,
             Melbourne International Chamber Music Competition, and Fischoff
-            National Chamber Music Competition. In addition to chamber music,
-            Rachel is committed to performing regularly at her church and in the
-            community, and is also passionate of about teaching music. In her
-            spare time she enjoys running, cooking, all kinds of craft projects,
-            and spending time with her husband, Paul.
+            National Chamber Music Competition.
           </p>
         </div>
 
@@ -527,7 +517,7 @@ function Bios() {
             harp performance under Yolanda Kondonassis. For more information,
             visit{" "}
             <Link
-              href={"www.rachelleehall.com"}
+              href={"http://www.rachelleehall.com"}
               target="_blank"
               className="text-[hsl(290,25%,73%)]"
             >
@@ -673,7 +663,7 @@ function Bios() {
             Music degree in piano performance from Florida State University. For
             more information, visit{" "}
             <Link
-              href={"www.carolineowenpiano.com"}
+              href={"https://www.carolineowenpiano.com"}
               target="_blank"
               className="text-[hsl(290,25%,73%)]"
             >
@@ -723,7 +713,7 @@ function Bios() {
             Keru Zhang holds a bachelor&apos;s degree from the Cleveland
             Institute of Music and a master&apos;s degree in piano performance
             from The Juilliard School. Keru began her professional training at
-            age 4 in China and later moved to the United States after being
+            age four in China and later moved to the United States after being
             enrolled into the Pre-College of The Juilliard School at fifteen.
             Keru has performed at prestigious venues, including Alice Tully Hall
             at Lincoln Center, and is winner of the Bauchauer Scholarship
@@ -737,9 +727,7 @@ function Bios() {
             of Music, as well as the Start-Up Program and staff pianist at the
             School For Strings in NYC. She currently serves as piano faculty at
             the Charleston Academy of Music and maintains her piano studio at
-            the Kawai Piano Gallery in Bluffton, SC. Outside of music, Keru
-            enjoys practicing yoga, cooking, playing badminton, skateboarding,
-            photography, and traveling.
+            the Kawai Piano Gallery in Bluffton, SC.
           </p>
         </div>
 

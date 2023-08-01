@@ -1,10 +1,11 @@
 "use client";
 
+import Link from "next/link";
 import Image from "next/image";
 import HeroImage from "@/components/HeroImage";
 import { SetStateAction, useState } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import { publicity, headshots } from "../lib/data";
+import { publicity, headshots, pastPerformances } from "../lib/data";
 // setup different sections - pairings, headshots
 
 function Photos() {
@@ -44,7 +45,7 @@ function Photos() {
   // };
   return (
     <>
-      <div className="w-full">
+      <div className="w-full flex-col flex justify-center items-center">
         {/* <Image
           src={"/images/experiment/image-transparent-background.png"}
           alt="image"
@@ -52,24 +53,30 @@ function Photos() {
           height={548}
         /> */}
         <HeroImage />
+        <hr className="text-neutral-200 w-[90%] self-center mb-12" />
         <div className="w-[90%] m-auto bg-[#d5d5d5] bg-opacity-20 rounded-xl mb-16 p-5 text-center place-items-center flex flex-col align-middle relative">
           <h2 className="text-4xl font-normal mb-4">Publicity Photos</h2>
           <div className="grid gap-4 lg:grid-cols-10 items-center">
             {publicity.map((photo, photoIndex) => {
-              console.log(photo.src);
-
               return (
-                <Image
+                <Link
                   key={photoIndex}
-                  src={photo.src}
-                  alt={photo.alt}
-                  height={400}
-                  width={400}
-                  quality={100}
-                  className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] col-span-10 md:col-span-6 lg:col-span-2 object-cover object-center overflow-hidden hover:cursor-pointer"
-                  style={{ aspectRatio: 7 / 8 }}
-                  // onClick={() => openModal(photoIndex)}
-                />
+                  href={photo.src}
+                  target="_blank"
+                  className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] col-span-10 md:col-span-6 lg:col-span-2 "
+                >
+                  <Image
+                    // key={photoIndex}
+                    src={photo.src}
+                    alt={photo.alt}
+                    height={400}
+                    width={400}
+                    quality={100}
+                    style={{ aspectRatio: 7 / 8 }}
+                    className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)]  object-cover object-center overflow-hidden hover:cursor-pointer"
+                    // onClick={() => openModal(photoIndex)}
+                  />
+                </Link>
               );
             })}
           </div>
@@ -112,20 +119,24 @@ function Photos() {
           <h2 className="text-4xl font-normal mb-4">Headshots</h2>
           <div className="grid gap-4 grid-cols-10 items-center">
             {headshots.map((photo, photoIndex) => {
-              console.log(photo.src);
-
               return (
-                <Image
+                <Link
                   key={photoIndex}
-                  src={photo.src}
-                  alt={photo.alt}
-                  height={400}
-                  width={400}
-                  quality={100}
-                  className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] col-span-10 md:col-span-3 lg:col-span-2 object-cover object-center hover:cursor-pointer bg-gray-500 bg-opacity-30"
-                  style={{ aspectRatio: 7 / 9 }}
-                  // onClick={() => openModalHead(photoIndex)}
-                />
+                  href={photo.src}
+                  target="_blank"
+                  className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] col-span-10 md:col-span-6 lg:col-span-2 "
+                >
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    height={400}
+                    width={400}
+                    quality={100}
+                    className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)]  object-cover object-center overflow-hidden hover:cursor-pointer"
+                    style={{ aspectRatio: 7 / 8 }}
+                    // onClick={() => openModalHead(photoIndex)}
+                  />
+                </Link>
               );
             })}
           </div>
@@ -163,6 +174,32 @@ function Photos() {
               />
             </div>
           </div> */}
+        </div>
+        <div className="w-[90%] m-auto bg-[#d5d5d5] bg-opacity-20 rounded-xl mb-16 p-5 text-center place-items-center flex flex-col align-middle relative">
+          <h2 className="text-4xl font-normal mb-4">Past Performances</h2>
+          <div className="grid gap-4 grid-cols-10 items-center">
+            {pastPerformances.map((photo, photoIndex) => {
+              return (
+                <Link
+                  key={photoIndex}
+                  href={photo.src}
+                  target="_blank"
+                  className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] col-span-10 md:col-span-6 lg:col-span-2 "
+                >
+                  <Image
+                    key={photoIndex}
+                    src={photo.src}
+                    alt={photo.alt}
+                    height={400}
+                    width={400}
+                    quality={100}
+                    className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)]  object-cover object-center overflow-hidden hover:cursor-pointer"
+                    style={{ aspectRatio: 7 / 8 }}
+                  />
+                </Link>
+              );
+            })}
+          </div>
         </div>
       </div>
     </>

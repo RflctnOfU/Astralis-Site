@@ -9,8 +9,9 @@ export const metadata: Metadata = {
 };
 export default function Home() {
   return (
-    <main className="">
+    <main className="flex flex-col justify-center items-center">
       <HeroImage />
+      <hr className="text-neutral-200 w-[90%] self-center" />
       <div className="lg:w-full md:w-[95%] w-[90%] m-auto py-[5%] flex flex-col items-center">
         <div className="pb-[5%] font-mont font-light md:text-xl text-center">
           <p className="mx-16">
@@ -19,16 +20,14 @@ export default function Home() {
             programming and presentations on the works performed, Astralis aims
             to make classical music more accessible and for audiences to make a
             lasting connection to the music. Concert tours are arranged to
-            include rural communities and those without access to classical
-            music. Astralis includes an assortment of musicians to cover a broad
-            range of repertoire and ensemble combinations to fit each
-            performance. These award-winning musicians represent decades of
+            include rural communities and reach audiences without access to
+            classical music. These award-winning musicians represent decades of
             experience across many of the world’s major venues and notable
             concert series. With instrument pairings that are unique worldwide,
-            the ensemble expands the repertoire available through yearly
-            commissions and arrangements. ACE aims to support the development of
-            the arts through new compositions and reach communities of all
-            backgrounds through music.
+            the ensemble expands the repertoire available through commissions
+            and arrangements. ACE aims to support the development of the arts
+            through new compositions and reach communities of all backgrounds
+            through music.
           </p>
         </div>
         <div className="m-8 p-4 grid grid-cols-12 gap-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl">

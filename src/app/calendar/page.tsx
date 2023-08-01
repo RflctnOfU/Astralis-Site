@@ -21,9 +21,7 @@ function Calendar() {
   return (
     <div className="w-full m-auto pb-[5%] flex flex-col items-center">
       <HeroImage />
-      <div className="text-center text-5xl font-light pb-16 mx-4 font-mont">
-        Tour Schedule:
-      </div>
+      <hr className="text-neutral-200 w-[90%] self-center mb-12" />
       {tourInfo.map((tour) => {
         return (
           <TourCard

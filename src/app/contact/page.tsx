@@ -49,6 +49,7 @@ function Contact() {
   return (
     <div className="pb-[72px] flex flex-col items-center font-mont">
       <HeroImage />
+      <hr className="text-neutral-200 w-[90%] self-center mb-12" />
       <div className=" w-[320px]">
         <div className="p-4 rounded-lg bg-transparent w-[320px] border-[1px] m-auto border-neutral-300 shadow shadow-black">
           <form
