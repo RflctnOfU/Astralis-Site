@@ -571,7 +571,7 @@ export const publicity = [
     alt: "Flute Piano Duo",
   },
   {
-    src: "/images/publicity/DuoPhoto2.jpg",
+    src: "/images/publicity/DuoPhoto2.JPG",
     alt: "Flute Piano Duo",
   },
   // {
