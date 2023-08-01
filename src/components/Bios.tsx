@@ -27,7 +27,7 @@ function Bios() {
   const isInView9 = useInView(targetRef9, { once: true });
 
   return (
-    <div className="w-[90%] my-8 bg-[#d5d5d5] bg-opacity-20 rounded-2xl">
+    <div className="w-[90%] my-8 bg-[#d5d5d5] bg-opacity-20 rounded-2xl text-white">
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
         ref={targetRef0}
