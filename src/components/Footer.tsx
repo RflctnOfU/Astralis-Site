@@ -41,7 +41,7 @@ function Footer() {
               <div>
                 <Link
                   href="mailto:astralisensemble@gmail.com"
-                  className="no-underline font-normal"
+                  className="no-underline font-mont font-extralight"
                 >
                   astralisensemble@gmail.com
                 </Link>
@@ -49,7 +49,7 @@ function Footer() {
               <div className="lg:pr-14">
                 <Link
                   href="tel:7067262667"
-                  className="no-underline font-normal"
+                  className="no-underline font-mont font-extralight"
                 >
                   706.726.2667
                 </Link>
@@ -58,7 +58,7 @@ function Footer() {
                 <Link
                   href="https://astralisensemble.com"
                   target="_blank"
-                  className="no-underline font-normal"
+                  className="no-underline font-mont font-extralight"
                 >
                   astralisensemble.com
                 </Link>
