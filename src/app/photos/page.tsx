@@ -52,7 +52,7 @@ function Photos() {
           width={1440}
           height={548}
         /> */}
-        <HeroImage />
+        {/* <HeroImage /> */}
         <hr className="text-neutral-200 w-[90%] self-center mb-12" />
         <div className="w-[90%] m-auto bg-[#d5d5d5] bg-opacity-20 rounded-xl mb-16 p-5 text-center place-items-center flex flex-col align-middle relative">
           <h2 className="text-4xl font-normal mb-4">Publicity Photos</h2>

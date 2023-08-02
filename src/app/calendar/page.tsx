@@ -20,7 +20,7 @@ function Calendar() {
   };
   return (
     <div className="w-full m-auto pb-[5%] flex flex-col items-center">
-      <HeroImage />
+      {/* <HeroImage /> */}
       <hr className="text-neutral-200 w-[90%] self-center mb-12" />
       {tourInfo.map((tour) => {
         return (
