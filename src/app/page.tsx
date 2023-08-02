@@ -12,7 +12,7 @@ export default function Home() {
     <main className="flex flex-col justify-center items-center w-full">
       <HeroImage />
       <hr className="text-neutral-200 w-[90%] self-center" />
-      <div className="lg:w-full md:w-[95%] w-[90%] m-auto py-[5%] flex flex-col items-center justify-center">
+      <div className="w-full m-auto py-[5%] flex flex-col items-center justify-center">
         <div className="pb-[5%] font-mont font-light md:text-xl text-center">
           <p className="lg:mx-16 m-4">
             The Astralis Chamber Ensemble is an innovative and dynamic ensemble
@@ -30,7 +30,7 @@ export default function Home() {
             through music.
           </p>
         </div>
-        <div className="m-8 p-4 grid grid-cols-12 gap-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl">
+        <div className="m-4 lg:m-8 p-4 grid grid-cols-12 gap-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl">
           {images.map((image) => {
             return (
               <Image
