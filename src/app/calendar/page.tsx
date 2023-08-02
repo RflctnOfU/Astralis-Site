@@ -19,7 +19,7 @@ function Calendar() {
   //   });
   // };
   return (
-    <div className="w-full  pb-[5%] flex my-12 flex-col items-center">
+    <div className="w-full mx-4 pb-[5%] flex my-12 flex-col items-center">
       {/* <HeroImage /> */}
       {/* <hr className="text-neutral-200 w-[90%] self-center mb-12" /> */}
       {tourInfo.map((tour) => {
