@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { X, Menu } from "lucide-react";
 import { linkData } from "@/app/lib/data";
-function Nav() {
+function Nav({}) {
   const pathname = usePathname();
 
   const [scrolled, setScrolled] = useState(false);

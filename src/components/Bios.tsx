@@ -41,9 +41,9 @@ function Bios() {
             transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
           }}
         ></div>
-        <div className={`p-4 `}>
+        <div className="md:p-4 p-2">
           <h2
-            className={`text-5xl pt-4 text-center font-dream ${
+            className={`md:text-5xl text-4xl py-4 text-center font-dream ${
               isInView0 ? "transform-none" : "translate-x-[150%]"
             } ${isInView0 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef0}
@@ -54,7 +54,7 @@ function Bios() {
             ANGELA MASSEY
           </h2>
           <h4
-            className={`text-2xl font-light text-center font-mont ${
+            className={`md:text-2xl text-xl font-light text-center font-mont ${
               isInView0 ? "transform-none" : "translate-x-[150%]"
             } ${isInView0 ? "opacity-100" : "opacity-0"}`}
             ref={targetRef0}
@@ -65,7 +65,7 @@ function Bios() {
             FLUTE
           </h4>
           <p
-            className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
+            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pl-4 ${
               isInView0 ? "transform-none" : "translate-x-[150%]"
             } ${isInView0 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef0}
@@ -110,9 +110,9 @@ function Bios() {
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
         ref={targetRef1}
       >
-        <div className=" p-4">
+        <div className="md:p-4 p-2">
           <h2
-            className={`font-dream pt-4 text-5xl text-center`}
+            className={`font-dream md:text-5xl text-4xl py-4 text-center`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
@@ -123,7 +123,7 @@ function Bios() {
             KRIS MARSHALL
           </h2>
           <h4
-            className={`text-2xl font-light text-center font-mont`}
+            className={`md:text-2xl text-xl font-light text-center font-mont`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
@@ -134,7 +134,7 @@ function Bios() {
             TRUMPET
           </h4>
           <p
-            className={`font-mont p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
+            className={`font-mont lg:p-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
@@ -164,7 +164,7 @@ function Bios() {
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/4.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/4.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
           ref={targetRef1}
           style={{
             transform: isInView1 ? "none" : "translateX(150%)",
@@ -187,7 +187,7 @@ function Bios() {
             transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
           }}
         ></div>
-        <div className="p-4">
+        <div className="md:p-4 p-2">
           <h2
             className={`text-5xl pt-4 text-center font-dream ${
               isInView2 ? "transform-none" : "translate-x-[150%]"
@@ -243,7 +243,7 @@ function Bios() {
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
         ref={targetRef3}
       >
-        <div className=" p-4">
+        <div className="md:p-4 p-2">
           <h2
             className={`text-5xl pt-4 text-center font-dream`}
             ref={targetRef3}
@@ -317,7 +317,7 @@ function Bios() {
             transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
           }}
         ></div>
-        <div className="p-4">
+        <div className="md:p-4 p-2">
           <h2
             className={`text-5xl pt-4 text-center font-dream ${
               isInView4 ? "transform-none" : "translate-x-[150%]"
@@ -376,7 +376,7 @@ function Bios() {
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
         ref={targetRef5}
       >
-        <div className=" p-4">
+        <div className="md:p-4 p-2">
           <h2
             className={`text-5xl pt-4 text-center font-dream`}
             ref={targetRef5}
@@ -439,7 +439,7 @@ function Bios() {
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/10.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/10.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
           ref={targetRef5}
           style={{
             transform: isInView5 ? "none" : "translateX(150%)",
@@ -462,7 +462,7 @@ function Bios() {
             transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
           }}
         ></div>
-        <div className="p-4">
+        <div className="md:p-4 p-2">
           <h2
             className={`text-5xl pt-4 text-center font-dream ${
               isInView6 ? "transform-none" : "translate-x-[150%]"
@@ -532,7 +532,7 @@ function Bios() {
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
         ref={targetRef7}
       >
-        <div className=" p-4">
+        <div className="md:p-4 p-2">
           <h2
             className={`pt-4 font-dream text-5xl text-center`}
             ref={targetRef7}
@@ -610,7 +610,7 @@ function Bios() {
             transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
           }}
         ></div>
-        <div className="p-4">
+        <div className="md:p-4 p-2">
           <h2
             className={`text-5xl pt-4 text-center font-dream ${
               isInView8 ? "transform-none" : "translate-x-[150%]"
@@ -678,7 +678,7 @@ function Bios() {
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
         ref={targetRef9}
       >
-        <div className=" p-4">
+        <div className="md:p-4 p-2">
           <h2
             className={`pt-4 font-dream text-5xl text-center`}
             ref={targetRef9}

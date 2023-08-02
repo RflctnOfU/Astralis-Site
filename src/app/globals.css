@@ -56,11 +56,11 @@ body {
 }
 
 .closed {
-  @apply translate-x-[100%] max-h-0 overflow-hidden;
+  @apply translate-x-[100%] max-h-0;
 }
 
 .open {
-  @apply translate-x-0 min-h-screen sticky top-0;
+  @apply translate-x-0 min-h-screen fixed w-full top-0;
 }
 
 .home-photos {
@@ -68,7 +68,7 @@ body {
 }
 
 .tour {
-  @apply w-[95%] lg:w-[90%] my-4 mx-10 h-auto rounded-2xl flex flex-col justify-center items-center border border-white bg-[#1d1d1d] bg-opacity-[85%] gap-8 py-8 relative;
+  @apply w-[95%] lg:w-[90%] my-4 mx-10 h-auto rounded-2xl flex flex-col justify-center items-center border border-white bg-[#1d1d1d] bg-opacity-70 gap-8 py-8 relative;
 }
 
 .tour::before {

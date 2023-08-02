@@ -33,11 +33,15 @@ function TourCard({ id, name, instruments, description, dates, image }: Tour) {
         src={image}
         width={1440}
         height={768}
-        className="w-full h-full absolute -z-10 object-cover mix-blend-overlay rounded-xl"
+        className="w-full h-full absolute -z-10 object-cover mix-blend-lighten rounded-xl"
       />
-      <h1 className="text-5xl font-dream text-center">&quot;{name}&quot;</h1>
-      <h2 className="text-2xl font-mont text-center">{instruments}</h2>
-      <p className="font-mont text-center px-4 lg:w-1/2 md:w-2/3 w-full">
+      <h1 className="md:text-5xl text-3xl font-dream text-center">
+        &quot;{name}&quot;
+      </h1>
+      <h2 className="md:text-2xl text-xl font-mont text-center">
+        {instruments}
+      </h2>
+      <p className="font-mont text-center px-1 md:px-4 lg:w-1/2 md:w-2/3 w-full">
         {description}
       </p>
       <div className="lg:w-full flex md:flex-row md:flex-wrap flex-col justify-center">
