@@ -11,7 +11,7 @@ function Audio() {
             return (
               <div
                 key={video.name}
-                className="col-span-12 md:col-span-6 lg:col-span-4 flex flex-grow w-full"
+                className="col-span-12 lg:col-span-4 flex flex-grow w-full"
                 style={{ aspectRatio: 4 / 3 }}
               >
                 <iframe
