@@ -41,7 +41,7 @@ function TourCard({ id, name, instruments, description, dates, image }: Tour) {
       <h2 className="md:text-2xl text-xl font-mont px-4 text-center">
         {instruments}
       </h2>
-      <p className="font-mont text-center px-1 md:px-4 lg:w-1/2 md:w-2/3 w-full">
+      <p className="font-mont text-center px-4 lg:w-1/2 md:w-2/3 w-full">
         {description}
       </p>
       <div className="lg:w-full flex md:flex-row md:flex-wrap flex-col justify-center">
