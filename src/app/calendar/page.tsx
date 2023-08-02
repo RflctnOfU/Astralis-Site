@@ -19,22 +19,24 @@ function Calendar() {
   //   });
   // };
   return (
-    <div className="w-[90%] mx-4 pb-[5%] flex my-12 flex-col items-center">
-      {/* <HeroImage /> */}
-      {/* <hr className="text-neutral-200 w-[90%] self-center mb-12" /> */}
-      {tourInfo.map((tour) => {
-        return (
-          <TourCard
-            id={tour.name}
-            key={tour.name}
-            name={tour.name}
-            image={tour.image}
-            instruments={tour.instruments}
-            description={tour.description}
-            dates={tour.dates}
-          />
-        );
-      })}
+    <div className="w-full flex flex-col justify-center items-center my-12 ">
+      <div className="w-[90%] mx-8 flex flex-col items-center justify-center">
+        {/* <HeroImage /> */}
+        {/* <hr className="text-neutral-200 w-[90%] self-center mb-12" /> */}
+        {tourInfo.map((tour) => {
+          return (
+            <TourCard
+              id={tour.name}
+              key={tour.name}
+              name={tour.name}
+              image={tour.image}
+              instruments={tour.instruments}
+              description={tour.description}
+              dates={tour.dates}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

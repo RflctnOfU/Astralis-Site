@@ -16,13 +16,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="relative w-screen overflow-x-hidden max-w-[1600px]"
+      className="relative w-full overflow-x-hidden max-w-[1600px]"
     >
       <body
-        className={` min-h-screen bg-fixed w-screen overflow-x-hidden scroll-smooth text-white relative`}
+        className={` min-h-screen bg-fixed overflow-x-hidden scroll-smooth text-white relative `}
       >
         <div
-          className={`bg-[url("/images/experiment/background.png")] bg-no-repeat bg-center h-screen w-screen fixed -z-10`}
+          className={`bg-[url("/images/experiment/background.png")] bg-no-repeat bg-center h-screen w-full fixed -z-10`}
         ></div>
         <Nav />
         {children}

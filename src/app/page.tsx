@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center">
+    <main className="flex flex-col justify-center items-center w-full">
       <HeroImage />
       <hr className="text-neutral-200 w-[90%] self-center" />
       <div className="lg:w-full md:w-[95%] w-[90%] m-auto py-[5%] flex flex-col items-center justify-center">
