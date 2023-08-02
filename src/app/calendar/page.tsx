@@ -7,21 +7,21 @@ import { NextPage } from "next";
 // todo: update when itinerary is figured
 
 function Calendar() {
-  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    e.preventDefault();
+  // const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  //   e.preventDefault();
 
-    const href = e.currentTarget.href;
-    const targetId = href.replace(/.*\#/, "");
+  //   const href = e.currentTarget.href;
+  //   const targetId = href.replace(/.*\#/, "");
 
-    const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
+  //   const elem = document.getElementById(targetId);
+  //   elem?.scrollIntoView({
+  //     behavior: "smooth",
+  //   });
+  // };
   return (
-    <div className="w-full m-auto pb-[5%] flex flex-col items-center">
+    <div className="w-full  pb-[5%] flex my-12 flex-col items-center">
       {/* <HeroImage /> */}
-      <hr className="text-neutral-200 w-[90%] self-center mb-12" />
+      {/* <hr className="text-neutral-200 w-[90%] self-center mb-12" /> */}
       {tourInfo.map((tour) => {
         return (
           <TourCard

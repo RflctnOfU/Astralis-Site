@@ -14,7 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="relative w-screen overflow-x-hidden">
+    <html
+      lang="en"
+      className="relative w-screen overflow-x-hidden max-w-[1600px]"
+    >
       <body
         className={` min-h-screen bg-fixed w-screen overflow-x-hidden scroll-smooth text-white relative`}
       >

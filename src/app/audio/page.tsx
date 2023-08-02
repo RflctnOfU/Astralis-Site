@@ -2,10 +2,10 @@ import HeroImage from "@/components/HeroImage";
 import { videos } from "../lib/data";
 function Audio() {
   return (
-    <div className="flex flex-col justify-center items-center w-full">
+    <div className="flex flex-col my-16 justify-center items-center w-full">
       {/* <HeroImage /> */}
-      <hr className="text-neutral-200 w-[90%] self-center" />
-      <div className="w-[90%] py-[5%] flex justify-center items-center">
+      {/* <hr className="text-neutral-200 w-[90%] self-center" /> */}
+      <div className="w-[90%] flex justify-center items-center">
         <div className=" grid grid-cols-12 gap-4 p-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl w-full">
           {videos.map((video) => {
             return (
