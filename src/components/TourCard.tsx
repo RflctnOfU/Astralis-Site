@@ -38,7 +38,7 @@ function TourCard({ id, name, instruments, description, dates, image }: Tour) {
       <h1 className="md:text-5xl text-3xl font-dream text-center">
         &quot;{name}&quot;
       </h1>
-      <h2 className="md:text-2xl text-xl font-mont text-center">
+      <h2 className="md:text-2xl text-xl font-mont px-4 text-center">
         {instruments}
       </h2>
       <p className="font-mont text-center px-1 md:px-4 lg:w-1/2 md:w-2/3 w-full">
