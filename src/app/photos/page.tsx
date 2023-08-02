@@ -72,6 +72,7 @@ function Photos() {
                     height={400}
                     width={400}
                     quality={100}
+                    loading="lazy"
                     style={{ aspectRatio: 7 / 8 }}
                     className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)]  object-cover object-center overflow-hidden hover:cursor-pointer"
                     // onClick={() => openModal(photoIndex)}
@@ -132,6 +133,7 @@ function Photos() {
                     height={400}
                     width={400}
                     quality={100}
+                    loading="lazy"
                     className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)]  object-cover object-center overflow-hidden hover:cursor-pointer"
                     style={{ aspectRatio: 7 / 8 }}
                     // onClick={() => openModalHead(photoIndex)}
@@ -193,6 +195,7 @@ function Photos() {
                     height={400}
                     width={400}
                     quality={100}
+                    loading="lazy"
                     className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)]  object-cover object-center overflow-hidden hover:cursor-pointer"
                     style={{ aspectRatio: 7 / 8 }}
                   />

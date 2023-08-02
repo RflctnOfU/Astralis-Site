@@ -33,6 +33,7 @@ function TourCard({ id, name, instruments, description, dates, image }: Tour) {
         src={image}
         width={1440}
         height={768}
+        loading="lazy"
         className="w-full h-full absolute -z-10 object-cover mix-blend-lighten rounded-xl"
       />
       <h1 className="md:text-5xl text-3xl font-dream text-center">

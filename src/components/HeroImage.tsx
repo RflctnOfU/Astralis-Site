@@ -8,6 +8,7 @@ function HeroImage() {
         alt="image"
         width={1200}
         height={548}
+        loading="lazy"
         // className="w-full"
       />
     </div>

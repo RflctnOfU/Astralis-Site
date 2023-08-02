@@ -40,6 +40,7 @@ export default function Home() {
                 height={500}
                 width={400}
                 quality={100}
+                loading="lazy"
                 className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)] col-span-12 md:col-span-6 lg:col-span-3 object-cover overflow-hidden"
                 style={{ aspectRatio: 5 / 5 }}
               />
