@@ -27,7 +27,7 @@ function Bios() {
   const isInView9 = useInView(targetRef9, { once: true });
 
   return (
-    <div className="w-[90%] my-8 bg-[#d5d5d5] bg-opacity-20 rounded-2xl text-white">
+    <div className="w-[90%] my-16 bg-[#d5d5d5] bg-opacity-20 rounded-2xl text-white">
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
         ref={targetRef0}
@@ -65,7 +65,7 @@ function Bios() {
             FLUTE
           </h4>
           <p
-            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pl-4 ${
+            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
               isInView0 ? "transform-none" : "translate-x-[150%]"
             } ${isInView0 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef0}
@@ -134,7 +134,7 @@ function Bios() {
             TRUMPET
           </h4>
           <p
-            className={`font-mont lg:p-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
             ref={targetRef1}
             style={{
               transform: isInView1 ? "none" : "translateX(-150%)",
@@ -189,7 +189,7 @@ function Bios() {
         ></div>
         <div className="md:p-4 p-2">
           <h2
-            className={`text-5xl pt-4 text-center font-dream ${
+            className={`md:text-5xl text-4xl py-4 text-center font-dream ${
               isInView2 ? "transform-none" : "translate-x-[150%]"
             } ${isInView2 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef2}
@@ -200,7 +200,7 @@ function Bios() {
             PAUL AGUILAR
           </h2>
           <h4
-            className={`text-2xl font-light text-center font-mont ${
+            className={`md:text-2xl text-xl font-light text-center font-mont ${
               isInView2 ? "transform-none" : "translate-x-[150%]"
             } ${isInView2 ? "opacity-100" : "opacity-0"}`}
             ref={targetRef2}
@@ -211,7 +211,7 @@ function Bios() {
             VIOLIN
           </h4>
           <p
-            className={`leading-8 p-2 font-extralight text-center lg:text-right pr-4 font-mont ${
+            className={`leading-8 py-2 lg:pr-4 font-extralight text-center lg:text-right font-mont ${
               isInView2 ? "transform-none" : "translate-x-[150%]"
             } ${isInView2 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef2}
@@ -245,7 +245,7 @@ function Bios() {
       >
         <div className="md:p-4 p-2">
           <h2
-            className={`text-5xl pt-4 text-center font-dream`}
+            className={`md:text-5xl text-4xl py-4 text-center font-dream`}
             ref={targetRef3}
             style={{
               transform: isInView3 ? "none" : "translateX(-150%)",
@@ -256,7 +256,7 @@ function Bios() {
             RACHEL AGUILAR
           </h2>
           <h4
-            className={`text-2xl font-light text-center font-mont`}
+            className={`md:text-2xl text-xl font-light text-center font-mont`}
             ref={targetRef3}
             style={{
               transform: isInView3 ? "none" : "translateX(-150%)",
@@ -267,7 +267,7 @@ function Bios() {
             VIOLIN
           </h4>
           <p
-            className={`font-mont p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
             ref={targetRef3}
             style={{
               transform: isInView3 ? "none" : "translateX(-150%)",
@@ -319,7 +319,7 @@ function Bios() {
         ></div>
         <div className="md:p-4 p-2">
           <h2
-            className={`text-5xl pt-4 text-center font-dream ${
+            className={`md:text-5xl text-4xl py-4 text-center font-dream ${
               isInView4 ? "transform-none" : "translate-x-[150%]"
             } ${isInView4 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef4}
@@ -330,7 +330,7 @@ function Bios() {
             PAOLO DARA
           </h2>
           <h4
-            className={`text-2xl font-light text-center font-mont ${
+            className={`md:text-2xl text-xl font-light text-center font-mont ${
               isInView4 ? "transform-none" : "translate-x-[150%]"
             } ${isInView4 ? "opacity-100" : "opacity-0"}`}
             ref={targetRef4}
@@ -341,7 +341,7 @@ function Bios() {
             VIOLIN
           </h4>
           <p
-            className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
+            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
               isInView4 ? "transform-none" : "translate-x-[150%]"
             } ${isInView4 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef4}
@@ -378,7 +378,7 @@ function Bios() {
       >
         <div className="md:p-4 p-2">
           <h2
-            className={`text-5xl pt-4 text-center font-dream`}
+            className={`md:text-5xl text-4xl py-4 text-center font-dream`}
             ref={targetRef5}
             style={{
               transform: isInView5 ? "none" : "translateX(-150%)",
@@ -389,7 +389,7 @@ function Bios() {
             LAURA USISKIN
           </h2>
           <h4
-            className={`text-2xl font-light text-center font-mont`}
+            className={`md:text-2xl text-xl font-light text-center font-mont`}
             ref={targetRef5}
             style={{
               transform: isInView5 ? "none" : "translateX(-150%)",
@@ -400,7 +400,7 @@ function Bios() {
             CELLO
           </h4>
           <p
-            className={`font-mont p-2 pl-4 text-center lg:text-left leading-8 font-extralight`}
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
             ref={targetRef5}
             style={{
               transform: isInView5 ? "none" : "translateX(-150%)",
@@ -464,7 +464,7 @@ function Bios() {
         ></div>
         <div className="md:p-4 p-2">
           <h2
-            className={`text-5xl pt-4 text-center font-dream ${
+            className={`md:text-5xl text-4xl py-4 text-center font-dream ${
               isInView6 ? "transform-none" : "translate-x-[150%]"
             } ${isInView6 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef6}
@@ -475,7 +475,7 @@ function Bios() {
             RACHEL O&apos;BRIEN
           </h2>
           <h4
-            className={`text-2xl font-light text-center font-mont ${
+            className={`md:text-2xl text-xl font-light text-center font-mont ${
               isInView6 ? "transform-none" : "translate-x-[150%]"
             } ${isInView6 ? "opacity-100" : "opacity-0"}`}
             ref={targetRef6}
@@ -486,7 +486,7 @@ function Bios() {
             HARP
           </h4>
           <p
-            className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
+            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
               isInView6 ? "transform-none" : "translate-x-[150%]"
             } ${isInView6 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef6}
@@ -534,7 +534,7 @@ function Bios() {
       >
         <div className="md:p-4 p-2">
           <h2
-            className={`pt-4 font-dream text-5xl text-center`}
+            className={` font-dream md:text-5xl text-4xl py-4 text-center`}
             ref={targetRef7}
             style={{
               transform: isInView7 ? "none" : "translateX(-150%)",
@@ -545,7 +545,7 @@ function Bios() {
             ALEXANDRA DUNBAR
           </h2>
           <h4
-            className={`font-mont text-2xl font-light text-center `}
+            className={`md:text-2xl text-xl font-mont font-light text-center `}
             ref={targetRef7}
             style={{
               transform: isInView7 ? "none" : "translateX(-150%)",
@@ -556,7 +556,7 @@ function Bios() {
             HARPSICHORD
           </h4>
           <p
-            className={`font-mont p-2 text-center lg:text-left pl-4 leading-8 font-extralight`}
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
             ref={targetRef7}
             style={{
               transform: isInView7 ? "none" : "translateX(-150%)",
@@ -612,7 +612,7 @@ function Bios() {
         ></div>
         <div className="md:p-4 p-2">
           <h2
-            className={`text-5xl pt-4 text-center font-dream ${
+            className={`md:text-5xl text-4xl py-4 text-center font-dream ${
               isInView8 ? "transform-none" : "translate-x-[150%]"
             } ${isInView8 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef8}
@@ -623,7 +623,7 @@ function Bios() {
             CAROLINE OWEN
           </h2>
           <h4
-            className={`text-2xl font-light text-center font-mont ${
+            className={`md:text-2xl text-xl font-light text-center font-mont ${
               isInView8 ? "transform-none" : "translate-x-[150%]"
             } ${isInView8 ? "opacity-100" : "opacity-0"}`}
             ref={targetRef8}
@@ -634,7 +634,7 @@ function Bios() {
             PIANO
           </h4>
           <p
-            className={`font-mont leading-8 font-extralight text-center lg:text-right pr-4 p-2 ${
+            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
               isInView8 ? "transform-none" : "translate-x-[150%]"
             } ${isInView8 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef8}
@@ -680,7 +680,7 @@ function Bios() {
       >
         <div className="md:p-4 p-2">
           <h2
-            className={`pt-4 font-dream text-5xl text-center`}
+            className={`md:text-5xl text-4xl py-4 font-dream text-center`}
             ref={targetRef9}
             style={{
               transform: isInView9 ? "none" : "translateX(-150%)",
@@ -691,7 +691,7 @@ function Bios() {
             KERU ZHANG
           </h2>
           <h4
-            className={`font-mont text-2xl font-light text-center `}
+            className={`font-mont md:text-2xl text-xl font-light text-center `}
             ref={targetRef9}
             style={{
               transform: isInView9 ? "none" : "translateX(-150%)",
@@ -702,7 +702,7 @@ function Bios() {
             PIANO
           </h4>
           <p
-            className={`font-mont p-2 text-center lg:text-left pl-4 leading-8 font-extralight`}
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left  leading-8 font-extralight`}
             ref={targetRef9}
             style={{
               transform: isInView9 ? "none" : "translateX(-150%)",
