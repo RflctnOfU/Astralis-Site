@@ -11,30 +11,30 @@ function Footer() {
               <Link
                 href="mailto:astralisensemble@gmail.com"
                 target="_blank"
-                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
+                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-[#c5c5c5]"
               >
                 <Mail size={35} />
               </Link>
               <Link
                 href="https://www.facebook.com/astralisensemble/"
                 target="_blank"
-                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
+                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-[#c5c5c5]"
               >
-                <Facebook size={35} />
+                <Facebook size={30} />
               </Link>
               <Link
                 href="https://www.youtube.com/channel/UCKcTXindgAiNh-uyAncfQEw"
                 target="_blank"
-                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
+                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-[#c5c5c5]"
               >
-                <Youtube size={35} />
+                <Youtube size={30} />
               </Link>
               <Link
                 href="https://www.instagram.com/astralisensemble/"
                 target="_blank"
-                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-white"
+                className="hover:scale-105 transistion duration-300 ease-in-out hover:text-[hsl(287,20%,60%)] text-[#c5c5c5]"
               >
-                <Instagram size={35} />
+                <Instagram size={30} />
               </Link>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-around text-white w-full">
