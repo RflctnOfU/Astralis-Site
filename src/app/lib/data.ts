@@ -590,7 +590,7 @@ export const publicity = [
 
 export const headshots = [
   {
-    src: "/images/members/angela2.webp",
+    src: "/images/members/angela3.webp",
     alt: "Angela Smiling in front of Greenery",
   },
   {
