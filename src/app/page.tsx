@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     type: "website",
     url: "www.astralisensemble.com",
     description:
-      "he Astralis Chamber Ensemble is an innovative and dynamic ensemble performing with much acclaim across the globe. Through creative programming and presentations on the works performed, Astralis aims to make classical music more accessible and for audiences to make a lasting connection to the music.",
+      "The Astralis Chamber Ensemble is an innovative and dynamic ensemble performing with much acclaim across the globe. Through creative programming and presentations on the works performed, Astralis aims to make classical music more accessible and for audiences to make a lasting connection to the music.",
     siteName: "Astralis Chamber Ensemble",
     images: [
       {
-        url: "www.astralisensemble.com/screenshots/homepage.png",
+        url: "https://www.astralisensemble.com/screenshots/homepage.png",
       },
     ],
   },
