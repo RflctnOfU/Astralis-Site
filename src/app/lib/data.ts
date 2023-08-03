@@ -408,14 +408,14 @@ export const tourInfo = [
         city: "Sylvania, OH",
         time: "3:00 PM",
       },
-      {
-        id: 2,
-        month: "APRIL",
-        date: "TBD",
-        year: "2024",
-        city: "Springfield, OH",
-        time: "TBD",
-      },
+      // {
+      //   id: 2,
+      //   month: "APRIL",
+      //   date: "TBD",
+      //   year: "2024",
+      //   city: "Springfield, OH",
+      //   time: "TBD",
+      // },
       {
         id: 3,
         month: "APRIL",
