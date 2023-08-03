@@ -586,10 +586,6 @@ export const publicity = [
     src: "/images/publicity/PhotoDuo1.jpg",
     alt: "Flute Harp 1",
   },
-  {
-    src: "/images/publicity/PhotoDuo2.jpg",
-    alt: "Flute Harp 2",
-  },
 ];
 
 export const headshots = [
@@ -693,8 +689,8 @@ export const pastPerformances = [
     alt: "Flute Harp Duo 2",
   },
   {
-    src: "/images/past/6.jpeg",
-    alt: "Flute Harp Duo 3",
+    src: "/images/publicity/PhotoDuo3.jpg",
+    alt: "Flute Harp 2",
   },
   {
     src: "/images/past/7.jpg",
