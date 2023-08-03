@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://www.astralisensemble.com/screenshots/homepage.png",
+        alt: "Astralis Homepage screenshot showing banner with photos of core members",
       },
     ],
   },
