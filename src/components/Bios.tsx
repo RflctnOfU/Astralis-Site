@@ -33,7 +33,7 @@ function Bios() {
         ref={targetRef0}
       >
         <div
-          className={`m-8 bg-[url('/images/members/angela4.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/angela2.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView0 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView0 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef0}

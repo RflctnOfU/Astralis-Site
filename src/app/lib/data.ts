@@ -562,16 +562,16 @@ export const publicity = [
     src: "/images/publicity/KrisAngela2edit.jpg",
     alt: "Flute Trumpet",
   },
-  {
-    src: "/images/publicity/DuoPhoto4.jpg",
-    alt: "Flute Piano Duo",
-  },
+  // {
+  //   src: "/images/publicity/DuoPhoto4.jpg",
+  //   alt: "Flute Piano Duo",
+  // },
   {
     src: "/images/publicity/DuoPhoto1crop.jpg",
     alt: "Flute Piano Duo",
   },
   {
-    src: "/images/publicity/DuoPhoto2.JPG",
+    src: "/images/publicity/DuoPhoto3.JPG",
     alt: "Flute Piano Duo",
   },
   // {
@@ -594,7 +594,7 @@ export const publicity = [
 
 export const headshots = [
   {
-    src: "/images/members/angela4.webp",
+    src: "/images/members/angela2.webp",
     alt: "Angela Smiling in front of Greenery",
   },
   {
@@ -614,7 +614,7 @@ export const headshots = [
     alt: "Kris Smiling in front of trees",
   },
   {
-    src: "/images/members/6.webp",
+    src: "/images/members/7.webp",
     alt: "Paul Smiling in front of Greenery with Violin in hand",
   },
   {

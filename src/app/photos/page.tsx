@@ -192,8 +192,8 @@ function Photos() {
                     key={photoIndex}
                     src={photo.src}
                     alt={photo.alt}
-                    height={400}
-                    width={400}
+                    height={300}
+                    width={300}
                     quality={100}
                     loading="lazy"
                     className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)]  object-cover object-center overflow-hidden hover:cursor-pointer"
