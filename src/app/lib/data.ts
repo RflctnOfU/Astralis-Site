@@ -80,7 +80,7 @@ export const tourInfo = [
     instruments: "FLUTE, VIOLIN, CELLO, HARPSICHORD",
     description:
       "Program of works by leading Baroque composers, including J.S. Bach, Vivaldi, Telemann, and Corelli. ",
-    image: "/images/tour-images/harpsichord.jpeg",
+    image: "/images/tour-images/harpsichord2.webp",
     dates: [
       {
         id: 1,
@@ -153,7 +153,7 @@ export const tourInfo = [
         date: "15",
         year: "2023",
         city: "Walterboro, SC",
-        time: "TBD",
+        time: "4:00 PM",
       },
       {
         id: 2,
@@ -446,7 +446,7 @@ export const tourInfo = [
     name: "ENCHANTMENT",
     instruments: "FLUTE and PIANO",
     description: "More information coming soon",
-    image: "/images/tour-images/cello-md.webp",
+    image: "/images/tour-images/fireflies2.webp",
     dates: [],
   },
 ];
