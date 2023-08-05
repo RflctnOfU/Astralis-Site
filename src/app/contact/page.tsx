@@ -9,12 +9,9 @@ import toast, { Toaster } from "react-hot-toast";
 // todo: add toast notification contact form successfully sent
 
 function Contact() {
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors, isSubmitSuccessful, isSubmitting },
-  } = useForm({ mode: "onTouched" });
+  const { register, handleSubmit, reset, formState } = useForm({
+    mode: "onChange",
+  });
   const [isSuccess, setIsSuccess] = useState(false);
   const [message, setMessage] = useState("");
   const apiKey =
@@ -77,7 +74,7 @@ function Contact() {
                 type="text"
                 placeholder="Email"
                 className={`rounded-md px-2 py-1 ${
-                  errors.email
+                  formState.errors.email
                     ? "border-red-600 focus:border-red-600 ring-red-100 dark:ring-0"
                     : "border-gray-300 focus:border-gray-600 ring-gray-100 dark:border-gray-600 dark:focus:border-white dark:ring-0"
                 }`}
@@ -125,12 +122,16 @@ function Contact() {
               />
             </div>
             <button
+              disabled={!formState.isValid}
               type="submit"
-              className="w-1/2 duration-300 transition ease-in-out hover:scale-105 border-[1px] rounded-md p-[4px] mt-2 text-neutral-300"
+              className={`w-1/2 duration-300 transition ease-in-out ${
+                formState.isValid ? "hover:scale-105" : ""
+              } border-[1px] rounded-md p-[4px] mt-2 text-neutral-300`}
               onClick={notify}
             >
               Submit
             </button>
+            {!formState.isValid && <span>You must enter a valid email.</span>}
           </form>
           <Toaster />
         </div>
