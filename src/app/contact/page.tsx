@@ -125,13 +125,15 @@ function Contact() {
               disabled={!formState.isValid}
               type="submit"
               className={`w-1/2 duration-300 transition ease-in-out ${
-                formState.isValid ? "hover:scale-105" : ""
-              } border-[1px] rounded-md p-[4px] mt-2 text-neutral-300`}
+                formState.isValid
+                  ? "hover:scale-105 text-neutral-300"
+                  : "border-red-600 text-red-600"
+              } border-[1px] rounded-md p-[4px] mt-2 `}
               onClick={notify}
             >
               Submit
             </button>
-            {!formState.isValid && <span>You must enter a valid email.</span>}
+            {/* {!formState.isValid && <span>You must enter a valid email.</span>} */}
           </form>
           <Toaster />
         </div>
