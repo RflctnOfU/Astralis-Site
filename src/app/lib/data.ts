@@ -583,8 +583,16 @@ export const publicity = [
     alt: "Flute Harp Trumpet",
   },
   {
-    src: "/images/publicity/PhotoDuo1.jpg",
+    src: "/images/publicity/PhotoDuo4.jpg",
     alt: "Flute Harp 1",
+  },
+  {
+    src: "/images/publicity/PhotoDuo5.jpg",
+    alt: "Flute Harp 2",
+  },
+  {
+    src: "/images/publicity/PhotoDuo6.jpg",
+    alt: "Flute Harp 3",
   },
 ];
 
