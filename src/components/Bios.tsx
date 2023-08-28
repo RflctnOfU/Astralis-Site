@@ -642,26 +642,26 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            A native of Atlanta, GA, pianist Caroline Owen has performed in
-            venues across the U.S. and in Austria, Italy, and the Czech
-            Republic. She was the winner of the 2019 Florida MTNA Young Artist
-            Competition and a semifinalist in the 14th International Mozart
-            Competition and 2016 International Keyboard Odyssiad. She also won
-            the 2018 Pro-Mozart Society of Atlanta Competition, from which she
-            received a scholarship to study at the Mozarteum International
-            Summer Academy under Dominique Merlet and Christopher Hinterhuber.
-            Owen has participated and performed at festivals including Pianofest
-            in the Hamptons, PianoTexas, Atlantic Music Festival, and the Prague
-            Piano Festival. She has worked with distinguished artists and
-            teachers such as Richard Goode, Yoheved Kaplinsky, Pascal Rogé, and
-            Boris Slutsky, among others. Owen is also committed to promoting new
-            music, most recently performing at the 2022 FSU Festival of New
-            Music and premiering Donald Yu’s Piano Concerto No. 1 with the
-            Orlando Contemporary Chamber Orchestra in 2021. Her background in
-            dance has also fostered unique multidisciplinary collaborations with
-            composer Badie Khaleghian. Owen recently received her Doctorate of
-            Music degree in piano performance from Florida State University. For
-            more information, visit{" "}
+            Atlanta native, Caroline Owen has played in venues across the U.S.,
+            Canada, and Europe, including the DiMenna Center for Classical Music
+            (New York) and the Wiener Saal and Solitär at the Mozarteum
+            (Salzburg, Austria). Owen was the winner of the Florida MTNA Young
+            Artist Competition and a semifinalist in the 14th International
+            Mozart Competition Salzburg and International Keyboard Odyssiad. She
+            also won the 2018 Pro-Mozart Society of Atlanta Competition, from
+            which she received a scholarship to study at the Salzburg Mozarteum.
+            Owen has performed at festivals including PianoFest in the Hamptons,
+            PianoTexas, Atlantic Music Festival, and the Prague Piano Festival,
+            and she has worked with distinguished artists such as Jean-Efflam
+            Bavouzet, Richard Goode, Ursula Oppens, and Pascal Rogé. Owen is
+            also committed to promoting new music. She performed as soloist with
+            the Orlando Contemporary Chamber Orchestra in its 2021 and 2023
+            seasons, and her background in dance has fostered unique
+            multidisciplinary collaborations with composer, Badie Khaleghian.
+            Owen earned her Doctorate of Music in piano performance from Florida
+            State University and is now based in Atlanta where she serves as an
+            Artist Affiliate at Emory University and Co-Director of the Decatur
+            Fine Arts Academy. For more information, visit{" "}
             <Link
               href={"https://www.carolineowenpiano.com"}
               target="_blank"
