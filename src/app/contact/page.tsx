@@ -1,12 +1,10 @@
 "use client";
-import { ChangeEvent, FormEvent, useState } from "react";
+import { useState } from "react";
 import { Mail, MapPin, MessageCircle } from "lucide-react";
-import HeroImage from "@/components/HeroImage";
+
 import { useForm } from "react-hook-form";
 import useWeb3forms from "@web3forms/react";
 import toast, { Toaster } from "react-hot-toast";
-
-// todo: add toast notification contact form successfully sent
 
 function Contact() {
   const { register, handleSubmit, reset, formState } = useForm({
@@ -45,8 +43,6 @@ function Contact() {
 
   return (
     <div className="pb-[72px] flex flex-col my-16 items-center font-mont">
-      {/* <HeroImage /> */}
-      {/* <hr className="text-neutral-200 w-[90%] self-center mb-12" /> */}
       <div className=" w-[320px]">
         <div className="p-4 rounded-lg bg-transparent w-[320px] border-[1px] m-auto border-neutral-300 shadow shadow-black">
           <form
@@ -125,15 +121,14 @@ function Contact() {
               disabled={!formState.isValid}
               type="submit"
               className={`w-1/2 duration-300 transition ease-in-out ${
-                formState.isValid
-                  ? "hover:scale-105 text-neutral-300"
-                  : "border-red-600 text-red-600"
+                !formState.isValid
+                  ? "hover:scale-100 border-red-600 text-red-600"
+                  : "hover:scale-105 text-neutral-300"
               } border-[1px] rounded-md p-[4px] mt-2 `}
               onClick={notify}
             >
               Submit
             </button>
-            {/* {!formState.isValid && <span>You must enter a valid email.</span>} */}
           </form>
           <Toaster />
         </div>

@@ -23,11 +23,7 @@ function TourCard({ id, name, instruments, description, dates, image }: Tour) {
   console.log(img);
 
   return (
-    <div
-      id={id}
-      className={`tour `}
-      // style={imageStyle}
-    >
+    <div id={id} className={`tour `}>
       <Image
         alt={name}
         src={image}
