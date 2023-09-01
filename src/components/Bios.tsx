@@ -2,7 +2,6 @@
 import { useRef } from "react";
 import Link from "next/link";
 import { useInView } from "framer-motion";
-// import { bios } from "@/app/lib/data";
 
 function Bios() {
   const targetRef0 = useRef<HTMLDivElement>(null);

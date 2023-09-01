@@ -80,7 +80,7 @@ export const tourInfo = [
     instruments: "FLUTE, VIOLIN, CELLO, HARPSICHORD",
     description:
       "Program of works by leading Baroque composers, including J.S. Bach, Vivaldi, Telemann, and Corelli. ",
-    image: "/images/tour-images/harpsichord2.webp",
+    image: "/images/tour-images/Harpsichord.jpg",
     dates: [
       {
         id: 1,
