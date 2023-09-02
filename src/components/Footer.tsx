@@ -6,7 +6,7 @@ function Footer() {
     <footer className="bg-transparent w-full border-t-[1px]">
       <div className="">
         <div className="">
-          <div className="flex flex-col items-center py-10 text-">
+          <div className="flex flex-col items-center py-10 text-sm">
             <div className="flex space-x-16 pb-[10px] mb-4">
               <Link
                 href="mailto:astralisensemble@gmail.com"

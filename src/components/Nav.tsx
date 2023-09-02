@@ -45,6 +45,7 @@ function Nav({}) {
                 className="h-full flex items-center justify-end font-mont"
               >
                 <Link
+                  prefetch
                   className={`${
                     pathname === item.path ? "active links" : "links"
                   } `}
