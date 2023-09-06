@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Website of the Astralis Chamber Ensemble, featuring information about the ensemble including it's members, the calendar of upcoming events, publicity photos, and audio samples of past performances",
   openGraph: {
     type: "website",
-    url: "www.astralisensemble.com",
+    url: "https://www.astralisensemble.com",
     description:
       "The Astralis Chamber Ensemble is an innovative and dynamic ensemble performing with much acclaim across the globe. Through creative programming and presentations on the works performed, Astralis aims to make classical music more accessible and for audiences to make a lasting connection to the music.",
     siteName: "Astralis Chamber Ensemble",
