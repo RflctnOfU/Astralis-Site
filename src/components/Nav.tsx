@@ -5,6 +5,9 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { X, Menu } from "lucide-react";
 import { linkData } from "@/app/lib/data";
+
+// redo burger and mobile menu
+
 function Nav({}) {
   const pathname = usePathname();
 

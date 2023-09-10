@@ -1,5 +1,7 @@
-import HeroImage from "@/components/HeroImage";
 import { videos } from "../lib/data";
+
+// add loading.tsx page
+
 function Audio() {
   return (
     <div className="flex flex-col my-16 justify-center items-center w-full">

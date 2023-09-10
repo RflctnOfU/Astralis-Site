@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { publicity, headshots, pastPerformances } from "../lib/data";
-
+// add loading.tsx page
 function Photos() {
   return (
     <>
