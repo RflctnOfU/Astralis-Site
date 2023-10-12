@@ -368,12 +368,20 @@ export const tourInfo = [
     image: "/images/tour-images/church-md.webp",
     dates: [
       {
-        id: 1,
+        id: 0,
         month: "MARCH",
         date: "3",
         year: "2024",
         city: "Warner Robins, GA",
         time: "3:00 PM",
+      },
+      {
+        id: 1,
+        month: "MARCH",
+        date: "4",
+        year: "2024",
+        city: "Newberry, SC",
+        time: "7:00 PM",
       },
       {
         id: 2,
@@ -386,13 +394,21 @@ export const tourInfo = [
       {
         id: 3,
         month: "MARCH",
+        date: "6",
+        year: "2024",
+        city: "Clemson, SC",
+        time: "7:30 PM",
+      },
+      {
+        id: 4,
+        month: "MARCH",
         date: "7",
         year: "2024",
         city: "Columbia, SC",
         time: "7:00 PM",
       },
       {
-        id: 4,
+        id: 5,
         month: "MARCH",
         date: "8",
         year: "2024",
@@ -400,7 +416,7 @@ export const tourInfo = [
         time: "7:30 PM",
       },
       {
-        id: 5,
+        id: 6,
         month: "MARCH",
         date: "9",
         year: "2024",
@@ -408,7 +424,7 @@ export const tourInfo = [
         time: "11:00 AM",
       },
       {
-        id: 6,
+        id: 7,
         month: "MARCH",
         date: "10",
         year: "2024",
