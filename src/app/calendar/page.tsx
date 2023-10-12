@@ -4,7 +4,7 @@ import { tourInfo } from "../lib/data";
 
 function Calendar() {
   return (
-    <div className="w-full flex flex-col justify-center items-center my-12 ">
+    <div className="w-full flex flex-col justify-center items-center my-16 ">
       <div className="w-[90%] mx-8 flex flex-col items-center justify-center">
         {tourInfo.map((tour) => {
           return (

@@ -4,7 +4,7 @@ import { videos } from "../lib/data";
 
 function Audio() {
   return (
-    <div className="flex flex-col my-16 justify-center items-center w-full">
+    <div className="flex flex-col my-16 pt-4 justify-center items-center w-full">
       <div className="w-[90%] flex justify-center items-center">
         <div className=" grid grid-cols-12 gap-4 p-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl w-full">
           {videos.map((video) => {

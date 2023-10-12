@@ -42,7 +42,7 @@ function Contact() {
     });
 
   return (
-    <div className="pb-[72px] flex flex-col my-16 items-center font-mont">
+    <div className="pb-[72px] flex flex-col my-16 items-center font-mont pt-4">
       <div className=" w-[320px]">
         <div className="p-4 rounded-lg bg-transparent w-[320px] border-[1px] m-auto border-neutral-300 shadow shadow-black">
           <form

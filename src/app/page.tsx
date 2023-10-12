@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 };
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center w-full">
+    <main className="flex flex-col justify-center items-center w-full pt-8">
       <HeroImage />
       <hr className="text-neutral-200 w-[90%] self-center" />
       <div className="w-full m-auto py-[5%] flex flex-col items-center justify-center">
