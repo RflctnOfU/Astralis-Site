@@ -234,7 +234,7 @@ export const tourInfo = [
         date: "6",
         year: "2023",
         city: "Leesburg, FL",
-        time: "TBD",
+        time: "7:00 PM",
       },
       {
         id: 6,
@@ -261,6 +261,14 @@ export const tourInfo = [
       "A delightful program of works by leading classical composers, including Mozart and Dvorak.",
     image: "/images/tour-images/violin.webp",
     dates: [
+      {
+        id: 0,
+        month: "JANUARY",
+        date: "20",
+        year: "2024",
+        city: "Sanford, FL",
+        time: "6:30 PM",
+      },
       {
         id: 1,
         month: "JANUARY",
@@ -340,7 +348,7 @@ export const tourInfo = [
         date: "15",
         year: "2024",
         city: "DeLand, FL",
-        time: "TBD",
+        time: "7:30 PM",
       },
       {
         id: 7,
