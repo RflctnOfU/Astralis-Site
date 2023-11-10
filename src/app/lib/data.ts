@@ -242,7 +242,7 @@ export const tourInfo = [
         date: "7",
         year: "2023",
         city: "Lake City, FL",
-        time: "6:30 PM",
+        time: "7:00 PM",
       },
       {
         id: 7,
