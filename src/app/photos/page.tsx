@@ -82,7 +82,7 @@ function Photos() {
                     quality={100}
                     loading="lazy"
                     className="rounded-lg shadow-lg shadow-[hsl(290,25%,23%)]  object-cover object-center overflow-hidden hover:cursor-pointer"
-                    style={{ aspectRatio: 7 / 8 }}
+                    style={{ aspectRatio: 8 / 7 }}
                   />
                 </Link>
               );

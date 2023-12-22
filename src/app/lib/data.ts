@@ -247,6 +247,14 @@ export const tourInfo = [
       {
         id: 7,
         month: "DECEMBER",
+        date: "9",
+        year: "2023",
+        city: "Winter Park, FL",
+        time: "4:00 PM",
+      },
+      {
+        id: 8,
+        month: "DECEMBER",
         date: "10",
         year: "2023",
         city: "Clearwater, FL",
@@ -483,15 +491,36 @@ export const tourInfo = [
     ],
   },
   {
-    name: "ENCHANTMENT",
-    instruments: "FLUTE and PIANO",
+    name: "FOREST WHISPERS",
+    instruments: "FLUTE, TRUMPET, HARP",
     description: "More information coming soon",
     image: "/images/tour-images/fireflies2.webp",
-    dates: [],
+    dates: [
+      {
+        id: 1,
+        month: "JUNE",
+        date: "6",
+        year: "2024",
+        city: "Pawley's Island, SC",
+        time: "TBD",
+      },
+      {
+        id: 2,
+        month: "JUNE",
+        date: "10",
+        year: "2024",
+        city: "Sunset, SC",
+        time: "7;30 PM",
+      },
+    ],
   },
 ];
 
 export const videos = [
+  {
+    name: "Telemann - Trio Sonata in D Minor",
+    src: "https://www.youtube.com/embed/RXQS01D5Qpo",
+  },
   {
     name: "Vivaldi - Chamber Concerto in D Major",
     src: "https://www.youtube.com/embed/wTgnQCcYqBw",
@@ -560,7 +589,7 @@ export const videos = [
 
 export const images = [
   {
-    src: "/images/carousel/cover1.webp",
+    src: "/images/carousel/cover5.JPG",
     alt: "Baroque Quartet",
   },
   {
@@ -579,8 +608,12 @@ export const images = [
 
 export const publicity = [
   {
-    src: "/images/carousel/cover1.webp",
+    src: "/images/carousel/cover5.JPG",
     alt: "Baroque Quartet 1",
+  },
+  {
+    src: "/images/carousel/AngNLaura.jpg",
+    alt: "Angela and Laura",
   },
   {
     src: "/images/publicity/BaroquePhoto3.jpg",
@@ -717,17 +750,25 @@ export const headshots = [
 
 export const pastPerformances = [
   {
-    src: "/images/past/1.jpg",
-    alt: "Baroque Quartet 1",
+    src: "/images/past/21.jpg",
+    alt: "Baroque Quartet 4",
   },
   {
-    src: "/images/past/2.jpg",
-    alt: "Baroque Quartet 2",
+    src: "/images/past/22.jpg",
+    alt: "Baroque Quartet 5",
   },
-  {
-    src: "/images/past/3.JPG",
-    alt: "Baroque Quartet 3",
-  },
+  // {
+  //   src: "/images/past/1.jpg",
+  //   alt: "Baroque Quartet 1",
+  // },
+  // {
+  //   src: "/images/past/2.jpg",
+  //   alt: "Baroque Quartet 2",
+  // },
+  // {
+  //   src: "/images/past/3.JPG",
+  //   alt: "Baroque Quartet 3",
+  // },
   {
     src: "/images/past/4.jpg",
     alt: "Flute Harp Duo 1",
