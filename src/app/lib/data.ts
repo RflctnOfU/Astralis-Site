@@ -750,11 +750,11 @@ export const headshots = [
 
 export const pastPerformances = [
   {
-    src: "/images/past/21.jpg",
+    src: "/images/past/21.JPG",
     alt: "Baroque Quartet 4",
   },
   {
-    src: "/images/past/22.jpg",
+    src: "/images/past/22.JPG",
     alt: "Baroque Quartet 5",
   },
   // {
