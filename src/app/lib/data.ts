@@ -493,7 +493,7 @@ export const tourInfo = [
   {
     name: "FOREST WHISPERS",
     instruments: "FLUTE, TRUMPET, HARP",
-    description: "More information coming soon",
+    description: "",
     image: "/images/tour-images/fireflies2.webp",
     dates: [
       {
