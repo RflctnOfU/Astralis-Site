@@ -24,6 +24,8 @@ function Bios() {
   const isInView8 = useInView(targetRef8, { once: true });
   const targetRef9 = useRef<HTMLDivElement>(null);
   const isInView9 = useInView(targetRef9, { once: true });
+  const targetRef10 = useRef<HTMLDivElement>(null);
+  const isInView10 = useInView(targetRef9, { once: true });
 
   return (
     <div className="w-[90%] my-16 bg-[#d5d5d5] bg-opacity-20 rounded-2xl text-white">
@@ -453,7 +455,7 @@ function Bios() {
         ref={targetRef6}
       >
         <div
-          className={`m-8 bg-[url('/images/members/rachel.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/PhotoHilary.JPG')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView6 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView6 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef6}
@@ -471,7 +473,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            RACHEL O&apos;BRIEN
+            HILARY GLEN
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont ${
@@ -482,7 +484,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            HARP
+            CELLO
           </h4>
           <p
             className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
@@ -490,6 +492,65 @@ function Bios() {
             } ${isInView6 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef6}
             style={{
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
+            }}
+          >
+            Hilary Glen has been praised as a “standout performer” who has
+            successfully “taken on the demanding and most expressive
+            responsibilities assigned to the instrument.” She enjoys a varied
+            career of teaching and performing. Performances have taken her
+            around the world from the Kennedy Center and Carnegie Hall in the US
+            to the Concertgebouw in the Netherlands, to Bunkamura Orchard Hall
+            in Japan. After maintaining a fulfilling orchestral schedule for
+            many years, Dr. Glen has turned her focus to chamber music, touring
+            with her duo, Gibbs St. Duo, which was formed with the mission to
+            bring awareness to disregarded composers. She currently serves on
+            the faculty of Indiana University and the Hochstein School of Music.
+            With a mission to promote inclusive and intentional programming, she
+            regularly curates interactive chamber music events that feature the
+            works of historically excluded composers. She has presented her
+            research at National Conferences for the College Music Society and
+            at the inaugural 2023 Context Conference at the Eastman School of
+            Music. Dr. Glen completed her BM at Indiana University with Janos
+            Starker. She earned her MM and DMA with Alan Harris at the Eastman
+            School of Music.
+          </p>
+        </div>
+      </div>
+      <hr className="lg:hidden mx-4 self-center" />
+      <div
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
+        ref={targetRef7}
+      >
+        <div className="md:p-4 p-2">
+          <h2
+            className={` font-dream md:text-5xl text-4xl py-4 text-center`}
+            ref={targetRef7}
+            style={{
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+            }}
+          >
+            RACHEL O&apos;BRIEN
+          </h2>
+          <h4
+            className={`md:text-2xl text-xl font-mont font-light text-center `}
+            ref={targetRef7}
+            style={{
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
+            }}
+          >
+            HARP
+          </h4>
+          <p
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
+            ref={targetRef7}
+            style={{
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
@@ -525,41 +586,60 @@ function Bios() {
             .
           </p>
         </div>
+
+        <div
+          className="fade-in-right m-8 bg-[url('/images/members/rachel.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          ref={targetRef7}
+          style={{
+            transform: isInView7 ? "none" : "translateX(150%)",
+            opacity: isInView7 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+          }}
+        ></div>
       </div>
       <hr className="lg:hidden mx-4 self-center" />
       <div
-        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
-        ref={targetRef7}
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
+        ref={targetRef8}
       >
+        <div
+          className={`m-8 bg-[url('/images/members/15.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+            isInView8 ? "transform-none" : "translate-x-[-150%]"
+          } ${isInView8 ? "opacity-100" : "opacity-0"} transition`}
+          ref={targetRef8}
+          style={{
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
+          }}
+        ></div>
         <div className="md:p-4 p-2">
           <h2
-            className={` font-dream md:text-5xl text-4xl py-4 text-center`}
-            ref={targetRef7}
+            className={`md:text-5xl text-4xl py-4 text-center font-dream ${
+              isInView8 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView8 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef8}
             style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
             ALEXANDRA DUNBAR
           </h2>
           <h4
-            className={`md:text-2xl text-xl font-mont font-light text-center `}
-            ref={targetRef7}
+            className={`md:text-2xl text-xl font-light text-center font-mont ${
+              isInView8 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView8 ? "opacity-100" : "opacity-0"}`}
+            ref={targetRef8}
             style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
             HARPSICHORD
           </h4>
           <p
-            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
-            ref={targetRef7}
+            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
+              isInView8 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView8 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef8}
             style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
@@ -584,60 +664,41 @@ function Bios() {
             Amethyst Baroque Ensemble.
           </p>
         </div>
-
-        <div
-          className="fade-in-right m-8 bg-[url('/images/members/15.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
-          ref={targetRef7}
-          style={{
-            transform: isInView7 ? "none" : "translateX(150%)",
-            opacity: isInView7 ? 1 : 0,
-            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
-          }}
-        ></div>
       </div>
       <hr className="lg:hidden mx-4 self-center" />
       <div
-        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
-        ref={targetRef8}
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
+        ref={targetRef9}
       >
-        <div
-          className={`m-8 bg-[url('/images/members/16.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
-            isInView8 ? "transform-none" : "translate-x-[-150%]"
-          } ${isInView8 ? "opacity-100" : "opacity-0"} transition`}
-          ref={targetRef8}
-          style={{
-            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
-          }}
-        ></div>
         <div className="md:p-4 p-2">
           <h2
-            className={`md:text-5xl text-4xl py-4 text-center font-dream ${
-              isInView8 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView8 ? "opacity-100" : "opacity-0"} `}
-            ref={targetRef8}
+            className={`md:text-5xl text-4xl py-4 font-dream text-center`}
+            ref={targetRef9}
             style={{
+              transform: isInView9 ? "none" : "translateX(-150%)",
+              opacity: isInView9 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
             CAROLINE OWEN
           </h2>
           <h4
-            className={`md:text-2xl text-xl font-light text-center font-mont ${
-              isInView8 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView8 ? "opacity-100" : "opacity-0"}`}
-            ref={targetRef8}
+            className={`font-mont md:text-2xl text-xl font-light text-center `}
+            ref={targetRef9}
             style={{
+              transform: isInView9 ? "none" : "translateX(-150%)",
+              opacity: isInView9 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
             PIANO
           </h4>
           <p
-            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
-              isInView8 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView8 ? "opacity-100" : "opacity-0"} `}
-            ref={targetRef8}
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left  leading-8 font-extralight`}
+            ref={targetRef9}
             style={{
+              transform: isInView9 ? "none" : "translateX(-150%)",
+              opacity: isInView9 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
@@ -671,41 +732,61 @@ function Bios() {
             .
           </p>
         </div>
+
+        <div
+          className="fade-in-right m-8 bg-[url('/images/members/16.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
+          ref={targetRef9}
+          style={{
+            transform: isInView9 ? "none" : "translateX(150%)",
+            opacity: isInView9 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+          }}
+        ></div>
       </div>
+
       <hr className="lg:hidden mx-4 self-center" />
       <div
-        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
-        ref={targetRef9}
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
+        ref={targetRef10}
       >
+        <div
+          className={`m-8 bg-[url('/images/members/ZhangPhoto.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+            isInView10 ? "transform-none" : "translate-x-[-150%]"
+          } ${isInView10 ? "opacity-100" : "opacity-0"} transition`}
+          ref={targetRef10}
+          style={{
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
+          }}
+        ></div>
         <div className="md:p-4 p-2">
           <h2
-            className={`md:text-5xl text-4xl py-4 font-dream text-center`}
-            ref={targetRef9}
+            className={`md:text-5xl text-4xl py-4 text-center font-dream ${
+              isInView10 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView10 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef10}
             style={{
-              transform: isInView9 ? "none" : "translateX(-150%)",
-              opacity: isInView9 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
             KERU ZHANG
           </h2>
           <h4
-            className={`font-mont md:text-2xl text-xl font-light text-center `}
-            ref={targetRef9}
+            className={`md:text-2xl text-xl font-light text-center font-mont ${
+              isInView10 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView10 ? "opacity-100" : "opacity-0"}`}
+            ref={targetRef10}
             style={{
-              transform: isInView9 ? "none" : "translateX(-150%)",
-              opacity: isInView9 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
             PIANO
           </h4>
           <p
-            className={`font-mont py-2 lg:pl-4 text-center lg:text-left  leading-8 font-extralight`}
-            ref={targetRef9}
+            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
+              isInView10 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView10 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef10}
             style={{
-              transform: isInView9 ? "none" : "translateX(-150%)",
-              opacity: isInView9 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
@@ -729,16 +810,6 @@ function Bios() {
             the Kawai Piano Gallery in Bluffton, SC.
           </p>
         </div>
-
-        <div
-          className="fade-in-right m-8 bg-[url('/images/members/ZhangPhoto.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
-          ref={targetRef9}
-          style={{
-            transform: isInView9 ? "none" : "translateX(150%)",
-            opacity: isInView9 ? 1 : 0,
-            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
-          }}
-        ></div>
       </div>
     </div>
   );
