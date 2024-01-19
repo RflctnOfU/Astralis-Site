@@ -727,7 +727,7 @@ export const headshots = [
     alt: "Rachel standing next to Harp",
   },
   {
-    src: "/images/members/15.webp",
+    src: "/images/members/Alexandra.jpg",
     alt: "Alexandra sitting at Harpsichord",
   },
   {
