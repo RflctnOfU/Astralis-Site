@@ -263,10 +263,10 @@ export const tourInfo = [
     ],
   },
   {
-    name: "NIGHT SOLILOQUY",
+    name: "EUROPEAN MASTERS",
     instruments: "FLUTE, VIOLIN, VIOLA, CELLO",
     description:
-      "A delightful program of works by leading classical composers, including Mozart and Dvorak.",
+      "Concert of virtuosic works by Mozart, JS Bach, Kuhlau, and Mendelssohn",
     image: "/images/tour-images/violin.webp",
     dates: [
       {
@@ -288,13 +288,21 @@ export const tourInfo = [
       {
         id: 2,
         month: "JANUARY",
-        date: "26",
+        date: "25",
         year: "2024",
-        city: "Sanford, FL",
-        time: "6:30 PM",
+        city: "Temple Terrace, FL",
+        time: "7:30 PM",
       },
       {
         id: 3,
+        month: "JANUARY",
+        date: "26",
+        year: "2024",
+        city: "Sanford, FL",
+        time: "7:00 PM",
+      },
+      {
+        id: 4,
         month: "JANUARY",
         date: "28",
         year: "2024",
@@ -310,6 +318,14 @@ export const tourInfo = [
       "Valentine’s program sharing love stories and expressive works by Schumann, Rachmaninov, Beeftink, and Reinecke.",
     image: "/images/tour-images/piano-md.webp",
     dates: [
+      {
+        id: 0,
+        month: "FEBRUARY",
+        date: "8",
+        year: "2024",
+        city: "Tallahassee, FL",
+        time: "Outreach Concerts",
+      },
       {
         id: 1,
         month: "FEBRUARY",
