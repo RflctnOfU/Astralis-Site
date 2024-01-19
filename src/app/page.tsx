@@ -43,6 +43,39 @@ export default function Home() {
             through music.
           </p>
         </div>
+        <hr className="text-neutral-200 w-[90%] self-center" />
+        <div className="pb-[5%] font-mont font-light md:text-xl text-center">
+          <p className="lg:mx-16 m-4">
+            Thank you to our donors for their generosity:
+          </p>
+          <p>
+            <span className="underline text-3xl">Gold</span>
+          </p>
+          <ul>
+            <li>The Gregory Family</li>
+            <li>Martha Shippy</li>
+          </ul>
+          <p className="pt-4">
+            <span className="underline text-3xl">Silver</span>
+          </p>
+          <ul>
+            <li>Anonymous</li>
+            <li>David and Karen Paulin</li>
+            <li>Anonymous</li>
+          </ul>
+          <p className="pt-4">
+            <span className="underline text-3xl">Bronze</span>
+          </p>
+          <ul>
+            <li>Diane and John Colin</li>
+            <li>Elizabeth Meador</li>
+            <li>Jesse Hughes</li>
+            <li>Greg Lane</li>
+            <li>Janet Ullman</li>
+          </ul>
+        </div>
+        <hr className="text-neutral-200 w-[90%] self-center" />
+
         <div className="m-4 lg:m-8 p-4 grid grid-cols-12 gap-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl">
           {images.map((image) => {
             return (
