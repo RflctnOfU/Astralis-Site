@@ -334,14 +334,14 @@ export const tourInfo = [
         city: "Tallahassee, FL",
         time: "7:00 PM",
       },
-      {
-        id: 2,
-        month: "FEBRUARY",
-        date: "10",
-        year: "2024",
-        city: "Tallahassee, FL",
-        time: "TBD",
-      },
+      // {
+      //   id: 2,
+      //   month: "FEBRUARY",
+      //   date: "10",
+      //   year: "2024",
+      //   city: "Tallahassee, FL",
+      //   time: "TBD",
+      // },
       {
         id: 3,
         month: "FEBRUARY",
@@ -458,10 +458,10 @@ export const tourInfo = [
     ],
   },
   {
-    name: "FRENCH IMPRESSIONS",
+    name: "THE ROMANTICS",
     instruments: "FLUTE, CELLO, PIANO",
     description:
-      "Program highlighting music of France by Debussy, Gaubert, and Saint-Saëns.",
+      "Program will include works by Robert and Clara Schumann, Brahms, and Mendelssohn.",
     image: "/images/tour-images/cello-md.webp",
     dates: [
       {
