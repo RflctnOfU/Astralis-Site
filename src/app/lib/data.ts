@@ -481,6 +481,14 @@ export const tourInfo = [
         time: "6:00 PM",
       },
       {
+        id: 20,
+        month: "APRIL",
+        date: "17",
+        year: "2024",
+        city: "Kent, OH",
+        time: "7:00 PM",
+      },
+      {
         id: 3,
         month: "APRIL",
         date: "19",
