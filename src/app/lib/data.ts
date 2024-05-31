@@ -516,8 +516,9 @@ export const tourInfo = [
   },
   {
     name: "FOREST WHISPERS",
-    instruments: "FLUTE, TRUMPET, HARP",
-    description: "",
+    instruments: "FLUTE, TRUMPET, PIANO",
+    description:
+      "Music depicting images in nature with works by Elkins, McMichael, Mouquet, Rachmaninov, and Janacek",
     image: "/images/tour-images/fireflies2.webp",
     dates: [
       {
@@ -526,7 +527,7 @@ export const tourInfo = [
         date: "6",
         year: "2024",
         city: "Pawley's Island, SC",
-        time: "TBD",
+        time: "6:00 PM",
       },
       {
         id: 2,
