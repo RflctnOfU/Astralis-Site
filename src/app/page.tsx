@@ -69,7 +69,7 @@ export default function Home() {
           <ul>
             <li>Diane and John Colin</li>
             <li>Elizabeth Meador</li>
-            <li>Jesse Hughes</li>
+            <li>Jesse and Amy Hughes</li>
             <li>Greg Lane</li>
             <li>Janet Ullman</li>
           </ul>
