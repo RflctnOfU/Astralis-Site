@@ -25,7 +25,7 @@ function Bios() {
   const targetRef9 = useRef<HTMLDivElement>(null);
   const isInView9 = useInView(targetRef9, { once: true });
   const targetRef10 = useRef<HTMLDivElement>(null);
-  const isInView10 = useInView(targetRef9, { once: true });
+  const isInView10 = useInView(targetRef10, { once: true });
 
   return (
     <div className="w-[90%] my-16 bg-[#d5d5d5] bg-opacity-20 rounded-2xl text-white">
