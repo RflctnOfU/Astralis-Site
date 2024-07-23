@@ -232,22 +232,26 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            As founding 1st violinist of the Callisto Quartet, Paul Aguilar won
-            top prizes at Banff, Bordeaux, Fischoff, Melbourne, Wigmore Hall,
-            and Manhattan International Competitions. Recent performances
-            include appearances on Schneider Concert Series, Dame Myra Hess
-            Concerts, Music Institute of Chicago Artist Series, Ravinia
-            Festival, ChamberFest Cleveland, La Jolla Summerfest, Heidelberg
-            String Quartet Festival, and the Emilia-Romagna Festival. He is also
-            performing with Orpheus Chamber Orchestra for the 2022-2023 season.
-            Formerly, he was a member of Rice University’s Graduate String
-            Quartet in Residence and also studied at the Escuela Superior de
-            Música Reina Sofia School in Madrid, Spain with Gunter Pichler.
-            Hailing from a Venezuelan-American family in South Carolina, he
-            began studying violin at age five. He earned his bachelor’s degree
-            in violin performance from the Cleveland Institute of Music where he
-            was a full-scholarship student of Jaime Laredo and Jan Sloman. Paul
-            is a 2019 MPower Grant recipient from the Sphinx Organization.
+            Venezuelan/American violinist and violist Paul Aguilar joined the
+            Houston Symphony viola section in 2024. He has won top prizes at the
+            Banff, Bordeaux, Fischoff, Melbourne, Wigmore Hall, and Manhattan
+            International chamber music competitions as well as the Grand Prize
+            at the Fischoff National Chamber Music Competition. He has appeared
+            in concert across North America and Europe, some highlights
+            including Carnegie Hall, the Ravinia Festival, ChamberFest
+            Cleveland, La Jolla Summerfest, Great Lakes Chamber Music Festival,
+            the Heidelberg String Quartet Festival, and the Emilia-Romagna
+            Festival. His chamber music collaborators include artists such as
+            James Ehnes, Augustin Hadelich, Lawrence Power, Paul Watkins, and
+            Jon Kimura Parker. He has studied at the Cleveland Institute of
+            Music, Rice University, the Escuela Superior de Música Reina Sofía
+            School in Madrid, and the University of Music and Performing Arts,
+            in Vienna. His primary influences have been Jaime Laredo, Si-Yan Li,
+            Gunter Pichler, and Gerhard Schulz. In addition to traveling and
+            performing, Paul enjoys sharing music with his family, at his
+            church, and throughout his community. Paul plays on a very fine
+            violin and viola that were commissioned from master luthier Kevin
+            Lee.
           </p>
         </div>
       </div>
