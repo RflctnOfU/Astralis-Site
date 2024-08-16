@@ -726,21 +726,25 @@ export const publicity = [
     src: "/images/carousel/AngNLaura.jpg",
     alt: "Angela and Laura",
   },
+  // {
+  //   src: "/images/publicity/BaroquePhoto3.jpg",
+  //   alt: "Baroque Quartet 3",
+  // },
+  // {
+  //   src: "/images/publicity/BaroquePhoto4.jpg",
+  //   alt: "Baroque Quartet 4",
+  // },
+  // {
+  //   src: "/images/publicity/pianotrio1.jpg",
+  //   alt: "Flute Trumpet Trio 1",
+  // },
+  // {
+  //   src: "/images/publicity/pianotrio2.jpeg",
+  //   alt: "Flute Trumpet Trio 2",
+  // },
   {
-    src: "/images/publicity/BaroquePhoto3.jpg",
-    alt: "Baroque Quartet 3",
-  },
-  {
-    src: "/images/publicity/BaroquePhoto4.jpg",
-    alt: "Baroque Quartet 4",
-  },
-  {
-    src: "/images/publicity/pianotrio1.jpg",
+    src: "/images/publicity/triophotocrop.JPG",
     alt: "Flute Trumpet Trio 1",
-  },
-  {
-    src: "/images/publicity/pianotrio2.jpeg",
-    alt: "Flute Trumpet Trio 2",
   },
   {
     src: "/images/publicity/KrisAngela2edit.jpg",
@@ -853,10 +857,10 @@ export const headshots = [
     src: "/images/members/18.webp",
     alt: "Caroline sitting at piano smiling",
   },
-  {
-    src: "/images/members/ZhangPhoto.webp",
-    alt: "Keru standing next to piano smiling",
-  },
+  // {
+  //   src: "/images/members/ZhangPhoto.webp",
+  //   alt: "Keru standing next to piano smiling",
+  // },
 ];
 
 export const pastPerformances = [
