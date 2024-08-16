@@ -109,15 +109,15 @@ function Bios() {
       <hr className="lg:hidden mx-4" />
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
-        ref={targetRef7}
+        ref={targetRef1}
       >
         <div className="md:p-4 p-2">
           <h2
             className={` font-dream md:text-5xl text-4xl py-4 text-center`}
-            ref={targetRef7}
+            ref={targetRef1}
             style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
+              transform: isInView1 ? "none" : "translateX(-150%)",
+              opacity: isInView1 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
@@ -125,10 +125,10 @@ function Bios() {
           </h2>
           <h4
             className={`md:text-2xl text-xl font-mont font-light text-center `}
-            ref={targetRef7}
+            ref={targetRef1}
             style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
+              transform: isInView1 ? "none" : "translateX(-150%)",
+              opacity: isInView1 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
@@ -136,10 +136,10 @@ function Bios() {
           </h4>
           <p
             className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
-            ref={targetRef7}
+            ref={targetRef1}
             style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
+              transform: isInView1 ? "none" : "translateX(-150%)",
+              opacity: isInView1 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
@@ -178,10 +178,10 @@ function Bios() {
 
         <div
           className="fade-in-right m-8 bg-[url('/images/members/rachel.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
-          ref={targetRef7}
+          ref={targetRef1}
           style={{
-            transform: isInView7 ? "none" : "translateX(150%)",
-            opacity: isInView7 ? 1 : 0,
+            transform: isInView1 ? "none" : "translateX(150%)",
+            opacity: isInView1 ? 1 : 0,
             transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
           }}
         ></div>
@@ -466,7 +466,7 @@ function Bios() {
         ></div>
       </div>
       <hr className="lg:hidden mx-4 self-center" />
-      <div
+      {/* <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
         ref={targetRef6}
       >
@@ -532,76 +532,9 @@ function Bios() {
             School of Music.
           </p>
         </div>
-      </div>
-      <hr className="lg:hidden mx-4 self-center" />
-      <div
-        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
-        ref={targetRef1}
-      >
-        <div className="md:p-4 p-2">
-          <h2
-            className={`font-dream md:text-5xl text-4xl py-4 text-center`}
-            ref={targetRef1}
-            style={{
-              transform: isInView1 ? "none" : "translateX(-150%)",
-              opacity: isInView1 ? 1 : 0,
-              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
-            }}
-          >
-            KRIS MARSHALL
-          </h2>
-          <h4
-            className={`md:text-2xl text-xl font-light text-center font-mont`}
-            ref={targetRef1}
-            style={{
-              transform: isInView1 ? "none" : "translateX(-150%)",
-              opacity: isInView1 ? 1 : 0,
-              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
-            }}
-          >
-            TRUMPET
-          </h4>
-          <p
-            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
-            ref={targetRef1}
-            style={{
-              transform: isInView1 ? "none" : "translateX(-150%)",
-              opacity: isInView1 ? 1 : 0,
-              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
-            }}
-          >
-            Kris Marshall is principal trumpet with the Southwest Florida
-            Symphony Orchestra, Venice Symphony, and has built an active career
-            performing with multiple orchestras across the state of Florida,
-            including the Jacksonville Symphony, Charlotte Symphony, Naples
-            Philharmonic, and regular performances with The Florida Orchestra.
-            Marshall has been a featured soloist with the Southwest Florida
-            Symphony Orchestra on many occasions and with the Fifth Avenue
-            Chamber Orchestra in Naples, Florida. As a founding member of the
-            Astralis Chamber Ensemble, he presents several chamber recital tours
-            each year and participates in commission projects to increase the
-            chamber repertoire for trumpet. He won first prize in the Florida
-            Orchestra Young Artist Competition and was later selected to attend
-            the Chautauqua Institution Summer Music Festival where he studied
-            with Chuck Berginc, principal trumpet with the Phoenix Symphony
-            Orchestra. Other significant instructors include Robert Smith and Ed
-            Cord. Marshall pursued degrees in trumpet performance at Florida
-            State University, Indiana University, and the University of South
-            Florida.
-          </p>
-        </div>
+      </div> */}
+      {/* <hr className="lg:hidden mx-4 self-center" /> */}
 
-        <div
-          className="fade-in-right m-8 bg-[url('/images/members/4.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
-          ref={targetRef1}
-          style={{
-            transform: isInView1 ? "none" : "translateX(150%)",
-            opacity: isInView1 ? 1 : 0,
-            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
-          }}
-        ></div>
-      </div>
-      <hr className="lg:hidden mx-4 self-center" />
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
         ref={targetRef8}
@@ -750,6 +683,74 @@ function Bios() {
 
       <hr className="lg:hidden mx-4 self-center" />
       <div
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
+        ref={targetRef7}
+      >
+        <div className="md:p-4 p-2">
+          <h2
+            className={`font-dream md:text-5xl text-4xl py-4 text-center`}
+            ref={targetRef7}
+            style={{
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+            }}
+          >
+            KRIS MARSHALL
+          </h2>
+          <h4
+            className={`md:text-2xl text-xl font-light text-center font-mont`}
+            ref={targetRef7}
+            style={{
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
+            }}
+          >
+            TRUMPET
+          </h4>
+          <p
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
+            ref={targetRef7}
+            style={{
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
+            }}
+          >
+            Kris Marshall is principal trumpet with the Southwest Florida
+            Symphony Orchestra, Venice Symphony, and has built an active career
+            performing with multiple orchestras across the state of Florida,
+            including the Jacksonville Symphony, Charlotte Symphony, Naples
+            Philharmonic, and regular performances with The Florida Orchestra.
+            Marshall has been a featured soloist with the Southwest Florida
+            Symphony Orchestra on many occasions and with the Fifth Avenue
+            Chamber Orchestra in Naples, Florida. As a founding member of the
+            Astralis Chamber Ensemble, he presents several chamber recital tours
+            each year and participates in commission projects to increase the
+            chamber repertoire for trumpet. He won first prize in the Florida
+            Orchestra Young Artist Competition and was later selected to attend
+            the Chautauqua Institution Summer Music Festival where he studied
+            with Chuck Berginc, principal trumpet with the Phoenix Symphony
+            Orchestra. Other significant instructors include Robert Smith and Ed
+            Cord. Marshall pursued degrees in trumpet performance at Florida
+            State University, Indiana University, and the University of South
+            Florida.
+          </p>
+        </div>
+
+        <div
+          className="fade-in-right m-8 bg-[url('/images/members/4.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
+          ref={targetRef7}
+          style={{
+            transform: isInView7 ? "none" : "translateX(150%)",
+            opacity: isInView7 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+          }}
+        ></div>
+      </div>
+      <hr className="lg:hidden mx-4 self-center" />
+      {/* <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
         ref={targetRef10}
       >
@@ -814,7 +815,7 @@ function Bios() {
             the Kawai Piano Gallery in Bluffton, SC.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

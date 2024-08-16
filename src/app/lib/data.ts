@@ -30,7 +30,7 @@ export const tourInfo = [
     name: "RADIANCE",
     instruments: "FLUTE, TRUMPET, PIANO",
     description:
-      "Concert featuring exciting contemporary works by Stephenson, Elkins and Debussy.",
+      "Concert featuring exciting contemporary works by Stephenson, Elkins, and Debussy.",
     image: "/images/tour-images/piano-md.webp",
     dates: [
       {
@@ -152,7 +152,7 @@ export const tourInfo = [
     name: "ELEGY",
     instruments: "FLUTE, VIOLA, HARP",
     description:
-      "Concert featuring Debussy's Monumental Trio, and other works by Bax and Alwin.",
+      "Concert featuring Debussy's monumental trio, and other works by Bax and Alwyn.",
     image: "/images/tour-images/harp.webp",
     dates: [
       {
@@ -403,7 +403,7 @@ export const tourInfo = [
     name: "ELEGY",
     instruments: "FLUTE, VIOLA, HARP",
     description:
-      "Concert featuring Debussy's Monumental Trio, and other works by Bax and Alwin. ",
+      "Concert featuring Debussy's monumental trio, and other works by Bax and Alwyn. ",
     image: "/images/tour-images/harp.webp",
     dates: [
       {
