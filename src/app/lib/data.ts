@@ -166,13 +166,21 @@ export const tourInfo = [
       {
         id: 2,
         month: "OCTOBER",
+        date: "21",
+        year: "2024",
+        city: "Huntersville, NC",
+        time: "7:00 PM",
+      },
+      {
+        id: 3,
+        month: "OCTOBER",
         date: "22",
         year: "2024",
         city: "Augusta, GA",
         time: "7:00 PM",
       },
       {
-        id: 3,
+        id: 4,
         month: "OCTOBER",
         date: "24",
         year: "2024",
@@ -180,7 +188,7 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
-        id: 4,
+        id: 5,
         month: "OCTOBER",
         date: "25",
         year: "2024",
@@ -188,7 +196,7 @@ export const tourInfo = [
         time: "6:00 PM",
       },
       {
-        id: 5,
+        id: 6,
         month: "OCTOBER",
         date: "27",
         year: "2024",
@@ -252,14 +260,14 @@ export const tourInfo = [
         city: "Stuart, FL",
         time: "TBD",
       },
-      // {
-      //   id: 7,
-      //   month: "DECEMBER",
-      //   date: "9",
-      //   year: "2023",
-      //   city: "Winter Park, FL",
-      //   time: "4:00 PM",
-      // },
+      {
+        id: 7,
+        month: "DECEMBER",
+        date: "15",
+        year: "2024",
+        city: "Sarasota, FL",
+        time: "TBD",
+      },
       // {
       //   id: 8,
       //   month: "DECEMBER",
