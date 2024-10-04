@@ -156,12 +156,20 @@ export const tourInfo = [
     image: "/images/tour-images/harp.webp",
     dates: [
       {
-        id: 1,
+        id: 0,
         month: "OCTOBER",
         date: "18",
         year: "2024",
         city: "Tryon, NC",
         time: "7:00 PM",
+      },
+      {
+        id: 1,
+        month: "OCTOBER",
+        date: "19",
+        year: "2024",
+        city: "Winston-Salem, NC",
+        time: "4:00 PM",
       },
       {
         id: 2,
@@ -231,7 +239,7 @@ export const tourInfo = [
       {
         id: 3,
         month: "DECEMBER",
-        date: "8",
+        date: "9",
         year: "2024",
         city: "New Smyrna Beach, FL",
         time: "6:00 PM",
@@ -260,14 +268,14 @@ export const tourInfo = [
         city: "Stuart, FL",
         time: "TBD",
       },
-      {
-        id: 7,
-        month: "DECEMBER",
-        date: "15",
-        year: "2024",
-        city: "Sarasota, FL",
-        time: "TBD",
-      },
+      // {
+      //   id: 7,
+      //   month: "DECEMBER",
+      //   date: "15",
+      //   year: "2024",
+      //   city: "Sarasota, FL",
+      //   time: "TBD",
+      // },
       // {
       //   id: 8,
       //   month: "DECEMBER",
