@@ -136,7 +136,7 @@ export const tourInfo = [
         date: "21",
         year: "2024",
         city: "Mansfield, OH",
-        time: "TBD",
+        time: "7:00 PM",
       },
       {
         id: 8,
