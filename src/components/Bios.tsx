@@ -220,7 +220,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Venezuelan/American violinist and violist Paul Aguilar joined the
+            Venezuelan-American violinist and violist Paul Aguilar joined the
             Houston Symphony viola section in 2024. He has won top prizes at the
             Banff, Bordeaux, Fischoff, Melbourne, Wigmore Hall, and Manhattan
             International chamber music competitions as well as the Grand Prize
@@ -314,7 +314,7 @@ function Bios() {
         ref={targetRef4}
       >
         <div
-          className={`m-8 bg-[url('/images/members/PhotoMa.jpg')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/PhotoMacrop.jpg')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView4 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView4 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef4}
