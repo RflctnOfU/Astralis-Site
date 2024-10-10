@@ -149,10 +149,10 @@ export const tourInfo = [
     ],
   },
   {
-    name: "ELEGY",
+    name: "REVERIE",
     instruments: "FLUTE, VIOLA, HARP",
     description:
-      "Concert featuring Debussy's monumental trio, and other works by Bax and Alwyn.",
+      "Concert featuring Debussy's inspirational trio, a lovely sonatine by Ravel, and other works by Rota, Reger, and Scarlatti.",
     image: "/images/tour-images/harp.webp",
     dates: [
       {
@@ -441,13 +441,21 @@ export const tourInfo = [
       {
         id: 2,
         month: "MARCH",
+        date: "27",
+        year: "2025",
+        city: "Pittsburgh, PA",
+        time: "7:00 PM",
+      },
+      {
+        id: 3,
+        month: "MARCH",
         date: "28",
         year: "2025",
         city: "Canton, OH",
         time: "7:00 PM",
       },
       {
-        id: 3,
+        id: 4,
         month: "MARCH",
         date: "29",
         year: "2025",
@@ -455,7 +463,7 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
-        id: 4,
+        id: 5,
         month: "MARCH",
         date: "30",
         year: "2025",
@@ -463,7 +471,7 @@ export const tourInfo = [
         time: "4:00 PM",
       },
       {
-        id: 5,
+        id: 6,
         month: "MARCH",
         date: "31",
         year: "2025",

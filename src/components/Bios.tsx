@@ -121,7 +121,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            RACHEL O&apos;BRIEN
+            JANE YOO
           </h2>
           <h4
             className={`md:text-2xl text-xl font-mont font-light text-center `}
@@ -143,41 +143,29 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            The 2019 Gold Medal winner of the Houston Symphony’s Ima Hogg
-            Competition, Rachel O’Brien has appeared in Philadelphia’s Kimmel
-            Center for the Performing Arts, Houston’s E. Jones Hall for the
-            Performing Arts, Cleveland’s Severance Hall, and Blossom Music
-            Center. A winner of Astral Artists’ 2017 National Auditions, O’Brien
-            received top prizes from such competitions as the Lyon & Healy
-            Awards, the Cleveland Institute of Music (CIM) Concerto Competition,
-            and the Saratoga Harp Colony “Play with the Pros” Competition. She
-            is also the recipient of the Alice Chalifoux Award and was the 2015
-            CIM Presser Scholar. O’Brien has appeared as soloist with the
-            Houston Symphony Orchestra, members of The Philadelphia Orchestra,
-            the National Repertory Orchestra, and the CIM Symphony Orchestra.
-            Passionate about inspiring musicians around the world, O’Brien
-            maintains a significant social media following, with around 50,000
-            followers on Instagram. She is the author of “Purpose in Practice:
-            26 Rules for the Practicing Musician,” a book designed to motivate
-            musicians to achieve higher practicing goals. O’Brien teaches
-            privately and also serves on faculty at Hollins University in
-            Roanoke, Virginia. Rachel O’Brien holds Bachelor and Master of Music
-            degrees from the Cleveland Institute of Music, where she studied
-            harp performance under Yolanda Kondonassis. For more information,
-            visit{" "}
-            <Link
-              href={"http://www.rachelleehall.com"}
-              target="_blank"
-              className="text-[hsl(290,25%,73%)]"
-            >
-              www.rachelleehall.com
-            </Link>
-            .
+            Jane Yoo is an internationally recognized harpist and prize-winner,
+            known for her performances around the globe. She has garnered
+            numerous prestigious awards, including the USA International Harp
+            Competition, 1st Prize at the Korean International Harp Competition,
+            and the Special Prize at the Szeged International Harp Competition
+            in Hungary. In 2022, she earned an Honorable Mention at the Lyon &
+            Healy Awards. Most recently, she was named a Young Artist in
+            Residence on Minnesota Public Radio’s Performance Today in 2024.
+            Jane has been featured as a soloist at the World Harp Congress’s
+            “Focus on Youth” event in Hong Kong in 2017 and was selected twice
+            as a Kumho Young Concert Artist (2014, 2017). She has performed with
+            the Yale Philharmonia under Peter Oundjian and serves as associate
+            principal harpist with both the New World Symphony and the Civic
+            Orchestra of Chicago. Jane holds a Bachelor of Music from Seoul
+            National University and a Master of Music from the Yale School of
+            Music. She is the only musician to be admitted to the Artist Diploma
+            program at Peabody Institute, where she is currently pursuing a DMA
+            program under Dr. June Han.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/rachel.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/Jane.JPG')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
           ref={targetRef1}
           style={{
             transform: isInView1 ? "none" : "translateX(150%)",
@@ -326,7 +314,7 @@ function Bios() {
         ref={targetRef4}
       >
         <div
-          className={`m-8 bg-[url('/images/members/9.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/PhotoMa.jpg')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView4 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView4 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef4}
@@ -344,7 +332,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            PAOLO DARA
+            YU-MING (ANDREW) MA
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont ${
@@ -366,25 +354,21 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Violinist, Paolo Dara, is from Grand Rapids, Michigan and began
-            playing the violin at age 5. At 15, he gave his first concerto
-            appearance with the Lansing Symphony orchestra. He has also been
-            featured as soloist with the Grand Rapids Symphony and other local
-            orchestras in Michigan including the Grand Rapids Youth Symphony,
-            Detroit Civic Symphony, and Kent Philharmonic. In addition to
-            concerto performances, he has performed in the sections of the
-            Detroit and Atlanta Symphonies. Paolo has been heard at several
-            music festivals including the New York String Orchestra Seminar, IMS
-            Prussia Cove, PMP Chamber Music Workshop, and the Gstaad Menuhin
-            Academy. In addition, he is the co-director of a concert series in
-            Grand Rapids, Michigan called the Plymouth Chamber Players. He
-            completed his undergraduate studies at CIM where he was awarded the
-            Anna Y. Tringas Award for excellence in violin performance studying
-            with Jaime Laredo and Jan Sloman, and completed his Masters from the
-            Shepherd School of Music at Rice University studying with Kathleen
-            Winkler. Paolo is currently pursuing a Professional Studies
-            Certificate at the Cleveland Institute of Music as a student of
-            Stephen Rose.
+            Taiwanese violinist Yu-Ming (Andrew) Ma began his musical studies at
+            the age of five. As a soloist, he has been selected to perform
+            concerti with orchestras, including the SiungSong Orchestra in
+            Taiwan and the Cleveland Institute of Music Orchestra. His chamber
+            music experience includes performing at the Kneisel Hall chamber
+            music festival, Taos School of Music, and Music@Menlo as an
+            international performer. In February 2020, Andrew performed at
+            Tongyeong International Music Festival in Tongyeong Korea as a guest
+            artist, invited by noted violinist Jinjoo Cho. During the course of
+            his musical training, Yu-Ming’s teachers have included Todor Pelev,
+            Ivan Zenaty, Jinjoo Cho, Jan Sloman, and Jaime Laredo. Currently,
+            Andrew holds a Bachelor of Music degree from Cleveland Institute of
+            Music and a Master’s Degree from Rice University’s Shepherd School
+            of Music. He is currently pursuing a Doctor of Musical Arts degree
+            at Rice University studying under the tutelage of Paul Kantor.
           </p>
         </div>
       </div>
