@@ -239,13 +239,21 @@ export const tourInfo = [
       {
         id: 3,
         month: "DECEMBER",
+        date: "8",
+        year: "2024",
+        city: "Savannah, GA",
+        time: "4:00 PM",
+      },
+      {
+        id: 4,
+        month: "DECEMBER",
         date: "9",
         year: "2024",
         city: "New Smyrna Beach, FL",
         time: "6:00 PM",
       },
       {
-        id: 4,
+        id: 5,
         month: "DECEMBER",
         date: "10",
         year: "2024",
@@ -253,7 +261,7 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
-        id: 5,
+        id: 6,
         month: "DECEMBER",
         date: "11",
         year: "2024",
@@ -261,21 +269,21 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
-        id: 6,
+        id: 7,
         month: "DECEMBER",
         date: "13",
         year: "2024",
         city: "Stuart, FL",
-        time: "TBD",
+        time: "7:00 PM",
       },
-      // {
-      //   id: 7,
-      //   month: "DECEMBER",
-      //   date: "15",
-      //   year: "2024",
-      //   city: "Sarasota, FL",
-      //   time: "TBD",
-      // },
+      {
+        id: 8,
+        month: "DECEMBER",
+        date: "15",
+        year: "2024",
+        city: "Sanibel Island, FL",
+        time: "2:00 PM",
+      },
       // {
       //   id: 8,
       //   month: "DECEMBER",
@@ -841,10 +849,10 @@ export const headshots = [
     src: "/images/members/RachelA.webp",
     alt: "Rachel Aguilar smiling with Violin in hand",
   },
-  {
-    src: "/images/members/9.webp",
-    alt: "Paulo with violin looking into distance",
-  },
+  // {
+  //   src: "/images/members/9.webp",
+  //   alt: "Paulo with violin looking into distance",
+  // },
   {
     src: "/images/members/10.webp",
     alt: "Laura with Cello",
@@ -853,18 +861,18 @@ export const headshots = [
     src: "/images/members/11.webp",
     alt: "Laura with Cello sideways",
   },
-  {
-    src: "/images/members/12.webp",
-    alt: "Rachel O'Brien outside with Harp",
-  },
-  {
-    src: "/images/members/13.webp",
-    alt: "Rachel at Harp with serious look",
-  },
-  {
-    src: "/images/members/14.webp",
-    alt: "Rachel standing next to Harp",
-  },
+  // {
+  //   src: "/images/members/12.webp",
+  //   alt: "Rachel O'Brien outside with Harp",
+  // },
+  // {
+  //   src: "/images/members/13.webp",
+  //   alt: "Rachel at Harp with serious look",
+  // },
+  // {
+  //   src: "/images/members/14.webp",
+  //   alt: "Rachel standing next to Harp",
+  // },
   {
     src: "/images/members/Alexandra.jpg",
     alt: "Alexandra sitting at Harpsichord",
