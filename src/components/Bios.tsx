@@ -565,24 +565,21 @@ function Bios() {
             }}
           >
             Dr. Alexandra Snyder Dunbar is an award-winning harpsichordist,
-            pianist, and pedagogue. She holds degrees from the Juilliard School,
-            Manhattan School of Music, and Interlochen Arts Academy. She
-            received a full scholarship as a resident in the C.V. Starr Fellows
-            Program as a Doctoral Candidate at Juilliard in the harpsichord
-            studio of Lionel Party. Solo performances with orchestra have
-            included Orchestra 54, Dorian Baroque Orchestra, The Memphis Chamber
-            Music Society, The Symphony of Westchester, and The Chamber
-            Orchestra of New York. Dr. Dunbar has collaborated on performance
-            projects with the Atlanta Baroque Orchestra, The Dryden Ensemble,
-            the Foundlings Ensemble, and The New York Philharmonic. Dr. Dunbar
-            is on the music faculty at the University of North Georgia and
-            Athens Technical College, and she regularly concertizes and
-            maintains a private teaching studio on piano, harpsichord, and
-            organ. She is an instructor of Music Theory and Harpsichord at the
-            world-renowned Interlochen Arts Camp in Interlochen, Michigan.
-            Currently she serves as Organist at Emmanuel Episcopal Church in
-            Athens, Georgia, and is harpsichordist and co-artistic director for
-            Amethyst Baroque Ensemble.
+            pianist, and pedagogue. At Juilliard, she received a full
+            scholarship as a resident in the prestigious C. V. Starr Fellowship
+            in the Doctoral program. Dr. Dunbar received a Masters of Music in
+            Harpsichord Performance at Juilliard and a Bachelor of Music in
+            Piano from Manhattan School of Music. Solo performances with
+            orchestra include with Orchestra 54, Dorian Baroque Orchestra, The
+            Memphis Chamber Music Society, The Symphony of Westchester, and The
+            Chamber Orchestra of New York. Dr. Dunbar performed with The Dryden
+            Ensemble, the Foundlings Ensemble, The New York Philharmonic, and
+            the Atlanta Baroque Orchestra. Dr. Dunbar is on the music faculty at
+            the University of North Georgia, Interlochen Arts Camp, and
+            maintains a private teaching studio and busy performance calendar.
+            Currently, she serves as organist at Madison First United Methodist
+            Church in Athens, Georgia and is co-artistic director for Amethyst
+            Baroque Ensemble.
           </p>
         </div>
       </div>
