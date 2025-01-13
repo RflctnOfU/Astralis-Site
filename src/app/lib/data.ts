@@ -300,14 +300,14 @@ export const tourInfo = [
     description: "French music for flute, violin, and piano",
     image: "/images/tour-images/flute-md.webp",
     dates: [
-      {
-        id: 0,
-        month: "JANUARY",
-        date: "19",
-        year: "2025",
-        city: "Vero Beach, FL",
-        time: "TBD",
-      },
+      // {
+      //   id: 0,
+      //   month: "JANUARY",
+      //   date: "19",
+      //   year: "2025",
+      //   city: "Vero Beach, FL",
+      //   time: "TBD",
+      // },
       {
         id: 1,
         month: "JANUARY",
@@ -338,7 +338,7 @@ export const tourInfo = [
         date: "25",
         year: "2025",
         city: "Tampa, FL",
-        time: "TBD",
+        time: "7:00 PM",
       },
       {
         id: 5,
@@ -368,13 +368,21 @@ export const tourInfo = [
       {
         id: 1,
         month: "FEBRUARY",
+        date: "10",
+        year: "2025",
+        city: "Daytona Beach, FL",
+        time: "11:15 AM",
+      },
+      {
+        id: 2,
+        month: "FEBRUARY",
         date: "12",
         year: "2025",
         city: "Lake City, FL",
         time: "6:30 PM",
       },
       {
-        id: 2,
+        id: 3,
         month: "FEBRUARY",
         date: "14",
         year: "2025",
@@ -382,7 +390,15 @@ export const tourInfo = [
         time: "7:30 PM",
       },
       {
-        id: 3,
+        id: 4,
+        month: "FEBRUARY",
+        date: "15",
+        year: "2025",
+        city: "Coral Springs, FL",
+        time: "7:00 PM",
+      },
+      {
+        id: 5,
         month: "FEBRUARY",
         date: "16",
         year: "2025",
@@ -397,14 +413,7 @@ export const tourInfo = [
       //   city: "Sarasota, FL",
       //   time: "7:30 PM",
       // },
-      // {
-      //   id: 5,
-      //   month: "FEBRUARY",
-      //   date: "14",
-      //   year: "2024",
-      //   city: "Venice, FL",
-      //   time: "4:00 PM",
-      // },
+
       // {
       //   id: 6,
       //   month: "FEBRUARY",
@@ -433,13 +442,21 @@ export const tourInfo = [
       {
         id: 0,
         month: "MARCH",
-        date: "25",
+        date: "23",
         year: "2025",
-        city: "Avon Lake, OH",
-        time: "TBD",
+        city: "Brecksville, OH",
+        time: "4:00 PM",
       },
       {
         id: 1,
+        month: "MARCH",
+        date: "25",
+        year: "2025",
+        city: "Avon Lake, OH",
+        time: "7:30 PM",
+      },
+      {
+        id: 2,
         month: "MARCH",
         date: "26",
         year: "2025",
@@ -447,7 +464,7 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
-        id: 2,
+        id: 3,
         month: "MARCH",
         date: "27",
         year: "2025",
@@ -455,7 +472,7 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
-        id: 3,
+        id: 4,
         month: "MARCH",
         date: "28",
         year: "2025",
@@ -463,7 +480,7 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
-        id: 4,
+        id: 5,
         month: "MARCH",
         date: "29",
         year: "2025",
@@ -471,7 +488,7 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
-        id: 5,
+        id: 6,
         month: "MARCH",
         date: "30",
         year: "2025",
@@ -479,7 +496,7 @@ export const tourInfo = [
         time: "4:00 PM",
       },
       {
-        id: 6,
+        id: 7,
         month: "MARCH",
         date: "31",
         year: "2025",
