@@ -679,7 +679,7 @@ export const tourInfo = [
 export const videos = [
   {
     name: "Debussy - Sonata for Flute, Viola, and Harp",
-    src: "https://www.youtube.com/watch?v=zIGkBaecnLk",
+    src: "https://www.youtube.com/embed/zIGkBaecnLk",
   },
   {
     name: "Telemann - Trio Sonata in D Minor",
