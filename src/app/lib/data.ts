@@ -295,9 +295,10 @@ export const tourInfo = [
     ],
   },
   {
-    name: "IMPRESSIONS",
+    name: "NEW HORIZONS",
     instruments: "FLUTE, VIOLIN, PIANO",
-    description: "French music for flute, violin, and piano",
+    description:
+      "Introducing the audience to something new with works by Rota, Andriessen, Melbonis, and Karg-Elert",
     image: "/images/tour-images/flute-md.webp",
     dates: [
       // {
