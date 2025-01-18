@@ -298,7 +298,7 @@ export const tourInfo = [
     name: "NEW HORIZONS",
     instruments: "FLUTE, VIOLIN, PIANO",
     description:
-      "Introducing the audience to something new with works by Rota, Andriessen, Melbonis, and Karg-Elert",
+      "Introducing the audience to something new with works by Rota, Andriessen, Mel Bonis, and Karg-Elert",
     image: "/images/tour-images/flute-md.webp",
     dates: [
       // {
