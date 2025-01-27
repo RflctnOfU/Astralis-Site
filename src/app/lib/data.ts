@@ -519,7 +519,7 @@ export const tourInfo = [
     name: "FANTAISIE D'AMOUR",
     instruments: "FLUTE, TRUMPET, PIANO",
     description:
-      "Valentine’s program with works by Rubtsov, Stephenson, Schumann, Gaubert, and Widor",
+      "Valentine’s program with works by Rubtsov, Stephenson, Schumann, Gaubert, and Widor.",
     image: "/images/tour-images/piano-md.webp",
     dates: [
       {
