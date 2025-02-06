@@ -109,71 +109,72 @@ function Bios() {
       <hr className="lg:hidden mx-4" />
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
-        ref={targetRef1}
+        ref={targetRef7}
       >
         <div className="md:p-4 p-2">
           <h2
-            className={` font-dream md:text-5xl text-4xl py-4 text-center`}
-            ref={targetRef1}
+            className={`font-dream md:text-5xl text-4xl py-4 text-center`}
+            ref={targetRef7}
             style={{
-              transform: isInView1 ? "none" : "translateX(-150%)",
-              opacity: isInView1 ? 1 : 0,
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            JANE YOO
+            KRIS MARSHALL
           </h2>
           <h4
-            className={`md:text-2xl text-xl font-mont font-light text-center `}
-            ref={targetRef1}
+            className={`md:text-2xl text-xl font-light text-center font-mont`}
+            ref={targetRef7}
             style={{
-              transform: isInView1 ? "none" : "translateX(-150%)",
-              opacity: isInView1 ? 1 : 0,
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            HARP
+            TRUMPET
           </h4>
           <p
             className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
-            ref={targetRef1}
+            ref={targetRef7}
             style={{
-              transform: isInView1 ? "none" : "translateX(-150%)",
-              opacity: isInView1 ? 1 : 0,
+              transform: isInView7 ? "none" : "translateX(-150%)",
+              opacity: isInView7 ? 1 : 0,
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Jane Yoo is an internationally recognized harpist and prize-winner,
-            known for her performances around the globe. She has garnered
-            numerous prestigious awards, including the USA International Harp
-            Competition, 1st Prize at the Korean International Harp Competition,
-            and the Special Prize at the Szeged International Harp Competition
-            in Hungary. In 2022, she earned an Honorable Mention at the Lyon &
-            Healy Awards. Most recently, she was named a Young Artist in
-            Residence on Minnesota Public Radio’s Performance Today in 2024.
-            Jane has been featured as a soloist at the World Harp Congress’s
-            “Focus on Youth” event in Hong Kong in 2017 and was selected twice
-            as a Kumho Young Concert Artist (2014, 2017). She has performed with
-            the Yale Philharmonia under Peter Oundjian and serves as associate
-            principal harpist with both the New World Symphony and the Civic
-            Orchestra of Chicago. Jane holds a Bachelor of Music from Seoul
-            National University and a Master of Music from the Yale School of
-            Music. She is the only musician to be admitted to the Artist Diploma
-            program at Peabody Institute, where she is currently pursuing a DMA
-            program under Dr. June Han.
+            Kris Marshall is principal trumpet with the Southwest Florida
+            Symphony Orchestra, Venice Symphony, and has built an active career
+            performing with multiple orchestras across the state of Florida,
+            including the Jacksonville Symphony, Charlotte Symphony, Naples
+            Philharmonic, and regular performances with The Florida Orchestra.
+            Marshall has been a featured soloist with the Southwest Florida
+            Symphony Orchestra on many occasions and with the Fifth Avenue
+            Chamber Orchestra in Naples, Florida. As a founding member of the
+            Astralis Chamber Ensemble, he presents several chamber recital tours
+            each year and participates in commission projects to increase the
+            chamber repertoire for trumpet. He won first prize in the Florida
+            Orchestra Young Artist Competition and was later selected to attend
+            the Chautauqua Institution Summer Music Festival where he studied
+            with Chuck Berginc, principal trumpet with the Phoenix Symphony
+            Orchestra. Other significant instructors include Robert Smith and Ed
+            Cord. Marshall pursued degrees in trumpet performance at Florida
+            State University, Indiana University, and the University of South
+            Florida.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/Jane.JPG')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
-          ref={targetRef1}
+          className="fade-in-right m-8 bg-[url('/images/members/4.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
+          ref={targetRef7}
           style={{
-            transform: isInView1 ? "none" : "translateX(150%)",
-            opacity: isInView1 ? 1 : 0,
+            transform: isInView7 ? "none" : "translateX(150%)",
+            opacity: isInView7 ? 1 : 0,
             transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
           }}
         ></div>
       </div>
+
       <hr className="lg:hidden mx-4 self-center" />
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
@@ -664,79 +665,11 @@ function Bios() {
 
       <hr className="lg:hidden mx-4 self-center" />
       <div
-        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
-        ref={targetRef7}
-      >
-        <div className="md:p-4 p-2">
-          <h2
-            className={`font-dream md:text-5xl text-4xl py-4 text-center`}
-            ref={targetRef7}
-            style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
-              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
-            }}
-          >
-            KRIS MARSHALL
-          </h2>
-          <h4
-            className={`md:text-2xl text-xl font-light text-center font-mont`}
-            ref={targetRef7}
-            style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
-              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
-            }}
-          >
-            TRUMPET
-          </h4>
-          <p
-            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
-            ref={targetRef7}
-            style={{
-              transform: isInView7 ? "none" : "translateX(-150%)",
-              opacity: isInView7 ? 1 : 0,
-              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
-            }}
-          >
-            Kris Marshall is principal trumpet with the Southwest Florida
-            Symphony Orchestra, Venice Symphony, and has built an active career
-            performing with multiple orchestras across the state of Florida,
-            including the Jacksonville Symphony, Charlotte Symphony, Naples
-            Philharmonic, and regular performances with The Florida Orchestra.
-            Marshall has been a featured soloist with the Southwest Florida
-            Symphony Orchestra on many occasions and with the Fifth Avenue
-            Chamber Orchestra in Naples, Florida. As a founding member of the
-            Astralis Chamber Ensemble, he presents several chamber recital tours
-            each year and participates in commission projects to increase the
-            chamber repertoire for trumpet. He won first prize in the Florida
-            Orchestra Young Artist Competition and was later selected to attend
-            the Chautauqua Institution Summer Music Festival where he studied
-            with Chuck Berginc, principal trumpet with the Phoenix Symphony
-            Orchestra. Other significant instructors include Robert Smith and Ed
-            Cord. Marshall pursued degrees in trumpet performance at Florida
-            State University, Indiana University, and the University of South
-            Florida.
-          </p>
-        </div>
-
-        <div
-          className="fade-in-right m-8 bg-[url('/images/members/4.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
-          ref={targetRef7}
-          style={{
-            transform: isInView7 ? "none" : "translateX(150%)",
-            opacity: isInView7 ? 1 : 0,
-            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
-          }}
-        ></div>
-      </div>
-      <hr className="lg:hidden mx-4 self-center" />
-      {/* <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
         ref={targetRef10}
       >
         <div
-          className={`m-8 bg-[url('/images/members/ZhangPhoto.webp')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/LimPhoto.jpg')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView10 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView10 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef10}
@@ -754,7 +687,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            KERU ZHANG
+            ASHLEY LIM
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont ${
@@ -765,7 +698,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            PIANO
+            HARP
           </h4>
           <p
             className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
@@ -776,27 +709,99 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Keru Zhang holds a bachelor&apos;s degree from the Cleveland
-            Institute of Music and a master&apos;s degree in piano performance
-            from The Juilliard School. Keru began her professional training at
-            age four in China and later moved to the United States after being
-            enrolled into the Pre-College of The Juilliard School at fifteen.
-            Keru has performed at prestigious venues, including Alice Tully Hall
-            at Lincoln Center, and is winner of the Bauchauer Scholarship
-            Competition at Juilliard. She participated in international music
-            festivals, including the Beethoven Music Festival in Germany,
-            Pianofest in the Hamptons, Orford Musique, and The Gilmore Piano
-            Festival. As a passionate chamber musician, Keru worked with members
-            of the Kalichstein-Laredo-Robinson Trio, Cavani Quartet, Juilliard
-            String Quartet, and she collaborated with the legendary cellist,
-            Lynn Harrell. Keru was on piano faculty at the Brooklyn Conservatory
-            of Music, as well as the Start-Up Program and staff pianist at the
-            School For Strings in NYC. She currently serves as piano faculty at
-            the Charleston Academy of Music and maintains her piano studio at
-            the Kawai Piano Gallery in Bluffton, SC.
+            Singaporean harpist, Cheng Wei (Ashley) Lim is a current fellow at
+            The Orchestra Now where she holds the position of principal harpist
+            while serving as adjunct lecturer for Bard College’s music
+            department. Ashley has performed regularly in major venues such as
+            Carnegie Hall, Jazz at Lincoln Center, Met Museum and Symphony Space
+            as an active orchestral musician. As a soloist, she has given
+            recitals across Asia, Europe and America. In addition to being
+            familiar with western works, Ashley is also well versed in eastern
+            music, having performed Malay, Javanese and Indian classical music,
+            and has even worked with numerous Chinese and ethnic orchestras
+            around Singapore. Ashley graduated with a masters degree from the
+            University of Cincinnati College-Conservatory of Music under the
+            tutelage of Doctor Gillian Bennet Sella. She obtained her bachelor’s
+            degree with honors from the Royal College of Music in London /
+            Nanyang Academy of Fine Arts where she studied with Singapore
+            Symphony Orchestra’s principal harpist, Gulnara Mashurova and
+            soloist, Ieuan Jones. To further her appreciation and understanding
+            of her instrument, Ashley was an apprentice under Lyon & Healy, and
+            Salvi harps, and is working towards becoming a harp
+            technician/regulator.
           </p>
         </div>
-      </div> */}
+      </div>
+      <hr className="lg:hidden mx-4 self-center" />
+
+      <div
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
+        ref={targetRef1}
+      >
+        <div className="md:p-4 p-2">
+          <h2
+            className={` font-dream md:text-5xl text-4xl py-4 text-center`}
+            ref={targetRef1}
+            style={{
+              transform: isInView1 ? "none" : "translateX(-150%)",
+              opacity: isInView1 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+            }}
+          >
+            JANE YOO
+          </h2>
+          <h4
+            className={`md:text-2xl text-xl font-mont font-light text-center `}
+            ref={targetRef1}
+            style={{
+              transform: isInView1 ? "none" : "translateX(-150%)",
+              opacity: isInView1 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
+            }}
+          >
+            HARP
+          </h4>
+          <p
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
+            ref={targetRef1}
+            style={{
+              transform: isInView1 ? "none" : "translateX(-150%)",
+              opacity: isInView1 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
+            }}
+          >
+            Jane Yoo is an internationally recognized harpist and prize-winner,
+            known for her performances around the globe. She has garnered
+            numerous prestigious awards, including the USA International Harp
+            Competition, 1st Prize at the Korean International Harp Competition,
+            and the Special Prize at the Szeged International Harp Competition
+            in Hungary. In 2022, she earned an Honorable Mention at the Lyon &
+            Healy Awards. Most recently, she was named a Young Artist in
+            Residence on Minnesota Public Radio’s Performance Today in 2024.
+            Jane has been featured as a soloist at the World Harp Congress’s
+            “Focus on Youth” event in Hong Kong in 2017 and was selected twice
+            as a Kumho Young Concert Artist (2014, 2017). She has performed with
+            the Yale Philharmonia under Peter Oundjian and serves as associate
+            principal harpist with both the New World Symphony and the Civic
+            Orchestra of Chicago. Jane holds a Bachelor of Music from Seoul
+            National University and a Master of Music from the Yale School of
+            Music. She is the only musician to be admitted to the Artist Diploma
+            program at Peabody Institute, where she is currently pursuing a DMA
+            program under Dr. June Han.
+          </p>
+        </div>
+
+        <div
+          className="fade-in-right m-8 bg-[url('/images/members/Jane.JPG')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          ref={targetRef1}
+          style={{
+            transform: isInView1 ? "none" : "translateX(150%)",
+            opacity: isInView1 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+          }}
+        ></div>
+      </div>
+      <hr className="lg:hidden mx-4 self-center" />
     </div>
   );
 }
