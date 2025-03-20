@@ -794,9 +794,9 @@ export const tourInfo = [
       {
         id: 20,
         month: "MAY",
-        date: "TBD",
+        date: "7",
         year: "2025",
-        city: "Murrells Inlet, SC",
+        city: "Pawleys Island, SC",
         time: "6:00 PM",
       },
       {
