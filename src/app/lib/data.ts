@@ -680,10 +680,10 @@ export const tourInfo = [
     ],
   },
   {
-    name: "ELEGY",
+    name: "REVERIE",
     instruments: "FLUTE, VIOLA, HARP",
     description:
-      "Concert featuring Debussy's monumental trio, and other works by Bax and Alwyn. ",
+      "Concert featuring Debussy's monumental trio and other works by Ibert, Cras, and J.S. Bach.",
     image: "/images/tour-images/harp.webp",
     dates: [
       {
@@ -772,7 +772,7 @@ export const tourInfo = [
     name: "WOMEN IN MUSIC",
     instruments: "FLUTE, CELLO, PIANO",
     description:
-      "Program will include works by female composers for Mother's Day.",
+      "Program featuring female composers for Mother's Day. Music by Amanda Harberg, Mel Bonis, Dani Howard, Annabelle Chvostek, and Fannie Mendelssohn.",
     image: "/images/tour-images/cello-md.webp",
     dates: [
       {
@@ -800,12 +800,20 @@ export const tourInfo = [
         time: "6:00 PM",
       },
       {
+        id: 21,
+        month: "MAY",
+        date: "8",
+        year: "2025",
+        city: "House Concert",
+        time: "3:00 PM",
+      },
+      {
         id: 3,
         month: "MAY",
         date: "9",
         year: "2025",
         city: "Charleston, SC",
-        time: "TBD",
+        time: "7:00 PM",
       },
       {
         id: 4,
@@ -833,16 +841,32 @@ export const tourInfo = [
     dates: [
       {
         id: 0,
-        month: "JUNE",
-        date: "16",
+        month: "JULY",
+        date: "17",
         year: "2025",
         city: "Sarasota, FL",
-        time: "TBD",
+        time: "7:30 PM",
       },
       {
         id: 1,
-        month: "JUNE",
-        date: "17",
+        month: "JULY",
+        date: "18",
+        year: "2025",
+        city: "Venice, FL",
+        time: "3:00 PM",
+      },
+      {
+        id: 2,
+        month: "JULY",
+        date: "21",
+        year: "2025",
+        city: "Sarasota, FL",
+        time: "8:00 PM",
+      },
+      {
+        id: 3,
+        month: "JULY",
+        date: "23",
         year: "2025",
         city: "Boca Raton, FL",
         time: "7:30 PM",
