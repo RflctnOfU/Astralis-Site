@@ -772,7 +772,7 @@ export const tourInfo = [
     name: "WOMEN IN MUSIC",
     instruments: "FLUTE, CELLO, PIANO",
     description:
-      "Program featuring female composers for Mother's Day. Music by Amanda Harberg, Mel Bonis, Dani Howard, Annabelle Chvostek, and Fannie Mendelssohn.",
+      "Program featuring female composers for Mother's Day. Music by Amanda Harberg, Mel Bonis, Dani Howard, Annabelle Chvostek, and Fanny Mendelssohn.",
     image: "/images/tour-images/cello-md.webp",
     dates: [
       {
