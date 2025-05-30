@@ -29,21 +29,18 @@ export default function Home() {
         <div className="pb-[5%] font-mont font-light md:text-xl text-center">
           <p className="lg:mx-16 m-4">
             The Astralis Chamber Ensemble is an innovative and dynamic ensemble
-            performing with much acclaim across the globe. Through creative
-            programming and presentations on the works performed, Astralis aims
-            to make classical music more accessible and for audiences to make a
-            lasting connection to the music. Concert tours are arranged to
-            include rural communities and reach audiences without access to
-            classical music. These award-winning musicians represent decades of
-            experience across many of the world’s major venues and notable
-            concert series. With instrument pairings that are unique worldwide,
-            the ensemble expands the repertoire available through commissions
-            and arrangements. ACE aims to support the development of the arts
-            through new compositions and reach communities of all backgrounds
-            through music.
+            performing with much acclaim across the country. These award-winning
+            musicians represent decades of experience performing at many of the
+            world’s major venues and notable concert series. With instrument
+            pairings that are unique worldwide, the ensemble has been selected
+            for the dedication of many new chamber works and has expanded the
+            repertoire available through commissions and arrangements. Concert
+            tours include a range of performances from leading concert series to
+            underserved communities in order to reach communities of all
+            backgrounds through music.
           </p>
         </div>
-        <hr className="text-neutral-200 w-[90%] self-center" />
+        {/* <hr className="text-neutral-200 w-[90%] self-center" />
         <div className="pb-[5%] font-mont font-light md:text-xl text-center">
           <p className="lg:mx-16 m-4">
             Thank you to our donors for their generosity:
@@ -73,7 +70,7 @@ export default function Home() {
             <li>Greg Lane</li>
             <li>Janet Ullman</li>
           </ul>
-        </div>
+        </div> */}
         <hr className="text-neutral-200 w-[90%] self-center" />
 
         <div className="m-4 lg:m-8 p-4 grid grid-cols-12 gap-4 bg-[#d5d5d5] bg-opacity-20 rounded-xl">
