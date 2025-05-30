@@ -1028,8 +1028,8 @@ export const images = [
     alt: "Baroque Quartet",
   },
   {
-    src: "/images/carousel/cover2.webp",
-    alt: "Concert Photo",
+    src: "/images/publicity/ViolaHarp.jpg",
+    alt: "Flute, Viola, Harp",
   },
   {
     src: "/images/carousel/cover3.webp",
