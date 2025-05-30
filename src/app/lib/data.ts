@@ -1091,12 +1091,12 @@ export const publicity = [
   //   alt: "Flute Piano Duo",
   // },
   {
-    src: "/images/publicity/PhotoTrio1.jpg",
-    alt: "Flute Harp Trumpet",
-  },
-  {
     src: "/images/publicity/ViolaHarp.jpg",
     alt: "Flute Viola Harp",
+  },
+  {
+    src: "/images/publicity/PhotoTrio1.jpg",
+    alt: "Flute Harp Trumpet",
   },
   {
     src: "/images/publicity/PhotoDuo5.jpg",
