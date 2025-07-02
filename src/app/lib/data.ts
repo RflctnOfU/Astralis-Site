@@ -327,7 +327,7 @@ export const tourInfo = [
   },
   {
     name: "ENCHANTED NOEL",
-    instruments: "FLUTE, HARP",
+    instruments: "FLUTE, CELLO, HARP",
     description:
       "Holiday favorites and classical repertoire to fit the spirit of the season.",
     image: "/images/tour-images/firTree.webp",
