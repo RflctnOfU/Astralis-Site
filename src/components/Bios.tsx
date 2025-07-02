@@ -122,7 +122,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            LAURA USISKIN
+            CHRISTINE WU
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont`}
@@ -133,7 +133,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            CELLO
+            VIOLIN & VIOLA
           </h4>
           <p
             className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
@@ -144,38 +144,28 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Laura Usiskin enjoys a versatile career as a cellist and educator.
-            Her playing has taken her to concert halls throughout the United
-            States and Europe, including the Kennedy Center, Palazzo Chigi
-            Saracini, Symphony Hall (Boston), Alice Tully Hall, Weill Hall,
-            Zankel Hall, Merkin Hall, Miller Theatre, Barge Music, Steinway
-            Hall, and Klavierhaus. While completing an Artist-In-Residency with
-            the Montgomery Symphony Orchestra, Usiskin founded and served as the
-            inaugural Executive Director of the Montgomery Music Project, an El
-            Sistema strings program in Montgomery, Alabama. The program, now
-            more than 10 years old, has given intensive string instruction to
-            hundreds of low-income children across three counties. Usiskin is a
-            member of the Bayberry String Quartet as well as the Atlanta-based
-            new music group ensemble vim. She has served on the faculty of the
-            University of Alabama at Birmingham, through which she founded the
-            chamber series Chamber Music @ AEIVA, as well as Birmingham-Southern
-            College. Usiskin graduated from Columbia University cum laude with a
-            Bachelor of Arts in Neuroscience and Behavior, The Juilliard School
-            with a Master of Music, and Yale University with a Doctor of Musical
-            Arts. For more information, visit{" "}
-            <Link
-              href={"https://www.laurausiskin.com"}
-              target="_blank"
-              className="text-[hsl(290,25%,73%)]"
-            >
-              www.laurausiskin.com
-            </Link>
-            .
+            Violinist-violist hybrid Christine Wu has been hailed for her
+            “strikingly bold sound” and “technical facility” (Theater Jones),
+            and performs internationally with recent solo appearances in
+            Chicago, Sendai, New York City, and Berlin. Her live premiere of
+            Jeffrey Mumford’s verdant cycles of deepening spring with the
+            Chicago Composers Orchestra debuted on Jeffrey Mumford: Echoing
+            Depths with Albany Records in 2023. She has also been named a
+            recipient of an Audience Prize at the 8th Sendai International Music
+            Competition, the CD Recording Prize with Outhere Music at the
+            inaugural Berlin Prize for Young Artists competition, as well as the
+            winner of the Cleveland Institute of Music Concerto Competition,
+            Lynn Harrell Concerto Competition, and at the Aspen Music Festival
+            and School’s Low Strings Concerto Competition as a violist.
+            Christine studied at the Manhattan School of Music, The Juilliard
+            School and Cleveland Institute of Music with Sylvia Rosenberg,
+            Nicholas Mann, Masao Kawasaki, and Jaime Laredo. She also holds a
+            minor in Business Management from Case Western Reserve University.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/10.webp')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/WuPhoto1.jpg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
           ref={targetRef5}
           style={{
             transform: isInView5 ? "none" : "translateX(150%)",
@@ -269,7 +259,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            RACHEL AGUILAR
+            LAURA USISKIN
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont`}
@@ -280,7 +270,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            VIOLIN
+            CELLO
           </h4>
           <p
             className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
@@ -291,26 +281,38 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Originally from Holiday Hills, IL, Rachel Aguilar (Stenzel) grew up
-            in a very musical family, beginning her formal training on the piano
-            at age five and the violin at age nine. Currently residing in
-            Houston, TX, she completed both her bachelor’s and master’s degrees
-            in violin performance at the Cleveland Institute of Music (CIM), in
-            addition to participating in residencies at Rice University’s
-            Shepherd School of Music, Escuela Superior de Musica Reina Sofia
-            (Madrid), and the University of Music and Performing Arts in Vienna.
-            Although she loves both solo and orchestral playing, Rachel’s true
-            passion is for chamber music. As a founding member of the Callisto
-            Quartet, Rachel has won top prizes in nearly every major chamber
-            music competition, including the Banff International String Quartet
-            Competition, Bordeaux International String Quartet Competition,
-            Melbourne International Chamber Music Competition, and Fischoff
-            National Chamber Music Competition.
+            Laura Usiskin enjoys a versatile career as a cellist and educator.
+            Her playing has taken her to concert halls throughout the United
+            States and Europe, including the Kennedy Center, Palazzo Chigi
+            Saracini, Symphony Hall (Boston), Alice Tully Hall, Weill Hall,
+            Zankel Hall, Merkin Hall, Miller Theatre, Barge Music, Steinway
+            Hall, and Klavierhaus. While completing an Artist-In-Residency with
+            the Montgomery Symphony Orchestra, Usiskin founded and served as the
+            inaugural Executive Director of the Montgomery Music Project, an El
+            Sistema strings program in Montgomery, Alabama. The program, now
+            more than 10 years old, has given intensive string instruction to
+            hundreds of low-income children across three counties. Usiskin is a
+            member of the Bayberry String Quartet as well as the Atlanta-based
+            new music group ensemble vim. She has served on the faculty of the
+            University of Alabama at Birmingham, through which she founded the
+            chamber series Chamber Music @ AEIVA, as well as Birmingham-Southern
+            College. Usiskin graduated from Columbia University cum laude with a
+            Bachelor of Arts in Neuroscience and Behavior, The Juilliard School
+            with a Master of Music, and Yale University with a Doctor of Musical
+            Arts. For more information, visit{" "}
+            <Link
+              href={"https://www.laurausiskin.com"}
+              target="_blank"
+              className="text-[hsl(290,25%,73%)]"
+            >
+              www.laurausiskin.com
+            </Link>
+            .
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/RachelA.webp')] bg-no-repeat bg-center bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/UsiskinPhoto5.jpg')] bg-no-repeat bg-center bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
           ref={targetRef3}
           style={{
             transform: isInView3 ? "none" : "translateX(150%)",
@@ -325,7 +327,7 @@ function Bios() {
         ref={targetRef4}
       >
         <div
-          className={`m-8 bg-[url('/images/members/PhotoMacrop.jpg')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/PhotoLee1.jpeg')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView4 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView4 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef4}
@@ -343,7 +345,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            YU-MING (ANDREW) MA
+            YEIM LEE
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont ${
@@ -365,21 +367,21 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Taiwanese violinist Yu-Ming (Andrew) Ma began his musical studies at
-            the age of five. As a soloist, he has been selected to perform
-            concerti with orchestras, including the SiungSong Orchestra in
-            Taiwan and the Cleveland Institute of Music Orchestra. His chamber
-            music experience includes performing at the Kneisel Hall chamber
-            music festival, Taos School of Music, and Music@Menlo as an
-            international performer. In February 2020, Andrew performed at
-            Tongyeong International Music Festival in Tongyeong Korea as a guest
-            artist, invited by noted violinist Jinjoo Cho. During the course of
-            his musical training, Yu-Ming’s teachers have included Todor Pelev,
-            Ivan Zenaty, Jinjoo Cho, Jan Sloman, and Jaime Laredo. Currently,
-            Andrew holds a Bachelor of Music degree from Cleveland Institute of
-            Music and a Master’s Degree from Rice University’s Shepherd School
-            of Music. He is currently pursuing a Doctor of Musical Arts degree
-            at Rice University studying under the tutelage of Paul Kantor.
+            Yeim Lee is an active concert violinist and passionate chamber
+            musician. A winner of the Oberlin Conservatory Concerto Competition
+            and recipient of the Susan W. Rose Graduate Fellowship at The
+            Juilliard School, she performs regularly with the Sejong Soloists
+            and has served as Concertmaster of the Juilliard Orchestra and the
+            Oberlin Orchestra. As a committed chamber musician, she has appeared
+            at festivals including Music@Menlo’s International Program, Kneisel
+            Hall, Taos School of Music, and the Perlman Music Program’s Chamber
+            Music Workshop. Her current ensemble, the Resi Quartet, earned the
+            Silver Medal at the 2025 Coltman Chamber Music Competition. Yeim
+            holds an Artist Diploma from Rice University’s Shepherd School of
+            Music. She earned her Master of Music degree from The Juilliard
+            School on a full scholarship, studying with Laurie Smukler, and a
+            Bachelor of Music from the Oberlin Conservatory, where she studied
+            with David Bowlin.
           </p>
         </div>
       </div>
@@ -673,7 +675,7 @@ function Bios() {
         ref={targetRef10}
       >
         <div
-          className={`m-8 bg-[url('/images/members/LimPhoto.jpg')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/TanPhoto1.png')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView10 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView10 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef10}
@@ -691,7 +693,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            ASHLEY LIM
+            LISHAN TAN
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont ${
@@ -713,26 +715,24 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Singaporean harpist, Cheng Wei (Ashley) Lim is a current fellow at
-            The Orchestra Now where she holds the position of principal harpist
-            while serving as adjunct lecturer for Bard College’s music
-            department. Ashley has performed regularly in major venues such as
-            Carnegie Hall, Jazz at Lincoln Center, Met Museum and Symphony Space
-            as an active orchestral musician. As a soloist, she has given
-            recitals across Asia, Europe and America. In addition to being
-            familiar with western works, Ashley is also well versed in eastern
-            music, having performed Malay, Javanese and Indian classical music,
-            and has even worked with numerous Chinese and ethnic orchestras
-            around Singapore. Ashley graduated with a masters degree from the
-            University of Cincinnati College-Conservatory of Music under the
-            tutelage of Doctor Gillian Bennet Sella. She obtained her bachelor’s
-            degree with honors from the Royal College of Music in London /
-            Nanyang Academy of Fine Arts where she studied with Singapore
-            Symphony Orchestra’s principal harpist, Gulnara Mashurova and
-            soloist, Ieuan Jones. To further her appreciation and understanding
-            of her instrument, Ashley was an apprentice under Lyon & Healy, and
-            Salvi harps, and is working towards becoming a harp
-            technician/regulator.
+            Singaporean harpist Lishan Tan enjoys a multifaceted career as a
+            performer, arranger and writer. As the winner of the VI Mexico
+            International Harp Competition, she made her debut with the Orquesta
+            Sinfónica Nacional at Mexico City’s Palacio de Bellas Artes. Most
+            recently, Lishan appeared as a soloist alongside cellist Yo-Yo Ma
+            with the Boston Symphony Orchestra at the 2024 Tanglewood Music
+            Festival. In 2022, she performed two sold-out opening night concerts
+            with Vista Philharmonic Orchestra. She has also shared the stage
+            with groups such as The Metropolitan Opera, the Boston Pops and The
+            Beach Boys. As a founding member and resident arranger of
+            Singapore’s premier harp quartet The Harp Quarterly, Lishan aims to
+            push the boundaries of her instrument and her music videos ranging
+            from Metallica to Debussy have garnered millions of views online.
+            Lishan is also a freelance writer for the international harp
+            magazine, HarpColumn. She is currently pursuing her Doctor of
+            Musical Arts at the New England Conservatory with BSO Harpist
+            Jessica Zhou, where she is the first harpist admitted to the
+            doctoral program.
           </p>
         </div>
       </div>
