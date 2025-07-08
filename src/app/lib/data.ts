@@ -82,7 +82,7 @@ export const tourInfo = [
       },
       {
         id: 6,
-        month4: "JULY",
+        month: "JULY",
         date: "23",
         year: "2025",
         city: "Boca Raton, FL",
