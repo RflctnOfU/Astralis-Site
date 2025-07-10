@@ -27,9 +27,10 @@ export const linkData = [
 
 export const tourInfo = [
   {
-    name: "VOYAGE",
+    name: "DISCOVERIES",
     instruments: "FLUTE and PIANO",
-    description: "",
+    description:
+      "Introducing the audience to lesser-known works by Liebermann, Gaubert, Kuhlau, Ewazen, Ravel, and Mel Bonis.",
     image: "/images/tour-images/flute-md.webp",
     dates: [
       {
