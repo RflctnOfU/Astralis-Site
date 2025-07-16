@@ -4,7 +4,7 @@ function HeroImage() {
   return (
     <div className="flex justify-center w-full">
       <Image
-        src={"/images/experiment/transparent.png"}
+        src={"/images/experiment/transparentbanner.png"}
         alt="image"
         width={1200}
         height={548}
