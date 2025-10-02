@@ -210,7 +210,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            VIOLIN
+            VIOLIN & VIOLA
           </h4>
           <p
             className={`leading-8 py-2 lg:pr-4 font-extralight text-center lg:text-right font-mont ${
@@ -693,7 +693,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            LISHAN TAN
+            LI SHAN TAN
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont ${
@@ -715,24 +715,23 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Singaporean harpist Lishan Tan enjoys a multifaceted career as a
+            Singaporean harpist Li Shan Tan enjoys a multifaceted career as a
             performer, arranger and writer. As the winner of the VI Mexico
             International Harp Competition, she made her debut with the Orquesta
             Sinfónica Nacional at Mexico City’s Palacio de Bellas Artes. Most
-            recently, Lishan appeared as a soloist alongside cellist Yo-Yo Ma
+            recently, Li Shan appeared as a soloist alongside cellist Yo-Yo Ma
             with the Boston Symphony Orchestra at the 2024 Tanglewood Music
             Festival. In 2022, she performed two sold-out opening night concerts
             with Vista Philharmonic Orchestra. She has also shared the stage
             with groups such as The Metropolitan Opera, the Boston Pops and The
             Beach Boys. As a founding member and resident arranger of
-            Singapore’s premier harp quartet The Harp Quarterly, Lishan aims to
+            Singapore’s premier harp quartet The Harp Quarterly, Li Shan aims to
             push the boundaries of her instrument and her music videos ranging
-            from Metallica to Debussy have garnered millions of views online.
-            Lishan is also a freelance writer for the international harp
-            magazine, HarpColumn. She is currently pursuing her Doctor of
-            Musical Arts at the New England Conservatory with BSO Harpist
-            Jessica Zhou, where she is the first harpist admitted to the
-            doctoral program.
+            from Metallica to Debussy have garnered millions of views online. Li
+            Shan is also a freelance writer for the international harp magazine,
+            HarpColumn. She is currently pursuing her Doctor of Musical Arts at
+            the New England Conservatory with BSO Harpist Jessica Zhou, where
+            she is the first harpist admitted to the doctoral program.
           </p>
         </div>
       </div>
