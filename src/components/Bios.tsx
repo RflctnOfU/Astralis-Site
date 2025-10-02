@@ -74,27 +74,27 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Angela Massey’s debut album has been described as “beautiful and
-            enchanting, the performances on this CD are magical!” by Jeanne
-            Baxtresser, former principal flute of the New York Philharmonic. As
-            a soloist, she has been a featured guest artist with the Tryon
-            Concert Association, Kosciuszko Foundation in New York City,
-            National Flute Association Convention, and invited to perform a
-            Vivaldi Piccolo Concerto with the Southwest Florida Symphony.
-            Outside of the United States, she has performed in England, France,
-            Germany, Italy, Romania, and Switzerland. In regard to chamber
-            music, she serves as Artistic Director and founder of the Astralis
-            Chamber Ensemble arranging and performing over 60 recitals each
-            year. She holds flute positions with the Southwest Florida Symphony,
-            Venice Symphony, and performs with the Sarasota Orchestra. She was
+            Angela Massey’s debut album, “The Elements,” has been described as
+            “beautiful and enchanting, the performances on this CD are magical!”
+            by Jeanne Baxtresser, former principal flute of the New York
+            Philharmonic. As a soloist, she has been a featured guest artist
+            with the Tryon Concert Association, Kosciuszko Foundation in New
+            York City, Artist Series of Tallahassee, and the National Flute
+            Association. Outside of the United States, she has performed in
+            England, France, Germany, Italy, Romania, and Switzerland. As
+            Artistic Director and flutist of the Astralis Chamber Ensemble, she
+            arranges and performs over sixty recitals each year. She holds a
+            flute and piccolo position with the Southwest Florida Symphony and
+            is the flute instructor at Florida Gulf Coast University. She was
             awarded prizes in the Alexander and Buono Competition, Frank Bowen
-            Competition, Myrna Brown Competition, and certificate in the
-            Gheorghe Dima International Competition in Romania. Her instructors
-            have been Alberto Almarza, Jeanne Baxtresser, Martha Kitterman, Jack
-            Wellbaum, and Brooks de Wetter-Smith. She received degrees in flute
-            performance from Carnegie Mellon University, Cincinnati
-            College-Conservatory of Music, and the University of North Carolina
-            at Chapel Hill. For more information, visit{" "}
+            Competition, Myrna Brown Competition, Tiziano Rosetti Competition in
+            Switzerland, and a certificate in the Gheorghe Dima International
+            Competition in Romania. Her instructors have been Jeanne Baxtresser,
+            Alberto Almarza, Jack Wellbaum, Martha Kitterman, and Brooks de
+            Wetter- Smith. She received degrees in flute performance from
+            Carnegie Mellon University, University of Cincinnati
+            College-Conservatory of Music, and UNC at Chapel Hill. For more
+            information, visit{" "}
             <Link
               href={"https://www.angelamasseyflute.com"}
               target="_blank"
