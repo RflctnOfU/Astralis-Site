@@ -397,14 +397,14 @@ export const tourInfo = [
         city: "Savannah, GA",
         time: "5:00 PM",
       },
-      {
-        id: 2,
-        month: "DECEMBER",
-        date: "9",
-        year: "2025",
-        city: "Atlantic Beach, FL",
-        time: "2:00 PM",
-      },
+      // {
+      //   id: 2,
+      //   month: "DECEMBER",
+      //   date: "9",
+      //   year: "2025",
+      //   city: "Atlantic Beach, FL",
+      //   time: "2:00 PM",
+      // },
       {
         id: 3,
         month: "DECEMBER",
