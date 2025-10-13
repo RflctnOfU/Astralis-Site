@@ -181,7 +181,7 @@ function Bios() {
         ref={targetRef2}
       >
         <div
-          className={`m-8 bg-[url('/images/members/Paul.webp')] bg-no-repeat bg-cover md:bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto h-[350px]  ${
+          className={`m-8 bg-[url('/images/members/PaulPhoto3.webp')] bg-no-repeat bg-cover md:bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto h-[350px]  ${
             isInView2 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView2 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef2}
@@ -327,7 +327,7 @@ function Bios() {
         ref={targetRef4}
       >
         <div
-          className={`m-8 bg-[url('/images/members/PhotoLee1.jpeg')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+          className={`m-8 bg-[url('/images/members/SkerikPhoto.jpeg')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
             isInView4 ? "transform-none" : "translate-x-[-150%]"
           } ${isInView4 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef4}
@@ -345,7 +345,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            YEIM LEE
+            JOSEPH SKERIK
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont ${
@@ -356,7 +356,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            VIOLIN
+            VIOLA
           </h4>
           <p
             className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
@@ -367,21 +367,26 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Yeim Lee is an active concert violinist and passionate chamber
-            musician. A winner of the Oberlin Conservatory Concerto Competition
-            and recipient of the Susan W. Rose Graduate Fellowship at The
-            Juilliard School, she performs regularly with the Sejong Soloists
-            and has served as Concertmaster of the Juilliard Orchestra and the
-            Oberlin Orchestra. As a committed chamber musician, she has appeared
-            at festivals including Music@Menlo’s International Program, Kneisel
-            Hall, Taos School of Music, and the Perlman Music Program’s Chamber
-            Music Workshop. Her current ensemble, the Resi Quartet, earned the
-            Silver Medal at the 2025 Coltman Chamber Music Competition. Yeim
-            holds an Artist Diploma from Rice University’s Shepherd School of
-            Music. She earned her Master of Music degree from The Juilliard
-            School on a full scholarship, studying with Laurie Smukler, and a
-            Bachelor of Music from the Oberlin Conservatory, where she studied
-            with David Bowlin.
+            Since 2023, Joseph Skerik has served as violist of the Vega String
+            Quartet, in residence at the Emory Chamber Music Society of Atlanta
+            and Emory University. Quartet activities include recording for PBS
+            and collaborating with the Juilliard Quartet, Zuill Bailey, Jon
+            Kimura Parker, Mark O’Connor, Ettore Causa and Amy Moretti, with
+            appearances at Zankel Hall at Carnegie Hall, The National Gallery in
+            Washington D.C. and venues in Charlotte, Raleigh, Mexico, Atlanta,
+            New York, Memphis, Maine, Washington, Texas and Alaska. Joseph’s
+            solo and chamber music accolades include the Yale School of Music’s
+            Broadus Erle Prize in Chamber Music, and prizes in the Nedbal Viola
+            Competition in Prague, American Viola Society Competition in Los
+            Angeles and National YoungArts. Joseph also appears on series and
+            festivals such as the Highlands-Cashiers Festival, Newport
+            Classical, Classical Music Chicago, Montecito Music Festival,
+            Tallgrass Chamber Music Festival, Methow Valley Festival, Vivace
+            Festival and the Lake George Festival. He has also appeared on
+            numerous tours for the Heifetz Institute as a soloist chamber
+            musician. Committed to presenting chamber music in his home state,
+            Joseph serves as co-artistic director of Viridian Strings, a chamber
+            series in Northern Michigan.
           </p>
         </div>
       </div>
