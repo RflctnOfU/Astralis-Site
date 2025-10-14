@@ -1353,20 +1353,20 @@ export const headshots = [
     alt: "Kris Smiling in front of trees",
   },
   {
-    src: "/images/members/7.webp",
-    alt: "Paul Smiling in front of Greenery with Violin in hand",
+    src: "/images/members/PaulPhoto3.webp",
+    alt: "Paul with Viola",
   },
-  {
-    src: "/images/members/Paul.webp",
-    alt: "Paul in front of Harpsichord",
-  },
+  // {
+  //   src: "/images/members/Paul.webp",
+  //   alt: "Paul in front of Harpsichord",
+  // },
   {
     src: "/images/members/WuPhoto1.jpg",
     alt: "Christine Wu smiling with Violin in hand",
   },
   {
-    src: "/images/members/PhotoLee1.jpeg",
-    alt: "Yeim Lee smiling with Violin in hand",
+    src: "/images/members/SkerikCrop.jpg",
+    alt: "Joe smiling with Viola in hand",
   },
   {
     src: "/images/members/UsiskinPhoto5.jpg",
