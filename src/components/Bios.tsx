@@ -26,6 +26,8 @@ function Bios() {
   const isInView9 = useInView(targetRef9, { once: true });
   const targetRef10 = useRef<HTMLDivElement>(null);
   const isInView10 = useInView(targetRef10, { once: true });
+  const targetRef11 = useRef<HTMLDivElement>(null);
+  const isInView11 = useInView(targetRef10, { once: true });
 
   return (
     <div className="w-[90%] my-16 bg-[#d5d5d5] bg-opacity-20 rounded-2xl text-white">
@@ -323,6 +325,144 @@ function Bios() {
         ></div>
       </div>
       <hr className="lg:hidden mx-4 self-center" />
+      <div
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
+        ref={targetRef6}
+      >
+        <div
+          className="fade-in-right m-8 bg-[url('/images/members/BaekPhoto1.jpeg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
+          ref={targetRef6}
+          style={{
+            transform: isInView6 ? "none" : "translateX(-150%)",
+            opacity: isInView6 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+          }}
+        ></div>
+        <div className="md:p-4 p-2">
+          <h2
+            className={`md:text-5xl text-4xl py-4 text-center font-dream`}
+            ref={targetRef6}
+            style={{
+              transform: isInView6 ? "none" : "translateX(150%)",
+              opacity: isInView6 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+            }}
+          >
+            SEEUN BAEK
+          </h2>
+          <h4
+            className={`md:text-2xl text-xl font-light text-center font-mont`}
+            ref={targetRef6}
+            style={{
+              transform: isInView6 ? "none" : "translateX(150%)",
+              opacity: isInView6 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
+            }}
+          >
+            VIOLIN
+          </h4>
+          <p
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
+            ref={targetRef6}
+            style={{
+              transform: isInView6 ? "none" : "translateX(150%)",
+              opacity: isInView6 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
+            }}
+          >
+            Violinist Seeun Baek has been praised for her expressive artistry
+            and refined technique. A prizewinner of numerous international
+            competitions, she has received First Prize at the New York
+            International Competition, Fanny Mendelssohn International
+            Competition, and Caneres Music Competition Vienna, among others. As
+            a soloist, she has performed at Carnegie Weill Hall and Lincoln
+            Center’s Bruno Walter Auditorium. She has appeared under
+            distinguished conductors including Manfred Honeck, Marin Alsop, John
+            Adams, and Tito Muñoz while serving as Concertmaster of the
+            Juilliard Orchestra and Stony Brook Symphony Orchestra. She has also
+            performed at major venues such as Alice Tully Hall, David Geffen
+            Hall, Carnegie Hall, and Seoul Arts Center. A devoted chamber
+            musician, she has worked with renowned artists including Emanuel Ax,
+            Joel Krosnick, and members of the Emerson, Juilliard, and Shanghai
+            Quartets. Passionate about championing underrepresented composers,
+            Seeun is currently pursuing her Doctor of Musical Arts at Stony
+            Brook University under Hagai Shaham, with a full scholarship and
+            teaching assistantship, following her Master’s degree at The
+            Juilliard School under Ronald Copes and Laurie Smukler, and her
+            Bachelor’s degree summa cum laude from Seoul National University.
+          </p>
+        </div>
+      </div>
+      <hr className="lg:hidden mx-4 self-center" />
+      <div
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
+        ref={targetRef11}
+      >
+        <div className="md:p-4 p-2">
+          <h2
+            className={`md:text-5xl text-4xl py-4 text-center font-dream`}
+            ref={targetRef11}
+            style={{
+              transform: isInView11 ? "none" : "translateX(-150%)",
+              opacity: isInView11 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+            }}
+          >
+            THOMAS MATERNIK-PIRET
+          </h2>
+          <h4
+            className={`md:text-2xl text-xl font-light text-center font-mont`}
+            ref={targetRef11}
+            style={{
+              transform: isInView11 ? "none" : "translateX(-150%)",
+              opacity: isInView11 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
+            }}
+          >
+            CELLO
+          </h4>
+          <p
+            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
+            ref={targetRef11}
+            style={{
+              transform: isInView11 ? "none" : "translateX(-150%)",
+              opacity: isInView11 ? 1 : 0,
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
+            }}
+          >
+            Thomas Maternik‑Piret, D.M.A. is a French cellist whose career spans
+            continents, with performances in France, the United Kingdom, Italy,
+            Spain, Oman, Brazil, and the United States. He has appeared with
+            ensembles such as the Academy of St Martin in the Fields, and toured
+            internationally as both a orchestral and chamber musician. A
+            laureate of multiple international competitions, he received first
+            prizes at the Ealing International Chamber Music Festival (United
+            Kingdom, 2008) and the ENM Fresnes Virtuosity and Excellence
+            Competition (France, 2005), as well as second prize at the Glazunov
+            International Cello Competition in Paris (France, 2003). In the
+            U.S., Dr. Maternik‑Piret is regularly invited to perform with the
+            Alabama Symphony Orchestra, the Mobile and Charleston Symphony
+            Orchestras. He has held principal cello positions with the Columbus
+            Symphony Orchestra, GA (2021–2022), Huntsville Symphony ,
+            AL(2017–2018), and Classical Concert Chamber Orchestra, CA
+            (2015–2017). A passionate educator, he currently teaches at the
+            University of Alabama and also serves on the faculties of Samford
+            University Academy of the Arts and the Suzuki Talent Education
+            Program in Birmingham. He is a founding member of Bama Baroque,
+            performing on both baroque cello and viola da gamba.
+          </p>
+        </div>
+
+        <div
+          className="fade-in-right m-8 bg-[url('/images/members/PhotoMaternik.png')] bg-no-repeat bg-center bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
+          ref={targetRef11}
+          style={{
+            transform: isInView11 ? "none" : "translateX(150%)",
+            opacity: isInView11 ? 1 : 0,
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+          }}
+        ></div>
+      </div>
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
         ref={targetRef5}
@@ -754,7 +894,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            JANE YOO
+            ISABEL CARDENES
           </h2>
           <h4
             className={`md:text-2xl text-xl font-mont font-light text-center `}
@@ -776,29 +916,32 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Jane Yoo is an internationally recognized harpist and prize-winner,
-            known for her performances around the globe. She has garnered
-            numerous prestigious awards, including the USA International Harp
-            Competition, 1st Prize at the Korean International Harp Competition,
-            and the Special Prize at the Szeged International Harp Competition
-            in Hungary. In 2022, she earned an Honorable Mention at the Lyon &
-            Healy Awards. Most recently, she was named a Young Artist in
-            Residence on Minnesota Public Radio’s Performance Today in 2024.
-            Jane has been featured as a soloist at the World Harp Congress’s
-            “Focus on Youth” event in Hong Kong in 2017 and was selected twice
-            as a Kumho Young Concert Artist (2014, 2017). She has performed with
-            the Yale Philharmonia under Peter Oundjian and serves as associate
-            principal harpist with both the New World Symphony and the Civic
-            Orchestra of Chicago. Jane holds a Bachelor of Music from Seoul
-            National University and a Master of Music from the Yale School of
-            Music. She is the only musician to be admitted to the Artist Diploma
-            program at Peabody Institute, where she is currently pursuing a DMA
-            program under Dr. June Han.
+            Harpist Isabel Cardenes is known for her sensitive musicianship and
+            expressive style. Committed to using music for healing and social
+            impact, she frequently performs in non-traditional and
+            community-centered settings. Isabel has performed with the
+            Harrisburg Symphony, Charleston Symphony, and made her Metropolitan
+            Opera Orchestra debut at Carnegie Hall in 2022. She has attended
+            Interlochen Arts Camp and several European festivals, and in 2024
+            performed Glière’s Harp Concerto with the Butler Symphony. An avid
+            chamber musician, Isabel appeared at the 2025 Joseph Gingold Chamber
+            Music Festival, performed with the Georgetown Chamber Players in
+            Washington, D.C.,and now appears on their musician roster. She is a
+            founding member of Trio con Brio, whose Porch Concert Series has
+            featured over 100 musicians and raises more than $15,000 for
+            Pittsburgh-area causes since 2020. At age eleven she began her harp
+            studies with Pittsburgh Symphony principal harpist Gretchen Van
+            Hoesen. She earned her Bachelor of Music from the Manhattan School
+            of Music on a Presidential Scholarship, studying with Metropolitan
+            Opera harpist Mariko Anraku. She is currently based in Philadelphia
+            where she is pursuing her master’s degree at the Curtis Institute of
+            Music with Philadelphia Orchestra principal harpist Elizabeth
+            Hainen.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/Jane.JPG')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/Cardenes2.jpg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
           ref={targetRef1}
           style={{
             transform: isInView1 ? "none" : "translateX(150%)",

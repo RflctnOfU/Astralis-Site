@@ -1372,18 +1372,18 @@ export const headshots = [
     src: "/images/members/UsiskinPhoto5.jpg",
     alt: "Laura with Cello",
   },
-  // {
-  //   src: "/images/members/11.webp",
-  //   alt: "Laura with Cello sideways",
-  // },
+  {
+    src: "/images/members/PhotoMaternik.png",
+    alt: "Thomas with Cello",
+  },
   {
     src: "/images/members/TanPhoto1.png",
     alt: "Lishan Tan smiling with Harp",
   },
-  // {
-  //   src: "/images/members/13.webp",
-  //   alt: "Rachel at Harp with serious look",
-  // },
+  {
+    src: "/images/members/Cardenes2.jpg",
+    alt: "Isabel with Harp",
+  },
   // {
   //   src: "/images/members/14.webp",
   //   alt: "Rachel standing next to Harp",
