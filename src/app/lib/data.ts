@@ -378,7 +378,7 @@ export const tourInfo = [
     name: "ENCHANTED NOEL",
     instruments: "FLUTE, CELLO, HARP",
     description:
-      "Holiday favorites and classical repertoire to fit the spirit of the season.",
+      'Holiday favorites with "What Child is This" and a Nocturne on "Cantique de Noel" by Daniel Dorff. Concert will also include Classical repertoire to fit the season with "Sleepers Awake" by JS Bach, the famous Suite in G Major by Bach, and trios by Dussek and Jongen.',
     image: "/images/tour-images/firTree.webp",
     dates: [
       {
@@ -397,14 +397,14 @@ export const tourInfo = [
         city: "Savannah, GA",
         time: "5:00 PM",
       },
-      // {
-      //   id: 2,
-      //   month: "DECEMBER",
-      //   date: "9",
-      //   year: "2025",
-      //   city: "Atlantic Beach, FL",
-      //   time: "2:00 PM",
-      // },
+      {
+        id: 2,
+        month: "DECEMBER",
+        date: "9",
+        year: "2025",
+        city: "Atlantic Beach, FL",
+        time: "2:00 PM",
+      },
       {
         id: 3,
         month: "DECEMBER",
@@ -557,6 +557,14 @@ export const tourInfo = [
     description: "",
     image: "/images/tour-images/cello-md.webp",
     dates: [
+      {
+        id: 4,
+        month: "FEBRUARY",
+        date: "15",
+        year: "2026",
+        city: "Greenville, SC",
+        time: "3:00 PM",
+      },
       {
         id: 0,
         month: "FEBRUARY",
