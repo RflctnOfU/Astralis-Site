@@ -647,6 +647,14 @@ export const tourInfo = [
     image: "/images/tour-images/harp.webp",
     dates: [
       {
+        id: 5,
+        month: "MARCH",
+        date: "7",
+        year: "2026",
+        city: "Boca Grande, FL",
+        time: "4:00 PM",
+      },
+      {
         id: 0,
         month: "MARCH",
         date: "8",
