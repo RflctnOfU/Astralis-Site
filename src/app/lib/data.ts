@@ -313,7 +313,7 @@ export const tourInfo = [
         month: "NOVEMBER",
         date: "20",
         year: "2025",
-        city: "Sebring, FL",
+        city: "Avon Park, FL",
         time: "7:00 PM",
       },
       {
