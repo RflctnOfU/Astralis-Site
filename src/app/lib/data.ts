@@ -1451,10 +1451,10 @@ export const pastPerformances = [
     src: "/images/past/22.JPG",
     alt: "Baroque Quartet 5",
   },
-  // {
-  //   src: "/images/past/1.jpg",
-  //   alt: "Baroque Quartet 1",
-  // },
+  {
+    src: "/images/past/Wildstein.JPG",
+    alt: "Flute, Viola, Harp Trio",
+  },
   // {
   //   src: "/images/past/2.jpg",
   //   alt: "Baroque Quartet 2",
