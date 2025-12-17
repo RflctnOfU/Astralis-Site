@@ -491,7 +491,7 @@ export const tourInfo = [
         date: "17",
         year: "2026",
         city: "Lake City, FL",
-        time: "TBD",
+        time: "7:30 PM",
       },
       {
         id: 1,
@@ -500,6 +500,14 @@ export const tourInfo = [
         year: "2026",
         city: "Largo, FL",
         time: "3:00 PM",
+      },
+      {
+        id: 7,
+        month: "JANUARY",
+        date: "19",
+        year: "2026",
+        city: "Punta Gorda, FL",
+        time: "4:00 PM",
       },
       {
         id: 2,
@@ -516,6 +524,14 @@ export const tourInfo = [
         year: "2026",
         city: "Sebring, FL",
         time: "7:00 PM",
+      },
+      {
+        id: 8,
+        month: "JANUARY",
+        date: "22",
+        year: "2026",
+        city: "Venice, FL",
+        time: "1:00 PM",
       },
       {
         id: 4,
@@ -1325,10 +1341,10 @@ export const publicity = [
     src: "/images/publicity/DuoPhoto3.JPG",
     alt: "Flute Piano Duo",
   },
-  // {
-  //   src: "/images/publicity/DuoPhoto3.jpg",
-  //   alt: "Flute Piano Duo",
-  // },
+  {
+    src: "/images/publicity/TrioAngCarLa.JPG",
+    alt: "Flute Piano Duo",
+  },
   {
     src: "/images/publicity/ViolaHarp.jpg",
     alt: "Flute Viola Harp",

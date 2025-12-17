@@ -27,7 +27,7 @@ function Bios() {
   const targetRef10 = useRef<HTMLDivElement>(null);
   const isInView10 = useInView(targetRef10, { once: true });
   const targetRef11 = useRef<HTMLDivElement>(null);
-  const isInView11 = useInView(targetRef10, { once: true });
+  const isInView11 = useInView(targetRef11, { once: true });
 
   return (
     <div className="w-[90%] my-16 bg-[#d5d5d5] bg-opacity-20 rounded-2xl text-white">
@@ -715,21 +715,24 @@ function Bios() {
             }}
           >
             Dr. Alexandra Snyder Dunbar is an award-winning harpsichordist,
-            pianist, and pedagogue. At Juilliard, she received a full
-            scholarship as a resident in the prestigious C. V. Starr Fellowship
-            in the Doctoral program. Dr. Dunbar received a Masters of Music in
-            Harpsichord Performance at Juilliard and a Bachelor of Music in
-            Piano from Manhattan School of Music. Solo performances with
-            orchestra include with Orchestra 54, Dorian Baroque Orchestra, The
-            Memphis Chamber Music Society, The Symphony of Westchester, and The
-            Chamber Orchestra of New York. Dr. Dunbar performed with The Dryden
-            Ensemble, the Foundlings Ensemble, The New York Philharmonic, and
-            the Atlanta Baroque Orchestra. Dr. Dunbar is on the music faculty at
-            the University of North Georgia, Interlochen Arts Camp, and
-            maintains a private teaching studio and busy performance calendar.
-            Currently, she serves as organist at Madison First United Methodist
-            Church in Athens, Georgia and is co-artistic director for Amethyst
-            Baroque Ensemble.
+            pianist, and pedagogue. She was awarded a full scholarship to The
+            Juilliard School, where she was a resident of the prestigious C. V.
+            Starr Doctoral Fellowship program. She also earned a Master of Music
+            degree in Harpsichord Performance from Juilliard and a Bachelor of
+            Music degree in Piano from the Manhattan School of Music. As a high
+            school student, she studied piano, organ, and violin at the
+            Interlochen Arts Academy and Interlochen Arts Camp. Her solo
+            harpsichord performances with orchestra include appearances with
+            Orchestra 54, Dorian Baroque Orchestra, The Memphis Chamber Music
+            Society, The Symphony of Westchester, and The Chamber Orchestra of
+            New York. She has also performed with The Dryden Ensemble, the
+            Foundlings Ensemble, and the New York Philharmonic. Dr. Dunbar
+            serves on the music faculty at the University of North Georgia and
+            the Interlochen Arts Camp. She also maintains a private teaching
+            studio and an active performance schedule with the Amethyst Baroque
+            Ensemble, Atlanta Baroque Orchestra, Astralis Chamber Ensemble, New
+            Orleans Jazz Stompers, and as organist at Madison First United
+            Methodist Church (Madison, GA).
           </p>
         </div>
       </div>
