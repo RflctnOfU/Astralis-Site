@@ -525,14 +525,14 @@ export const tourInfo = [
         city: "Sebring, FL",
         time: "7:00 PM",
       },
-      {
-        id: 8,
-        month: "JANUARY",
-        date: "22",
-        year: "2026",
-        city: "Venice, FL",
-        time: "1:00 PM",
-      },
+      // {
+      //   id: 8,
+      //   month: "JANUARY",
+      //   date: "22",
+      //   year: "2026",
+      //   city: "Venice, FL",
+      //   time: "1:00 PM",
+      // },
       {
         id: 4,
         month: "JANUARY",
