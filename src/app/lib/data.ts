@@ -568,7 +568,7 @@ export const tourInfo = [
     ],
   },
   {
-    name: "ROMANZA",
+    name: "ROMANTIC CROSSROADS",
     instruments: "FLUTE, VIOLA, CELLO, PIANO",
     description: "",
     image: "/images/tour-images/cello-md.webp",
