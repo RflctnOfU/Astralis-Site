@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Mail, MapPin, MessageCircle } from "lucide-react";
+import { Mail, MapPin, MessageCircle, Smile } from "lucide-react";
 
 import { useForm } from "react-hook-form";
 import useWeb3forms from "@web3forms/react";
@@ -12,6 +12,7 @@ function Contact() {
   });
   const [isSuccess, setIsSuccess] = useState(false);
   const [message, setMessage] = useState("");
+  const [name, setName] = useState("");
   const apiKey =
     process.env.EMAIL_KEY || "198343aa-5d56-4e15-8cc2-0e86125bf175";
 
@@ -80,6 +81,22 @@ function Contact() {
                     value: /^\S+@\S+$/i,
                     message: "Please enter a valid email",
                   },
+                })}
+              />
+            </div>
+            <div className="flex flex-col w-4/5">
+              <label
+                htmlFor="name"
+                className="flex gap-2 text-neutral-300 pb-[2px]"
+              >
+                <Smile /> Name:
+              </label>
+              <input
+                type="text"
+                placeholder="Name - optional"
+                className="rounded-md px-2 py-1"
+                {...register("name", {
+                  required: false,
                 })}
               />
             </div>
