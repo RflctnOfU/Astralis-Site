@@ -570,7 +570,8 @@ export const tourInfo = [
   {
     name: "ROMANTIC CROSSROADS",
     instruments: "FLUTE, VIOLA, CELLO, PIANO",
-    description: "",
+    description:
+      "Valentine's program featuring quartets by Bridge, Beethoven, and Robert Schumann",
     image: "/images/tour-images/cello-md.webp",
     dates: [
       {
