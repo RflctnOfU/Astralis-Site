@@ -972,9 +972,9 @@ function Bios() {
         <div className="md:p-4 p-2">
           <h2
             className={`md:text-5xl text-4xl py-4 text-center font-dream ${
-              isInView0 ? "transform-none" : "translate-x-[150%]"
-            } ${isInView0 ? "opacity-100" : "opacity-0"} `}
-            ref={targetRef0}
+              isInView12 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView12 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef12}
             style={{
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
