@@ -1354,10 +1354,10 @@ export const publicity = [
   //   src: "/images/publicity/PhotoTrio1.jpg",
   //   alt: "Flute Harp Trumpet",
   // },
-  // {
-  //   src: "/images/publicity/PhotoDuo5.jpg",
-  //   alt: "Flute Harp 2",
-  // },
+  {
+    src: "/images/publicity/AngIsabel.JPG",
+    alt: "Flute Harp 2",
+  },
   // {
   //   src: "/images/publicity/PhotoDuo6.jpg",
   //   alt: "Flute Harp 3",

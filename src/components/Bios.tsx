@@ -28,6 +28,8 @@ function Bios() {
   const isInView10 = useInView(targetRef10, { once: true });
   const targetRef11 = useRef<HTMLDivElement>(null);
   const isInView11 = useInView(targetRef11, { once: true });
+  const targetRef12 = useRef<HTMLDivElement>(null);
+  const isInView12 = useInView(targetRef12, { once: true });
 
   return (
     <div className="w-[90%] my-16 bg-[#d5d5d5] bg-opacity-20 rounded-2xl text-white">
@@ -954,6 +956,74 @@ function Bios() {
         ></div>
       </div>
       <hr className="lg:hidden mx-4 self-center" />
+      <div
+        className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
+        ref={targetRef12}
+      >
+        <div
+          className={`m-8 bg-[url('/images/members/TayPhoto1.JPG')] bg-no-repeat bg-cover bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px] ${
+            isInView12 ? "transform-none" : "translate-x-[-150%]"
+          } ${isInView12 ? "opacity-100" : "opacity-0"} transition`}
+          ref={targetRef12}
+          style={{
+            transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.39s",
+          }}
+        ></div>
+        <div className="md:p-4 p-2">
+          <h2
+            className={`md:text-5xl text-4xl py-4 text-center font-dream ${
+              isInView0 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView0 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef0}
+            style={{
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
+            }}
+          >
+            KAREN TAY
+          </h2>
+          <h4
+            className={`md:text-2xl text-xl font-light text-center font-mont ${
+              isInView12 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView12 ? "opacity-100" : "opacity-0"}`}
+            ref={targetRef12}
+            style={{
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
+            }}
+          >
+            HARP
+          </h4>
+          <p
+            className={`font-mont leading-8 font-extralight text-center lg:text-right py-2 lg:pr-4 ${
+              isInView12 ? "transform-none" : "translate-x-[150%]"
+            } ${isInView12 ? "opacity-100" : "opacity-0"} `}
+            ref={targetRef12}
+            style={{
+              transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
+            }}
+          >
+            Karen Tay, harpist, enjoys a multifaceted career as a soloist,
+            orchestral player, chamber musician, and educator. Praised by the
+            Straits Times for her “elegant and understated virtuosity”, she is a
+            highly sought-after harpist in New York and Singapore. Some of her
+            achievements include winning the NAFA-Kris Foundation Concerto
+            Competition (Strings), entering the finals at the Young Artist Harp
+            Competition in the United States, and being a semi-finalist at
+            competitions in Italy and Japan. She was the 2024 solo artist of
+            Kris Foundation’s annual recital series. Orchestra appearances
+            include the Singapore Symphony Orchestra, Princeton Symphony
+            Orchestra, New Opera Singapore, and the Pacific Music Festival
+            Orchestra in Japan 2025. Currently, she is a Candidate in the Doctor
+            of Musical Arts program at the Manhattan School of Music where she
+            serves as a Doctoral Fellow teaching undergraduate and graduate
+            courses. She is a Teaching Assistant at Columbia University and is a
+            Theory and Aural Skills faculty member at the Manhattan School of
+            Music Precollege. Karen enjoys facilitating music workshops and
+            outreach projects, as well as engaging in research on cultural
+            identity through music, believing these experiences enhance both
+            musical and life perspectives.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
