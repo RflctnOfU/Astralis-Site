@@ -899,7 +899,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            ISABEL CARDENES
+            YVONNE COX
           </h2>
           <h4
             className={`md:text-2xl text-xl font-mont font-light text-center `}
@@ -921,32 +921,31 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Harpist Isabel Cardenes is known for her sensitive musicianship and
-            expressive style. Committed to using music for healing and social
-            impact, she frequently performs in non-traditional and
-            community-centered settings. Isabel has performed with the
-            Harrisburg Symphony, Charleston Symphony, and made her Metropolitan
-            Opera Orchestra debut at Carnegie Hall in 2022. She has attended
-            Interlochen Arts Camp and several European festivals, and in 2024
-            performed Glière’s Harp Concerto with the Butler Symphony. An avid
-            chamber musician, Isabel appeared at the 2025 Joseph Gingold Chamber
-            Music Festival, performed with the Georgetown Chamber Players in
-            Washington, D.C.,and now appears on their musician roster. She is a
-            founding member of Trio con Brio, whose Porch Concert Series has
-            featured over 100 musicians and raises more than $15,000 for
-            Pittsburgh-area causes since 2020. At age eleven she began her harp
-            studies with Pittsburgh Symphony principal harpist Gretchen Van
-            Hoesen. She earned her Bachelor of Music from the Manhattan School
-            of Music on a Presidential Scholarship, studying with Metropolitan
-            Opera harpist Mariko Anraku. She is currently based in Philadelphia
-            where she is pursuing her master’s degree at the Curtis Institute of
-            Music with Philadelphia Orchestra principal harpist Elizabeth
-            Hainen.
+            Yvonne Cox is a freelance harpist currently based in Las Vegas.
+            Drawing inspiration from many musical genres and artistic
+            disciplines, she seeks to spark creativity and connection through
+            both performance and collaboration. She regularly appears with
+            ensembles such as the Boston Lyric Opera and the Cambridge Symphony
+            Orchestra. Her orchestral work has taken her to festivals throughout
+            the United States and Canada, including PRISMA Festival Institute
+            Orchestra, Miami Classical Music Festival, and Brevard Music Center
+            Orchestra, where she performed alongside bluegrass legend Ricky
+            Skaggs. Her favorite performance experiences include live-to-film
+            concerts, where music and cinema come together. Yvonne has brought
+            to life beloved scores from films such as E.T., The Wizard of Oz,
+            Frozen, and Jaws. In 2023, Yvonne made her solo debut with the
+            Henderson Symphony Orchestra, where she was featured in the season
+            as “The Harp Girl.” The highlight of her appearance was her solo
+            performance of Alberto Ginastera’s electrifying Harp Concerto.
+            Yvonne holds a M.M. from the New England Conservatory, where she
+            studied with Jessica Zhou, Principal Harpist of the Boston Symphony
+            Orchestra, and a B.M from the University of Arizona, with Dr.
+            Michelle Gott.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/Cardenes2.jpg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/CoxPhoto.jpg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] md:bg-center h-[350px]"
           ref={targetRef1}
           style={{
             transform: isInView1 ? "none" : "translateX(150%)",
