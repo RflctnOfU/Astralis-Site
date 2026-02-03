@@ -658,8 +658,8 @@ export const tourInfo = [
     ],
   },
   {
-    name: "FANTASIA OF THE ISLES",
-    instruments: "FLUTE, HARP",
+    name: "CELTIC FANTASY",
+    instruments: "FLUTE and HARP",
     description:
       "Program of Celtic inspired works for St. Patrick's Day. Music by Harty, Bax, Wilson, Larson, Marino, and Beeftink.",
     image: "/images/tour-images/harp.webp",
@@ -839,7 +839,7 @@ export const tourInfo = [
     name: "A MUSICAL OFFERING",
     instruments: "FLUTE, VIOLIN, CELLO, HARPSICHORD",
     description:
-      "Concert will include the Trio Sonata from 'The Musical Offering' by J.S. Bach and other works by C.P.E. Bach, Geminiai, Vivaldi, and Martinez.",
+      "Concert will include the Trio Sonata from 'The Musical Offering' by J.S. Bach and other works by C.P.E. Bach, Geminiani, Vivaldi, and Martines.",
     image: "/images/tour-images/piano-md.webp",
     dates: [
       {
@@ -874,22 +874,22 @@ export const tourInfo = [
         city: "Brasstown, NC",
         time: "2:00 PM",
       },
-      {
-        id: 4,
-        month: "FEBRUARY",
-        date: "15",
-        year: "2025",
-        city: "Coral Springs, FL",
-        time: "7:00 PM",
-      },
-      {
-        id: 5,
-        month: "FEBRUARY",
-        date: "16",
-        year: "2025",
-        city: "Longboat Key, FL",
-        time: "2:00 PM",
-      },
+      // {
+      //   id: 4,
+      //   month: "FEBRUARY",
+      //   date: "15",
+      //   year: "2025",
+      //   city: "Coral Springs, FL",
+      //   time: "7:00 PM",
+      // },
+      // {
+      //   id: 5,
+      //   month: "FEBRUARY",
+      //   date: "16",
+      //   year: "2025",
+      //   city: "Longboat Key, FL",
+      //   time: "2:00 PM",
+      // },
       // {
       //   id: 4,
       //   month: "FEBRUARY",
@@ -1363,10 +1363,10 @@ export const publicity = [
   //   src: "/images/publicity/PhotoTrio1.jpg",
   //   alt: "Flute Harp Trumpet",
   // },
-  {
-    src: "/images/publicity/AngIsabel.JPG",
-    alt: "Flute Harp 2",
-  },
+  // {
+  //   src: "/images/publicity/AngIsabel.JPG",
+  //   alt: "Flute Harp 2",
+  // },
   // {
   //   src: "/images/publicity/PhotoDuo6.jpg",
   //   alt: "Flute Harp 3",
@@ -1423,13 +1423,13 @@ export const headshots = [
     alt: "Lishan Tan smiling with Harp",
   },
   {
-    src: "/images/members/Cardenes2.jpg",
+    src: "/images/members/CoxPhoto.jpg",
     alt: "Isabel with Harp",
   },
-  // {
-  //   src: "/images/members/14.webp",
-  //   alt: "Rachel standing next to Harp",
-  // },
+  {
+    src: "/images/members/TayPhoto1.JPG",
+    alt: "Rachel standing next to Harp",
+  },
   {
     src: "/images/members/Alexandra.jpg",
     alt: "Alexandra sitting at Harpsichord",
