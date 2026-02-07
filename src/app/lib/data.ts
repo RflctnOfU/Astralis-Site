@@ -767,7 +767,7 @@ export const tourInfo = [
         date: "11",
         year: "2026",
         city: "Mansfield, OH",
-        time: "TBD",
+        time: "7:00 PM",
       },
       {
         id: 1,
@@ -776,6 +776,30 @@ export const tourInfo = [
         year: "2026",
         city: "Sandusky, OH",
         time: "3:00 PM",
+      },
+      {
+        id: 3,
+        month: "APRIL",
+        date: "13",
+        year: "2026",
+        city: "Steubenville, OH",
+        time: "6:00 PM",
+      },
+      {
+        id: 4,
+        month: "APRIL",
+        date: "16",
+        year: "2026",
+        city: "Oil City, PA",
+        time: "TBD",
+      },
+      {
+        id: 5,
+        month: "APRIL",
+        date: "17",
+        year: "2026",
+        city: "Erie, PA",
+        time: "7:00 PM",
       },
       {
         id: 2,
@@ -863,7 +887,7 @@ export const tourInfo = [
         month: "MAY",
         date: "8",
         year: "2026",
-        city: "Ashville, NC",
+        city: "Asheville, NC",
         time: "7:30 PM",
       },
       {
