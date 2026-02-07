@@ -470,7 +470,7 @@ function Bios() {
         ref={targetRef5}
       >
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/WuPhoto1.jpg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/PhotoLan3.JPG')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
           ref={targetRef5}
           style={{
             transform: isInView5 ? "none" : "translateX(-150%)",
@@ -488,7 +488,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            CHRISTINE WU
+            JASON SHENG-CHIEH LAN
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont`}
@@ -499,7 +499,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            VIOLIN & VIOLA
+            VIOLA
           </h4>
           <p
             className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
@@ -510,23 +510,26 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Violinist-violist hybrid Christine Wu has been hailed for her
-            “strikingly bold sound” and “technical facility” (Theater Jones),
-            and performs internationally with recent solo appearances in
-            Chicago, Sendai, New York City, and Berlin. Her live premiere of
-            Jeffrey Mumford’s verdant cycles of deepening spring with the
-            Chicago Composers Orchestra debuted on Jeffrey Mumford: Echoing
-            Depths with Albany Records in 2023. She has also been named a
-            recipient of an Audience Prize at the 8th Sendai International Music
-            Competition, the CD Recording Prize with Outhere Music at the
-            inaugural Berlin Prize for Young Artists competition, as well as the
-            winner of the Cleveland Institute of Music Concerto Competition,
-            Lynn Harrell Concerto Competition, and at the Aspen Music Festival
-            and School’s Low Strings Concerto Competition as a violist.
-            Christine studied at the Manhattan School of Music, The Juilliard
-            School and Cleveland Institute of Music with Sylvia Rosenberg,
-            Nicholas Mann, Masao Kawasaki, and Jaime Laredo. She also holds a
-            minor in Business Management from Case Western Reserve University.
+            Jason Sheng-Chieh Lan is a versatile violist with a dynamic artistic
+            voice and extensive international performance experience. He is the
+            youngest violist to present a debut recital at Taiwan’s National
+            Concert Hall to a sold-out audience. A prizewinner in Taiwan’s
+            national competitions, he has appeared as soloist with the Idyllwild
+            Arts Academy Orchestra and the Austin Civic Orchestra. Jason has
+            received major scholarships and fellowships from Idyllwild Arts
+            Academy, Yong Siew Toh Conservatory, Tianjin Juilliard School, and
+            the University of Texas at Austin. A Juilliard alumnus, he is
+            currently pursuing a Doctor of Musical Arts degree at UT Austin,
+            where he studies with Wilhelm Magner and Roger Myers and serves as a
+            teaching assistant. He began studying the viola at age nine. An
+            active and passionate chamber musician, Jason has participated in
+            the inaugural Tianjin Juilliard International Chamber Music
+            Festival, the Music Academy of the West, and the Kneisel Hall
+            Chamber Music Festival. He has collaborated with Donald McInnes,
+            Richard O’Neill, and Nobuko Imai, as well as members of the
+            Juilliard, Takács, Miro, and Shanghai String Quartets, and has
+            competed in the Concours de Genève and the Hindemith International
+            Viola Competition.
           </p>
         </div>
       </div>
