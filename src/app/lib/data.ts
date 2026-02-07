@@ -1427,8 +1427,8 @@ export const headshots = [
   //   alt: "Paul in front of Harpsichord",
   // },
   {
-    src: "/images/members/WuPhoto1.jpg",
-    alt: "Christine Wu smiling with Violin in hand",
+    src: "/images/members/PhotoLan3.JPG",
+    alt: "Jason holding viola looking to distance",
   },
   {
     src: "/images/members/SkerikCrop.jpg",
@@ -1448,11 +1448,11 @@ export const headshots = [
   },
   {
     src: "/images/members/CoxPhoto.jpg",
-    alt: "Isabel with Harp",
+    alt: "Yvonne with Harp",
   },
   {
     src: "/images/members/TayPhoto1.JPG",
-    alt: "Rachel standing next to Harp",
+    alt: "Karen smiling next to Harp",
   },
   {
     src: "/images/members/Alexandra.jpg",
