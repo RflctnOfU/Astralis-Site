@@ -883,6 +883,14 @@ export const tourInfo = [
         time: "7:00 PM",
       },
       {
+        id: 7,
+        month: "MAY",
+        date: "4",
+        year: "2026",
+        city: "Beaufort, SC",
+        time: "6:30 PM",
+      },
+      {
         id: 2,
         month: "MAY",
         date: "8",
