@@ -791,7 +791,7 @@ export const tourInfo = [
         date: "16",
         year: "2026",
         city: "Oil City, PA",
-        time: "TBD",
+        time: "7:00 PM",
       },
       {
         id: 5,
@@ -874,14 +874,14 @@ export const tourInfo = [
         city: "St. Augustine, FL",
         time: "2:00 PM",
       },
-      {
-        id: 1,
-        month: "MAY",
-        date: "2",
-        year: "2026",
-        city: "Atlantic Beach, FL",
-        time: "7:00 PM",
-      },
+      // {
+      //   id: 1,
+      //   month: "MAY",
+      //   date: "2",
+      //   year: "2026",
+      //   city: "Atlantic Beach, FL",
+      //   time: "7:00 PM",
+      // },
       {
         id: 7,
         month: "MAY",
