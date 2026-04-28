@@ -863,7 +863,7 @@ export const tourInfo = [
     name: "A MUSICAL OFFERING",
     instruments: "FLUTE, VIOLIN, CELLO, HARPSICHORD",
     description:
-      "Concert will include the Trio Sonata from 'The Musical Offering' by J.S. Bach and other works by C.P.E. Bach, Geminiani, Vivaldi, and Martines.",
+      "Concert will include the Trio Sonata from 'The Musical Offering' by J.S. Bach and other works by Quantz, Geminiani, Vivaldi, and Martines.",
     image: "/images/tour-images/piano-md.webp",
     dates: [
       {
@@ -874,14 +874,14 @@ export const tourInfo = [
         city: "St. Augustine, FL",
         time: "2:00 PM",
       },
-      // {
-      //   id: 1,
-      //   month: "MAY",
-      //   date: "2",
-      //   year: "2026",
-      //   city: "Atlantic Beach, FL",
-      //   time: "7:00 PM",
-      // },
+      {
+        id: 1,
+        month: "MAY",
+        date: "2",
+        year: "2026",
+        city: "Atlantic Beach, FL",
+        time: "7:00 PM",
+      },
       {
         id: 7,
         month: "MAY",
@@ -889,6 +889,14 @@ export const tourInfo = [
         year: "2026",
         city: "Beaufort, SC",
         time: "6:30 PM",
+      },
+      {
+        id: 8,
+        month: "MAY",
+        date: "6",
+        year: "2026",
+        city: "Pawleys Island, SC",
+        time: "6:00 PM",
       },
       {
         id: 2,
