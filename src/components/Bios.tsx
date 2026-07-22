@@ -410,7 +410,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            THOMAS MATERNIK-PIRET
+            EDWARD LUENGO
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont`}
@@ -432,31 +432,31 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Thomas Maternik‑Piret, D.M.A. is a French cellist whose career spans
-            continents, with performances in France, the United Kingdom, Italy,
-            Spain, Oman, Brazil, and the United States. He has appeared with
-            ensembles such as the Academy of St Martin in the Fields, and toured
-            internationally as both a orchestral and chamber musician. A
-            laureate of multiple international competitions, he received first
-            prizes at the Ealing International Chamber Music Festival (United
-            Kingdom, 2008) and the ENM Fresnes Virtuosity and Excellence
-            Competition (France, 2005), as well as second prize at the Glazunov
-            International Cello Competition in Paris (France, 2003). In the
-            U.S., Dr. Maternik‑Piret is regularly invited to perform with the
-            Alabama Symphony Orchestra, the Mobile and Charleston Symphony
-            Orchestras. He has held principal cello positions with the Columbus
-            Symphony Orchestra, GA (2021–2022), Huntsville Symphony ,
-            AL(2017–2018), and Classical Concert Chamber Orchestra, CA
-            (2015–2017). A passionate educator, he currently teaches at the
-            University of Alabama and also serves on the faculties of Samford
-            University Academy of the Arts and the Suzuki Talent Education
-            Program in Birmingham. He is a founding member of Bama Baroque,
-            performing on both baroque cello and viola da gamba.
+            “A strong and endearing performer, already a partner of the greatest
+            in the United States” (Diapason Magazine), Venezuelan-American
+            cellist Edward Luengo is the first musician from a family of pilots.
+            He has performed at the Rheingau Musik Festival, Music for Food,
+            Kronberg Festival, Brussels Cello Festival, and the Sommets Musicaux
+            de Gstaad by invitation from Steven Isserlis. His artistry has led
+            him to receive the First Prize Concurso Jóvenes Intérpretes, Third
+            Prize IX Carlos Prieto International Cello Competition, Festival
+            Ravel Chamber Music Prize, First Prize III Buchet International
+            Cello Competition, and a performance at BOZAR’s Next Generation
+            Artists Series. Working closely with artists such as Alfred Brendel,
+            Christoph Eschenbach, Gidon Kremer, and Sir András Schiff, Edward
+            has also been invited to Festival Ravel, IMS Prussia Cove, Festival
+            MusicAlp, and Yellow Barn Festival. Completing his studies at the
+            Manhattan School of Music and the Kronberg Academy, his teachers and
+            mentors include Jean-Michel Fonteneau, Philippe Muller, Heasook
+            Rhee, Sylvia Rosenberg, Frans Helmerson, Kim Kashkashian, and Steven
+            Isserlis. Passionate about education, Edward joined the University
+            of South Florida as Adjunct Faculty of Cello and Chamber music in
+            the Fall of 2025.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/PhotoMaternik.png')] bg-no-repeat bg-center bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/LuengoPhoto1.jpeg')] bg-no-repeat bg-center bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
           ref={targetRef11}
           style={{
             transform: isInView11 ? "none" : "translateX(150%)",
@@ -866,29 +866,31 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Singaporean harpist Li Shan Tan enjoys a multifaceted career as a
-            performer, arranger and writer. As the winner of the VI Mexico
-            International Harp Competition, she made her debut with the Orquesta
-            Sinfónica Nacional at Mexico City’s Palacio de Bellas Artes. Most
-            recently, Li Shan appeared as a soloist alongside cellist Yo-Yo Ma
-            with the Boston Symphony Orchestra at the 2024 Tanglewood Music
-            Festival. In 2022, she performed two sold-out opening night concerts
-            with Vista Philharmonic Orchestra. She has also shared the stage
-            with groups such as The Metropolitan Opera, the Boston Pops and The
-            Beach Boys. As a founding member and resident arranger of
-            Singapore’s premier harp quartet The Harp Quarterly, Li Shan aims to
-            push the boundaries of her instrument and her music videos ranging
-            from Metallica to Debussy have garnered millions of views online. Li
-            Shan is also a freelance writer for the international harp magazine,
-            HarpColumn. She is currently pursuing her Doctor of Musical Arts at
-            the New England Conservatory with BSO Harpist Jessica Zhou, where
-            she is the first harpist admitted to the doctoral program.
+            Singaporean harpist Lishan Tan is known for her dynamic artistry and
+            elegance across orchestral stages, solo engagements, and
+            contemporary collaborations. Newly appointed Principal Harp of the
+            New Haven Symphony Orchestra, she also performs regularly with the
+            Boston Symphony Orchestra and Boston Pops. Highlights of her career
+            include appearing as a soloist alongside Yo-Yo Ma with the Boston
+            Symphony Orchestra at the 2024 Tanglewood Music Festival. She was
+            awarded First Prize at the VI Mexico International Harp Competition,
+            which led to her debut with the Orquesta Sinfónica Nacional at
+            Mexico City’s Palacio de Bellas Artes. She has also appeared with
+            The Metropolitan Opera, Baltimore Symphony Orchestra, Borromeo
+            String Quartet, and The Beach Boys. Beyond the stage, Lishan is an
+            educator, arranger, and writer whose work continues to expand the
+            harp’s possibilities. She writes for HarpColumn, leads Writing for
+            Harp workshops for composers, and creates digital content that has
+            garnered millions of views worldwide. Lishan became the first
+            harpist admitted to the doctoral program at New England
+            Conservatory, where she earned her Doctor of Musical Arts with a
+            minor in Music Theory under Jessica Zhou.
           </p>
         </div>
       </div>
       <hr className="lg:hidden mx-4 self-center" />
 
-      <div
+      {/* <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
         ref={targetRef1}
       >
@@ -956,8 +958,8 @@ function Bios() {
             transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
           }}
         ></div>
-      </div>
-      <hr className="lg:hidden mx-4 self-center" />
+      </div> */}
+      {/* <hr className="lg:hidden mx-4 self-center" />
       <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col"
         ref={targetRef12}
@@ -1025,7 +1027,7 @@ function Bios() {
             musical and life perspectives.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
