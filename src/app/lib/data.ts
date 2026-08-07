@@ -159,7 +159,7 @@ export const tourInfo = [
   {
     name: "DISCOVERIES",
     instruments: "FLUTE, VIOLIN, PIANO",
-    description: "",
+    description: "Presenting works by Moszkowski and Mel Bonis",
     image: "/images/tour-images/violin.webp",
     dates: [
       {
@@ -168,7 +168,7 @@ export const tourInfo = [
         date: "13",
         year: "2026",
         city: "Austintown, OH",
-        time: "TBD",
+        time: "1:30 PM",
       },
       {
         id: 2,
