@@ -221,9 +221,10 @@ export const tourInfo = [
     ],
   },
   {
-    name: "BAROQUE MASTERS",
+    name: "MASTERS OF THE BAROQUE",
     instruments: "FLUTE, VIOLIN, CELLO, HARPSICHORD",
-    description: "",
+    description:
+      "Virtuosic works by leading composers, JS Bach, Telemann, Handel, Vivaldi, and flute concerto by CPE Bach.",
     image: "/images/tour-images/church-md.webp",
     dates: [
       {
@@ -256,7 +257,7 @@ export const tourInfo = [
         date: "22",
         year: "2026",
         city: "Aiken, SC",
-        time: "TBD",
+        time: "7:00 PM",
       },
       {
         id: 5,
@@ -273,6 +274,14 @@ export const tourInfo = [
         year: "2026",
         city: "Charlotte, NC",
         time: "4:00 PM",
+      },
+      {
+        id: 7,
+        month: "OCTOBER",
+        date: "26",
+        year: "2026",
+        city: "Huntersville, NC",
+        time: "7:00 PM",
       },
       // {
       //   id: 6,
@@ -303,7 +312,8 @@ export const tourInfo = [
   {
     name: "AMERICAN DISCOVERIES",
     instruments: "FLUTE, VIOLA, CELLO, PIANO",
-    description: "",
+    description:
+      "Concert featuring works by American composers, including Barber, Foote, Amy Beach, Ewazen and Stephenson.",
     image: "/images/tour-images/piano-md.webp",
     dates: [
       {
@@ -373,9 +383,10 @@ export const tourInfo = [
     ],
   },
   {
-    name: "ENCHANTED NOEL",
+    name: "PASTORALES DE NOEL",
     instruments: "FLUTE, VIOLA, HARP",
-    description: "",
+    description:
+      "Magical program with familiar selections for advent in addition to works by Mozart and Jolivet.",
     image: "/images/tour-images/firTree.webp",
     dates: [
       {
@@ -440,7 +451,7 @@ export const tourInfo = [
         date: "13",
         year: "2026",
         city: "St. Petersburg, FL",
-        time: "TBD",
+        time: "3:00 PM",
       },
       // {
       //   id: 6,
@@ -479,7 +490,8 @@ export const tourInfo = [
   {
     name: "THE BACH LEGACY",
     instruments: "FLUTE, VIOLIN, CELLO, HARPSICHORD",
-    description: "",
+    description:
+      "Concert will feature works by JS Bach and composers influenced by his work.",
     image: "/images/tour-images/harpsichord2.webp",
     dates: [
       {
@@ -506,14 +518,14 @@ export const tourInfo = [
         city: "Stuart, FL",
         time: "7:00 PM",
       },
-      // {
-      //   id: 2,
-      //   month: "JANUARY",
-      //   date: "20",
-      //   year: "2026",
-      //   city: "Cape Coral, FL",
-      //   time: "7:00 PM",
-      // },
+      {
+        id: 2,
+        month: "JANUARY",
+        date: "20",
+        year: "2027",
+        city: "Ormond Beach, FL",
+        time: "7:00 PM",
+      },
       // {
       //   id: 3,
       //   month: "JANUARY",
@@ -792,13 +804,21 @@ export const tourInfo = [
       {
         id: 4,
         month: "APRIL",
+        date: "14",
+        year: "2027",
+        city: "Sharon, PA",
+        time: "TBD",
+      },
+      {
+        id: 5,
+        month: "APRIL",
         date: "15",
         year: "2027",
         city: "Oil City, PA",
         time: "TBD",
       },
       {
-        id: 5,
+        id: 6,
         month: "APRIL",
         date: "16",
         year: "2027",
@@ -806,7 +826,15 @@ export const tourInfo = [
         time: "7:30 PM",
       },
       {
-        id: 6,
+        id: 7,
+        month: "APRIL",
+        date: "17",
+        year: "2027",
+        city: "Mansfield, OH",
+        time: "TBD",
+      },
+      {
+        id: 8,
         month: "APRIL",
         date: "18",
         year: "2027",
