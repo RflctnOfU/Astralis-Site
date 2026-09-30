@@ -1486,14 +1486,14 @@ export const headshots = [
     src: "/images/members/TanPhoto1.png",
     alt: "Lishan Tan smiling with Harp",
   },
-  {
-    src: "/images/members/CoxPhoto.jpg",
-    alt: "Yvonne with Harp",
-  },
-  {
-    src: "/images/members/TayPhoto1.JPG",
-    alt: "Karen smiling next to Harp",
-  },
+  // {
+  //   src: "/images/members/CoxPhoto.jpg",
+  //   alt: "Yvonne with Harp",
+  // },
+  // {
+  //   src: "/images/members/TayPhoto1.JPG",
+  //   alt: "Karen smiling next to Harp",
+  // },
   {
     src: "/images/members/Alexandra.jpg",
     alt: "Alexandra sitting at Harpsichord",
@@ -1510,10 +1510,10 @@ export const headshots = [
     src: "/images/members/18.webp",
     alt: "Caroline sitting at piano smiling",
   },
-  // {
-  //   src: "/images/members/ZhangPhoto.webp",
-  //   alt: "Keru standing next to piano smiling",
-  // },
+  {
+    src: "/images/members/LuengoPhoto1.jpeg",
+    alt: "Edward with cello",
+  },
 ];
 
 export const pastPerformances = [
