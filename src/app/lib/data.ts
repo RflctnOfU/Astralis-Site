@@ -1412,16 +1412,16 @@ export const publicity = [
     alt: "Flute Piano Duo",
   },
   {
-    src: "/images/publicity/DuoPhoto3.JPG",
-    alt: "Flute Piano Duo",
+    src: "/images/publicity/AngLishan.jpg",
+    alt: "Flute Harp Duo",
   },
   {
-    src: "/images/publicity/TrioAngCarLa.JPG",
-    alt: "Flute Piano Duo",
+    src: "/images/publicity/AngLishanEd.JPG",
+    alt: "Flute Cello Harp Trio",
   },
   {
-    src: "/images/publicity/ViolaHarp.jpg",
-    alt: "Flute Viola Harp",
+    src: "/images/publicity/AngSeun.jpg",
+    alt: "Flute Violin",
   },
   // {
   //   src: "/images/publicity/PhotoTrio1.jpg",
