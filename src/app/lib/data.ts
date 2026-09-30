@@ -1522,12 +1522,12 @@ export const pastPerformances = [
     alt: "Baroque Quartet 4",
   },
   {
-    src: "/images/past/22.JPG",
-    alt: "Baroque Quartet 5",
-  },
-  {
     src: "/images/past/Wildstein.JPG",
     alt: "Flute, Viola, Harp Trio",
+  },
+  {
+    src: "/images/past/22.JPG",
+    alt: "Baroque Quartet 5",
   },
   // {
   //   src: "/images/past/2.jpg",
@@ -1538,33 +1538,33 @@ export const pastPerformances = [
   //   alt: "Baroque Quartet 3",
   // },
   {
-    src: "/images/past/4.jpg",
-    alt: "Flute Harp Duo 1",
+    src: "/images/past/AngLiEd.jpg",
+    alt: "Flute Cello Harp Trio 1",
   },
   {
     src: "/images/past/5.JPEG",
     alt: "Flute Harp Duo 2",
   },
-  {
-    src: "/images/publicity/PhotoDuo3.jpg",
-    alt: "Flute Harp 2",
-  },
+  // {
+  //   src: "/images/publicity/PhotoDuo3.jpg",
+  //   alt: "Flute Harp 2",
+  // },
   {
     src: "/images/past/7.jpg",
     alt: "Flute Piano Duo 1",
   },
-  {
-    src: "/images/past/8.jpg",
-    alt: "Flute Piano Duo 2",
-  },
+  // {
+  //   src: "/images/past/8.jpg",
+  //   alt: "Flute Piano Duo 2",
+  // },
   {
     src: "/images/past/9.jpg",
     alt: "Flute Piano Duo 3",
   },
-  {
-    src: "/images/past/10.jpg",
-    alt: "Flute Piano Duo 4",
-  },
+  // {
+  //   src: "/images/past/10.jpg",
+  //   alt: "Flute Piano Duo 4",
+  // },
   {
     src: "/images/past/11.JPG",
     alt: "Flute Piano Duo 5",
@@ -1597,12 +1597,12 @@ export const pastPerformances = [
     src: "/images/past/18.JPG",
     alt: "Flute Trumpet",
   },
-  {
-    src: "/images/past/19.JPG",
-    alt: "Flute Cello Piano 1",
-  },
-  {
-    src: "/images/past/20.jpg",
-    alt: "Flute Cello Piano 2",
-  },
+  // {
+  //   src: "/images/past/19.JPG",
+  //   alt: "Flute Cello Piano 1",
+  // },
+  // {
+  //   src: "/images/past/20.jpg",
+  //   alt: "Flute Cello Piano 2",
+  // },
 ];
