@@ -1372,12 +1372,12 @@ export const images = [
 
 export const publicity = [
   {
-    src: "/images/carousel/cover5.JPG",
+    src: "/images/publicity/PhotoQuartet4.jpg",
     alt: "Baroque Quartet 1",
   },
   {
-    src: "/images/carousel/AngNLaura.jpg",
-    alt: "Angela and Laura",
+    src: "/images/publicity/PhotoQuartet5.JPG",
+    alt: "Baroque Quartet 2",
   },
   // {
   //   src: "/images/publicity/BaroquePhoto3.jpg",
