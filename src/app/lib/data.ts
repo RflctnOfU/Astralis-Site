@@ -224,7 +224,7 @@ export const tourInfo = [
     name: "MASTERS OF THE BAROQUE",
     instruments: "FLUTE, VIOLIN, CELLO, HARPSICHORD",
     description:
-      "Virtuosic works by leading composers, JS Bach, Telemann, Handel, Vivaldi, and flute concerto by CPE Bach.",
+      "Virtuosic works by leading Baroque composers includingh JS Bach, Telemann, Handel, Vivaldi, and a flute concerto by CPE Bach",
     image: "/images/tour-images/church-md.webp",
     dates: [
       {
@@ -273,7 +273,7 @@ export const tourInfo = [
         date: "25",
         year: "2026",
         city: "Charlotte, NC",
-        time: "4:00 PM",
+        time: "3:00 PM",
       },
       {
         id: 7,
