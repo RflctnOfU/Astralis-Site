@@ -470,7 +470,7 @@ function Bios() {
         ref={targetRef5}
       >
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/PhotoLan3.JPG')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/PhotoSimmons.JPEG')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
           ref={targetRef5}
           style={{
             transform: isInView5 ? "none" : "translateX(-150%)",
@@ -488,7 +488,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            JASON SHENG-CHIEH LAN
+            DANIEL SIMMONS
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont`}
@@ -510,26 +510,22 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Jason Sheng-Chieh Lan is a versatile violist with a dynamic artistic
-            voice and extensive international performance experience. He is the
-            youngest violist to present a debut recital at Taiwan’s National
-            Concert Hall to a sold-out audience. A prizewinner in Taiwan’s
-            national competitions, he has appeared as soloist with the Idyllwild
-            Arts Academy Orchestra and the Austin Civic Orchestra. Jason has
-            received major scholarships and fellowships from Idyllwild Arts
-            Academy, Yong Siew Toh Conservatory, Tianjin Juilliard School, and
-            the University of Texas at Austin. A Juilliard alumnus, he is
-            currently pursuing a Doctor of Musical Arts degree at UT Austin,
-            where he studies with Wilhelm Magner and Roger Myers and serves as a
-            teaching assistant. He began studying the viola at age nine. An
-            active and passionate chamber musician, Jason has participated in
-            the inaugural Tianjin Juilliard International Chamber Music
-            Festival, the Music Academy of the West, and the Kneisel Hall
-            Chamber Music Festival. He has collaborated with Donald McInnes,
-            Richard O’Neill, and Nobuko Imai, as well as members of the
-            Juilliard, Takács, Miro, and Shanghai String Quartets, and has
-            competed in the Concours de Genève and the Hindemith International
-            Viola Competition.
+            Daniel Simmons is a Viola Fellow in the New World Symphony. He has
+            performed with the New York Philharmonic and Metropolitan Opera
+            Orchestra. He also served as Principal Violist of the Verbier
+            Festival, Juilliard, and Columbia University orchestras. Daniel has
+            performed across North America, Europe, and Asia in venues including
+            Carnegie Hall and Lincoln Center. An active chamber musician, Daniel
+            has collaborated with artists including Donald Weilerstein, David
+            Chan, Samuel Rhodes and Hsin-Yun Huang. He recently participated in
+            the Perlman Music Program Chamber Music Workshop. Other festival
+            appearances include Festival Mozaic, Toronto Summer Music, Colorado
+            College SMF, Heifetz International Music Institute and Curtis
+            Institute Summerfest. In 2023, Daniel attended the Conservatoire
+            Américain in France, winning Third Prize in the Prix Ravel. Daniel
+            holds a Master of Music from The Juilliard School under the tutelage
+            of Steven Tenenbom and Paul Neubauer, and a bachelor’s degree in
+            economics from Columbia University.
           </p>
         </div>
       </div>
