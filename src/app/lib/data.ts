@@ -330,7 +330,7 @@ export const tourInfo = [
         date: "8",
         year: "2026",
         city: "Avon Park, FL",
-        time: "7:00 PM",
+        time: "3:00 PM",
       },
       // {
       //   id: 2,
