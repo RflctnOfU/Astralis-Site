@@ -1475,10 +1475,10 @@ export const headshots = [
   //   src: "/images/members/Paul.webp",
   //   alt: "Paul in front of Harpsichord",
   // },
-  {
-    src: "/images/members/PhotoLan3.JPG",
-    alt: "Jason holding viola looking to distance",
-  },
+  // {
+  //   src: "/images/members/PhotoLan3.JPG",
+  //   alt: "Jason holding viola looking to distance",
+  // },
   {
     src: "/images/members/SkerikCrop.jpg",
     alt: "Joe smiling with Viola in hand",
