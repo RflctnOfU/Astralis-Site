@@ -1381,17 +1381,17 @@ export const images = [
 
 export const publicity = [
   {
-    src: "/images/publicity/PhotoQuartet4.jpg",
+    src: "/images/publicity/PhotoQuartet6.jpg",
     alt: "Baroque Quartet 1",
   },
   {
-    src: "/images/publicity/PhotoQuartet5.JPG",
+    src: "/images/publicity/PhotoQuartet7.JPG",
     alt: "Baroque Quartet 2",
   },
-  // {
-  //   src: "/images/publicity/BaroquePhoto3.jpg",
-  //   alt: "Baroque Quartet 3",
-  // },
+  {
+    src: "/images/publicity/PhotoQuartet8.jpg",
+    alt: "Baroque Quartet 3",
+  },
   // {
   //   src: "/images/publicity/BaroquePhoto4.jpg",
   //   alt: "Baroque Quartet 4",
@@ -1467,10 +1467,10 @@ export const headshots = [
     src: "/images/members/5.webp",
     alt: "Kris Smiling in front of trees",
   },
-  {
-    src: "/images/members/PaulPhoto3.webp",
-    alt: "Paul with Viola",
-  },
+  // {
+  //   src: "/images/members/PaulPhoto3.webp",
+  //   alt: "Paul with Viola",
+  // },
   // {
   //   src: "/images/members/Paul.webp",
   //   alt: "Paul in front of Harpsichord",
@@ -1483,14 +1483,14 @@ export const headshots = [
     src: "/images/members/SkerikCrop.jpg",
     alt: "Joe smiling with Viola in hand",
   },
-  {
-    src: "/images/members/UsiskinPhoto5.jpg",
-    alt: "Laura with Cello",
-  },
-  {
-    src: "/images/members/PhotoMaternik.png",
-    alt: "Thomas with Cello",
-  },
+  // {
+  //   src: "/images/members/UsiskinPhoto5.jpg",
+  //   alt: "Laura with Cello",
+  // },
+  // {
+  //   src: "/images/members/PhotoMaternik.png",
+  //   alt: "Thomas with Cello",
+  // },
   {
     src: "/images/members/TanPhoto1.png",
     alt: "Lishan Tan smiling with Harp",
@@ -1522,6 +1522,10 @@ export const headshots = [
   {
     src: "/images/members/LuengoPhoto1.jpeg",
     alt: "Edward with cello",
+  },
+  {
+    src: "/images/members/PhotoSimmons.JPEG",
+    alt: "Daniel with Viola",
   },
 ];
 

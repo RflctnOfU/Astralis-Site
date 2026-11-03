@@ -125,7 +125,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            PAUL AGUILAR
+            SEEUN BAEK
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont ${
@@ -136,10 +136,10 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            VIOLIN & VIOLA
+            VIOLIN
           </h4>
           <p
-            className={`leading-8 py-2 lg:pr-4 font-extralight text-center lg:text-right font-mont ${
+            className={`leading-8 py-2 lg:pl-4 font-extralight text-center lg:text-left font-mont ${
               isInView2 ? "transform-none" : "translate-x-[-150%]"
             } ${isInView2 ? "opacity-100" : "opacity-0"} `}
             ref={targetRef2}
@@ -147,30 +147,30 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Venezuelan-American violinist and violist Paul Aguilar joined the
-            Houston Symphony viola section in 2024. He has won top prizes at the
-            Banff, Bordeaux, Fischoff, Melbourne, Wigmore Hall, and Manhattan
-            International chamber music competitions as well as the Grand Prize
-            at the Fischoff National Chamber Music Competition. He has appeared
-            in concert across North America and Europe, some highlights
-            including Carnegie Hall, the Ravinia Festival, ChamberFest
-            Cleveland, La Jolla Summerfest, Great Lakes Chamber Music Festival,
-            the Heidelberg String Quartet Festival, and the Emilia-Romagna
-            Festival. His chamber music collaborators include artists such as
-            James Ehnes, Augustin Hadelich, Lawrence Power, Paul Watkins, and
-            Jon Kimura Parker. He has studied at the Cleveland Institute of
-            Music, Rice University, the Escuela Superior de Música Reina Sofía
-            School in Madrid, and the University of Music and Performing Arts,
-            in Vienna. His primary influences have been Jaime Laredo, Si-Yan Li,
-            Gunter Pichler, and Gerhard Schulz. In addition to traveling and
-            performing, Paul enjoys sharing music with his family, at his
-            church, and throughout his community. Paul plays on a very fine
-            violin and viola that were commissioned from master luthier Kevin
-            Lee.
+            Violinist Seeun Baek has been praised for her expressive artistry
+            and refined technique. A prizewinner of numerous international
+            competitions, she has received First Prize at the New York
+            International Competition, Fanny Mendelssohn International
+            Competition, and Caneres Music Competition Vienna, among others. As
+            a soloist, she has performed at Carnegie Weill Hall and Lincoln
+            Center’s Bruno Walter Auditorium. She has appeared under
+            distinguished conductors including Manfred Honeck, Marin Alsop, John
+            Adams, and Tito Muñoz while serving as Concertmaster of the
+            Juilliard Orchestra and Stony Brook Symphony Orchestra. She has also
+            performed at major venues such as Alice Tully Hall, David Geffen
+            Hall, Carnegie Hall, and Seoul Arts Center. A devoted chamber
+            musician, she has worked with renowned artists including Emanuel Ax,
+            Joel Krosnick, and members of the Emerson, Juilliard, and Shanghai
+            Quartets. Passionate about championing underrepresented composers,
+            Seeun is currently pursuing her Doctor of Musical Arts at Stony
+            Brook University under Hagai Shaham, with a full scholarship and
+            teaching assistantship, following her Master’s degree at The
+            Juilliard School under Ronald Copes and Laurie Smukler, and her
+            Bachelor’s degree summa cum laude from Seoul National University.
           </p>
         </div>
         <div
-          className={`m-8 bg-[url('/images/members/PaulPhoto3.webp')] bg-no-repeat bg-cover md:bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto h-[350px]  ${
+          className={`m-8 bg-[url('/images/members/BaekPhoto1.jpeg')] bg-no-repeat bg-cover md:bg-center rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto h-[350px]  ${
             isInView2 ? "transform-none" : "translate-x-[150%]"
           } ${isInView2 ? "opacity-100" : "opacity-0"} transition`}
           ref={targetRef2}
@@ -264,7 +264,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            LAURA USISKIN
+            DANIEL SIMMONS
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont`}
@@ -275,7 +275,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            CELLO
+            VIOLA
           </h4>
           <p
             className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
@@ -286,38 +286,27 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Laura Usiskin enjoys a versatile career as a cellist and educator.
-            Her playing has taken her to concert halls throughout the United
-            States and Europe, including the Kennedy Center, Palazzo Chigi
-            Saracini, Symphony Hall (Boston), Alice Tully Hall, Weill Hall,
-            Zankel Hall, Merkin Hall, Miller Theatre, Barge Music, Steinway
-            Hall, and Klavierhaus. While completing an Artist-In-Residency with
-            the Montgomery Symphony Orchestra, Usiskin founded and served as the
-            inaugural Executive Director of the Montgomery Music Project, an El
-            Sistema strings program in Montgomery, Alabama. The program, now
-            more than 10 years old, has given intensive string instruction to
-            hundreds of low-income children across three counties. Usiskin is a
-            member of the Bayberry String Quartet as well as the Atlanta-based
-            new music group ensemble vim. She has served on the faculty of the
-            University of Alabama at Birmingham, through which she founded the
-            chamber series Chamber Music @ AEIVA, as well as Birmingham-Southern
-            College. Usiskin graduated from Columbia University cum laude with a
-            Bachelor of Arts in Neuroscience and Behavior, The Juilliard School
-            with a Master of Music, and Yale University with a Doctor of Musical
-            Arts. For more information, visit{" "}
-            <Link
-              href={"https://www.laurausiskin.com"}
-              target="_blank"
-              className="text-[hsl(290,25%,73%)]"
-            >
-              www.laurausiskin.com
-            </Link>
-            .
+            Daniel Simmons is a Viola Fellow in the New World Symphony. He has
+            performed with the New York Philharmonic and Metropolitan Opera
+            Orchestra. He also served as Principal Violist of the Verbier
+            Festival, Juilliard, and Columbia University orchestras. Daniel has
+            performed across North America, Europe, and Asia in venues including
+            Carnegie Hall and Lincoln Center. An active chamber musician, Daniel
+            has collaborated with artists including Donald Weilerstein, David
+            Chan, Samuel Rhodes and Hsin-Yun Huang. He recently participated in
+            the Perlman Music Program Chamber Music Workshop. Other festival
+            appearances include Festival Mozaic, Toronto Summer Music, Colorado
+            College SMF, Heifetz International Music Institute and Curtis
+            Institute Summerfest. In 2023, Daniel attended the Conservatoire
+            Américain in France, winning Third Prize in the Prix Ravel. Daniel
+            holds a Master of Music from The Juilliard School under the tutelage
+            of Steven Tenenbom and Paul Neubauer, and a bachelor’s degree in
+            economics from Columbia University.
           </p>
         </div>
 
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/UsiskinPhoto5.jpg')] bg-no-repeat bg-center bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/PhotoSimmons.JPEG')] bg-no-repeat bg-center bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] h-[350px]"
           ref={targetRef3}
           style={{
             transform: isInView3 ? "none" : "translateX(150%)",
@@ -332,7 +321,7 @@ function Bios() {
         ref={targetRef6}
       >
         <div
-          className="fade-in-right m-8 bg-[url('/images/members/BaekPhoto1.jpeg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
+          className="fade-in-right m-8 bg-[url('/images/members/LuengoPhoto1.jpeg')] bg-no-repeat bg-cover rounded-xl shadow-lg shadow-[hsl(290,25%,23%)] lg:h-auto md:h-[450px] bg-center h-[350px]"
           ref={targetRef6}
           style={{
             transform: isInView6 ? "none" : "translateX(-150%)",
@@ -350,7 +339,7 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.09s",
             }}
           >
-            SEEUN BAEK
+            EDWARD LUENGO
           </h2>
           <h4
             className={`md:text-2xl text-xl font-light text-center font-mont`}
@@ -361,10 +350,10 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) 0.24s",
             }}
           >
-            VIOLIN
+            CELLO
           </h4>
           <p
-            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
+            className={`font-mont py-2 lg:pr-4 text-center lg:text-right leading-8 font-extralight`}
             ref={targetRef6}
             style={{
               transform: isInView6 ? "none" : "translateX(150%)",
@@ -372,31 +361,31 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Violinist Seeun Baek has been praised for her expressive artistry
-            and refined technique. A prizewinner of numerous international
-            competitions, she has received First Prize at the New York
-            International Competition, Fanny Mendelssohn International
-            Competition, and Caneres Music Competition Vienna, among others. As
-            a soloist, she has performed at Carnegie Weill Hall and Lincoln
-            Center’s Bruno Walter Auditorium. She has appeared under
-            distinguished conductors including Manfred Honeck, Marin Alsop, John
-            Adams, and Tito Muñoz while serving as Concertmaster of the
-            Juilliard Orchestra and Stony Brook Symphony Orchestra. She has also
-            performed at major venues such as Alice Tully Hall, David Geffen
-            Hall, Carnegie Hall, and Seoul Arts Center. A devoted chamber
-            musician, she has worked with renowned artists including Emanuel Ax,
-            Joel Krosnick, and members of the Emerson, Juilliard, and Shanghai
-            Quartets. Passionate about championing underrepresented composers,
-            Seeun is currently pursuing her Doctor of Musical Arts at Stony
-            Brook University under Hagai Shaham, with a full scholarship and
-            teaching assistantship, following her Master’s degree at The
-            Juilliard School under Ronald Copes and Laurie Smukler, and her
-            Bachelor’s degree summa cum laude from Seoul National University.
+            “A strong and endearing performer, already a partner of the greatest
+            in the United States” (Diapason Magazine), Venezuelan-American
+            cellist Edward Luengo is the first musician from a family of pilots.
+            He has performed at the Rheingau Musik Festival, Music for Food,
+            Kronberg Festival, Brussels Cello Festival, and the Sommets Musicaux
+            de Gstaad by invitation from Steven Isserlis. His artistry has led
+            him to receive the First Prize Concurso Jóvenes Intérpretes, Third
+            Prize IX Carlos Prieto International Cello Competition, Festival
+            Ravel Chamber Music Prize, First Prize III Buchet International
+            Cello Competition, and a performance at BOZAR’s Next Generation
+            Artists Series. Working closely with artists such as Alfred Brendel,
+            Christoph Eschenbach, Gidon Kremer, and Sir András Schiff, Edward
+            has also been invited to Festival Ravel, IMS Prussia Cove, Festival
+            MusicAlp, and Yellow Barn Festival. Completing his studies at the
+            Manhattan School of Music and the Kronberg Academy, his teachers and
+            mentors include Jean-Michel Fonteneau, Philippe Muller, Heasook
+            Rhee, Sylvia Rosenberg, Frans Helmerson, Kim Kashkashian, and Steven
+            Isserlis. Passionate about education, Edward joined the University
+            of South Florida as Adjunct Faculty of Cello and Chamber music in
+            the Fall of 2025.
           </p>
         </div>
       </div>
       <hr className="lg:hidden mx-4 self-center" />
-      <div
+      {/* <div
         className="lg:grid lg:grid-cols-2 gap-4 bg-transparent flex flex-col-reverse"
         ref={targetRef11}
       >
@@ -502,7 +491,7 @@ function Bios() {
             VIOLA
           </h4>
           <p
-            className={`font-mont py-2 lg:pl-4 text-center lg:text-left leading-8 font-extralight`}
+            className={`font-mont py-2 lg:pr-4 text-center lg:text-right leading-8 font-extralight`}
             ref={targetRef5}
             style={{
               transform: isInView5 ? "none" : "translateX(150%)",
@@ -528,7 +517,7 @@ function Bios() {
             economics from Columbia University.
           </p>
         </div>
-      </div>
+      </div> */}
       <hr className="lg:hidden mx-4 self-center" />
 
       <div
@@ -567,20 +556,20 @@ function Bios() {
               transition: "all 1.75s cubic-bezier(0.17, 0.55, 0.55, 1) .39s",
             }}
           >
-            Kris Marshall is principal trumpet with the Southwest Florida
-            Symphony Orchestra, Venice Symphony, and has built an active career
-            performing with multiple orchestras across the state of Florida,
-            including the Jacksonville Symphony, Charlotte Symphony, Naples
-            Philharmonic, and regular performances with The Florida Orchestra.
-            Marshall has been a featured soloist with the Southwest Florida
-            Symphony Orchestra on many occasions and with the Fifth Avenue
-            Chamber Orchestra in Naples, Florida. As a founding member of the
-            Astralis Chamber Ensemble, he presents several chamber recital tours
-            each year and participates in commission projects to increase the
-            chamber repertoire for trumpet. He won first prize in the Florida
-            Orchestra Young Artist Competition and was later selected to attend
-            the Chautauqua Institution Summer Music Festival where he studied
-            with Chuck Berginc, principal trumpet with the Phoenix Symphony
+            Kris Marshall is principal trumpet with the Fort Myers Philharmonic,
+            Venice Symphony, and has built an active career performing with
+            multiple orchestras across the state of Florida, including the
+            Jacksonville Symphony, Charlotte Symphony, Naples Philharmonic, and
+            regular performances with The Florida Orchestra. Marshall has been a
+            featured soloist with the Southwest Florida Symphony Orchestra on
+            many occasions and with the Fifth Avenue Chamber Orchestra in
+            Naples, Florida. As a founding member of the Astralis Chamber
+            Ensemble, he presents several chamber recital tours each year and
+            participates in commission projects to increase the chamber
+            repertoire for trumpet. He won first prize in the Florida Orchestra
+            Young Artist Competition and was later selected to attend the
+            Chautauqua Institution Summer Music Festival where he studied with
+            Chuck Berginc, principal trumpet with the Phoenix Symphony
             Orchestra. Other significant instructors include Robert Smith and Ed
             Cord. Marshall pursued degrees in trumpet performance at Florida
             State University, Indiana University, and the University of South
