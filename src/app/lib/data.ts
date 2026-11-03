@@ -160,7 +160,7 @@ export const tourInfo = [
     name: "DISCOVERIES",
     instruments: "FLUTE, VIOLIN, PIANO",
     description:
-      "Concert will explore works by lesser-known composers, Chaminade, Moszkowski and Mel Bonis.",
+      "Concert will explore lesser-known composers with works by Chaminade, Moszkowski and Mel Bonis.",
     image: "/images/tour-images/violin.webp",
     dates: [
       {
@@ -225,7 +225,7 @@ export const tourInfo = [
     name: "MASTERS OF THE BAROQUE",
     instruments: "FLUTE, VIOLIN, CELLO, HARPSICHORD",
     description:
-      "Virtuosic works by leading Baroque composers includingh JS Bach, Telemann, Handel, Vivaldi, and a flute concerto by CPE Bach",
+      "Virtuosic works by leading Baroque composers including JS Bach, Telemann, Handel, Vivaldi, and a flute concerto by CPE Bach",
     image: "/images/tour-images/church-md.webp",
     dates: [
       {
