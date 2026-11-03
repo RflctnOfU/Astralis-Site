@@ -159,7 +159,8 @@ export const tourInfo = [
   {
     name: "DISCOVERIES",
     instruments: "FLUTE, VIOLIN, PIANO",
-    description: "Presenting works by Moszkowski and Mel Bonis",
+    description:
+      "Concert will explore works by lesser-known composers, Chaminade, Moszkowski and Mel Bonis.",
     image: "/images/tour-images/violin.webp",
     dates: [
       {
@@ -313,7 +314,7 @@ export const tourInfo = [
     name: "AMERICAN DISCOVERIES",
     instruments: "FLUTE, VIOLA, CELLO, PIANO",
     description:
-      "Concert featuring works by American composers, including Barber, Foote, Amy Beach, Ewazen and Stephenson.",
+      "Concert featuring quartets by John Williams, Ewazen, Foote and other works by Burton, Florence Price, and Samuel Barber.",
     image: "/images/tour-images/piano-md.webp",
     dates: [
       {
@@ -491,7 +492,7 @@ export const tourInfo = [
     name: "THE BACH LEGACY",
     instruments: "FLUTE, VIOLIN, CELLO, HARPSICHORD",
     description:
-      "Concert will feature works by JS Bach and composers influenced by his work.",
+      "Concert will feature works by JS Bach and the impact he had on music to follow through the music of his sons, JC Bach, WF Bach, CPE Bach, and JCF Bach.",
     image: "/images/tour-images/harpsichord2.webp",
     dates: [
       {
@@ -526,14 +527,22 @@ export const tourInfo = [
         city: "Ormond Beach, FL",
         time: "7:00 PM",
       },
-      // {
-      //   id: 3,
-      //   month: "JANUARY",
-      //   date: "21",
-      //   year: "2026",
-      //   city: "Sebring, FL",
-      //   time: "7:00 PM",
-      // },
+      {
+        id: 3,
+        month: "JANUARY",
+        date: "21",
+        year: "2027",
+        city: "Boca Grande, FL",
+        time: "7:00 PM",
+      },
+      {
+        id: 7,
+        month: "JANUARY",
+        date: "22",
+        year: "2027",
+        city: "Venice, FL",
+        time: "11:00 AM",
+      },
       {
         id: 8,
         month: "JANUARY",
@@ -815,7 +824,7 @@ export const tourInfo = [
         date: "15",
         year: "2027",
         city: "Oil City, PA",
-        time: "TBD",
+        time: "7:00 PM",
       },
       {
         id: 6,

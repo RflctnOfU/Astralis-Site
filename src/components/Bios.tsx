@@ -83,22 +83,22 @@ function Bios() {
             by Jeanne Baxtresser, former principal flute of the New York
             Philharmonic. As a soloist, she has been a featured guest artist
             with the Tryon Concert Association, Kosciuszko Foundation in New
-            York City, Artist Series of Tallahassee, and the National Flute
-            Association. Outside of the United States, she has performed in
-            England, France, Germany, Italy, Romania, and Switzerland. As
-            Artistic Director and flutist of the Astralis Chamber Ensemble, she
-            arranges and performs over sixty recitals each year. She holds a
-            flute and piccolo position with the Southwest Florida Symphony and
-            is the flute instructor at Florida Gulf Coast University. She was
+            York City, Artist Series of Tallahassee, Chamber Music Raleigh, and
+            the National Flute Association. Outside of the United States, she
+            has performed in England, Germany, Italy, Romania, and Switzerland.
+            She presents over sixty recitals each year as a soloist and as the
+            flutist and director of the Astralis Chamber Ensemble. She is the
+            flute instructor at Florida Gulf Coast University, flutist with the
+            Fort Myers Philharmonic, and in 2026 was invited as a guest soloist
+            with the Chamber Orchestra of Sarasota. Internationally, she was
             awarded prizes in the Alexander and Buono Competition, Frank Bowen
-            Competition, Myrna Brown Competition, Tiziano Rosetti Competition in
-            Switzerland, and a certificate in the Gheorghe Dima International
-            Competition in Romania. Her instructors have been Jeanne Baxtresser,
-            Alberto Almarza, Jack Wellbaum, Martha Kitterman, and Brooks de
-            Wetter- Smith. She received degrees in flute performance from
-            Carnegie Mellon University, University of Cincinnati
-            College-Conservatory of Music, and UNC at Chapel Hill. For more
-            information, visit{" "}
+            Competition, Myrna Brown Competition, Tiziano Rosetti Competition
+            (Switzerland), and Gheorghe Dima International Competition
+            (Romania). She received degrees in flute performance from Carnegie
+            Mellon University with Alberto Almarza and Jeanne Baxtresser, the
+            University of Cincinnati College-Conservatory of Music, and the
+            University of North Carolina at Chapel Hill. For more information,
+            visit{" "}
             <Link
               href={"https://www.angelamasseyflute.com"}
               target="_blank"
