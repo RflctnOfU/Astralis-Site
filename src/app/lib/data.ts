@@ -1381,7 +1381,7 @@ export const images = [
 
 export const publicity = [
   {
-    src: "/images/publicity/PhotoQuartet6.jpg",
+    src: "/images/publicity/PhotoQuartet6.JPG",
     alt: "Baroque Quartet 1",
   },
   {
@@ -1389,7 +1389,7 @@ export const publicity = [
     alt: "Baroque Quartet 2",
   },
   {
-    src: "/images/publicity/PhotoQuartet8.jpg",
+    src: "/images/publicity/PhotoQuartet8.JPG",
     alt: "Baroque Quartet 3",
   },
   // {
