@@ -6,8 +6,8 @@ function HeroImage() {
       <Image
         src={"/images/experiment/bannernew.png"}
         alt="image"
-        width={1200}
-        height={548}
+        width={1640}
+        height={924}
         loading="lazy"
       />
     </div>
